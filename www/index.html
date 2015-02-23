@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html ng-app="fieger">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width" name="viewport">
+        <title>Fieger Lamellenfenster</title>
+        <base href="/">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
+            <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+            <link rel="stylesheet" type="text/css" href="css/spezial.css"/>
+            <link rel="stylesheet" type="text/css" href="css/style.css"/>
+            <link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
+        </head>
+        <body style="overflow-x: hidden; overflow-y: visible;" ng-class="{hidden: readerShow == 1}">
+            <nav class="pushy pushy-left" ng-controller="MenuCtrl">
+                <ul>
+                    <li ng-repeat="item in Menu" ng-include="'menu-renderer'"></li>
+                </ul>
+            </nav>
+            <header class="slide">
+                <div class="row">
+                    <div class="off_menu menu-btn">
+                        <div class="burger"></div>
+                    </div>
+                    <div class="logo_wrapper">
+                        <a class="logo" href="/"></a>
+                    </div>
+                </div>
+                <div class="nav_wrapper" ng-controller="MenuCtrl">
+                    <div class="row">
+                        <ul class="left dropdown">
+                            <li ng-repeat="item in Menu" ng-include="'menu-renderer'"></li>
+                        </ul>
+                        <ul class="right">
+                            <div ng-click="changeLanguage('en')" class="en"></div>
+                            <div ng-click="changeLanguage('de')" class="de"></div>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="container slide">
+                <div ui-view></div>
+            </div>
+            <div class="reader" ng-class="{active: readerLoader == 1}">
+
+                <div class="loader" title="1" ng-class="{active: readerShow == 1}">
+                    <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="100px" height="100px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                    <path fill="#000" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
+                    <animateTransform attributeType="xml"
+                    attributeName="transform"
+                    type="rotate"
+                    from="0 25 25"
+                    to="360 25 25"
+                    dur="0.6s"
+                    repeatCount="indefinite"/>
+                    </path>
+                    </svg>
+                </div>
+
+                <div class="readerwrapper" ng-class="{active: readerShow == 1}">
+                    <a ui-sref="/themen" class="close_reader icon-close"></a>
+                    <div class="appendnews">
+                        <h1>{{reader.title}}</h1>
+                        <div class="reader_img">
+                            <img ng-src="{{reader.img}}">
+                        </div>
+                        <div class="reader_content">
+                            <p ng-repeat="text in reader.text">{{text}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="slide" ng-controller="MenuCtrl">
+                <div class="row">
+                    <ul>
+                        <li ng-repeat="f in Footer"><a ui-sref="{{f.href}}">{{f.title}}</a></li>
+                    </ul>
+                    <p class="copyright">{{Copyright}}</p>
+                </div>
+            </footer>
+            <div class="md-modal md-effect-3" id="modal-3">
+                <div class="md-content">
+                    <h3>Fehler</h3>
+                    <div>
+                        <p></p>
+                        <button class="md-close">Ok</button>
+                    </div>
+                </div>
+            </div>
+            <div class="site-overlay"></div>
+            <div class="md-overlay"></div>
+            <div class="scrolltop"><div></div></div>
+            <script type="text/ng-template" id="menu-renderer">
+                <a ui-sref="{{item.href}}" class="{{item.class}}">{{item.title}}</a>
+                <ul ng-if="item.Menu && item.Menu.length > 0" class="drop_down">
+                            <li ng-repeat="item in item.Menu" ng-include="'menu-renderer'"></li>
+                </ul>
+            </script>
+            <script type="text/javascript" src="js/core/angular.min.js"></script>
+            <script type="text/javascript" src="js/core/angular-route.min.js"></script>
+            <script type="text/javascript" src="js/core/angular-animate.js"></script>
+            <script type="text/javascript" src="js/core/angular-sanitize.js"></script>
+            <script type="text/javascript" src="js/core/route.js"></script>
+            <script type="text/javascript" src="js/core/local.js"></script>
+            <script type="text/javascript" src="js/core/jquery.js"></script>
+            <script type="text/javascript" src="js/core/lightbox.js"></script>
+            <script type="text/javascript" src="js/core/jquery.vmap.packed.js"></script>
+            <script type="text/javascript" src="js/core/jquery.vmap.world.js"></script>
+            <script type="text/javascript" src="js/core/nprogress.js"></script>
+            <script type="text/javascript" src="js/core/isotope.js"></script>
+            <script type="text/javascript" src="js/core/easing.js"></script>
+            <script type="text/javascript" src="js/core/highlight.js"></script>
+            <script type="text/javascript" src="js/custom/events.js"></script>
+            <script type="text/javascript" src="js/custom/fieger.js"></script>
+
+            <!-- ANGULAR -->
+            <script type="text/javascript" src="js/angular/ctrl/Start.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/FLW40.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/FLW28.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/FLW24.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/FGL.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/Themen.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/Print.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/Index.js"></script>
+            <script type="text/javascript" src="js/angular/app.js"></script>
+        </body>
+    </html>

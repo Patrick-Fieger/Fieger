@@ -1,0 +1,26 @@
+<div class="downloadTopBar" stickyunder>
+    <div class="row">
+        <div class="select_filter stdContent" style="margin-bottom:20px">
+            <div ng-repeat="downmenu in d.Downloads.Menu" class="large-4 medium-4 small-12 columns text">
+                <h5>{{downmenu.title}}</h5>
+                <select data-filter-group="{{downmenu.group}}">
+                    <option ng-repeat="options in downmenu.options"  data-filter="{{options.class}}">{{options.title}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="main">
+        <a on-finish-render="initMasonry()" ng-repeat="down in d.Downloads.Downloads" href="{{down.link}}" target="_blank">
+        <div class="{{down.classes}}">
+            <p>{{down.desc1}}</p>
+            <p>{{down.desc2}}</p>
+        </div>
+        </a>
+    </div>
+    <div class="noitemdownload">
+        <p>Bitte änderen sie ihre Filter oder klicken sie auf <a href="#" class="resetfilter">zurücksetzen</a>.</p>
+    </div>
+</div>
+</div>

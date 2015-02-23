@@ -1,0 +1,6 @@
+<svg version="1.1" ng-click="changeLanguage('de')" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="1000px" height="600px" viewBox="0 0 1000 600" enable-background="new 0 0 1000 600" xml:space="preserve">
+<rect id="black_stripe" width="1000" height="600"/>
+<rect id="red_stripe" y="200" fill="#DD0000" width="1000" height="400"/>
+<rect id="gold_stripe" y="400" fill="#FFCE00" width="1000" height="200"/>
+</svg>

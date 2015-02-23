@@ -1,0 +1,41 @@
+<svg version="1.1" ng-click="changeLanguage('en')" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="1200px" height="600px" viewBox="0 0 1200 600" enable-background="new 0 0 1200 600" xml:space="preserve">
+<g>
+<rect x="0" y="0" fill="#00247D" width="1200" height="600"/>
+<g>
+<defs>
+<rect id="SVGID_1_" x="0" y="0" width="1200.625" height="600.312"/>
+</defs>
+<clipPath id="SVGID_2_">
+<use xlink:href="#SVGID_1_"  overflow="visible"/>
+</clipPath>
+<path clip-path="url(#SVGID_2_)" d="M0,0l1200.625,600.312 M1200.625,0L0,600.312"/>
+<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M-22.361,44.721l1200.625,600.313l44.721-89.443L22.361-44.722L-22.361,44.721
+z M1178.265-44.722L-22.361,555.591l44.722,89.443L1222.986,44.721L1178.265-44.722z"/>
+</g>
+<g>
+<defs>
+<path id="SVGID_3_" d="M0.001,0v300.156h1400.731v300.156h-200.104L0.001,0z M1200.629,0H600.314v700.366H0.001V600.312
+L1200.629,0z"/>
+</defs>
+<clipPath id="SVGID_4_">
+<use xlink:href="#SVGID_3_"  overflow="visible"/>
+</clipPath>
+<g clip-path="url(#SVGID_4_)">
+<defs>
+<rect id="SVGID_5_" x="-0.313" y="-0.156" width="1200.628" height="600.312"/>
+</defs>
+<clipPath id="SVGID_6_">
+<use xlink:href="#SVGID_5_"  overflow="visible"/>
+</clipPath>
+<path clip-path="url(#SVGID_6_)" d="M0.001,0l1200.628,600.312 M1200.629,0L0.001,600.312"/>
+<path clip-path="url(#SVGID_6_)" fill="#CF142B" d="M-13.415,26.833l1200.628,600.312l26.832-53.666L13.418-26.833
+L-13.415,26.833z M1187.213-26.833L-13.415,573.479l26.833,53.666L1214.045,26.833L1187.213-26.833z"/>
+</g>
+</g>
+<path d="M600.314,0v600.312 M0.001,300.156h1200.624"/>
+<path fill="#FFFFFF" d="M500.314,0v600.312h200V0H500.314z M0.001,400.156h1200.624v-200H0.001V400.156z"/>
+<path d="M600.314,0v600.312 M0.001,300.156h1200.624"/>
+<path fill="#CF142B" d="M540.314,0v600.312h120V0H540.314z M0.001,360.156h1200.624v-120H0.001V360.156z"/>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+<div class="row system_topics">
+    <div class="grid">
+        <div ng-repeat="n in d.Themen" class="large-3 medium-6 small-12 columns selectorClass" style="margin-bottom: 30px;">
+            <figure class="effect-ruby">
+                <a href="{{n.href}}">
+                <img ng-src="{{n.imgsrc}}" />
+                <figcaption>
+                <h4><span>{{n.head1}}</span><br>{{n.head2}}</h4>
+                </figcaption>
+                </a>
+            </figure>
+            <div class="title_system">
+                <h2>{{n.head_text}}</h2>
+                <hr>
+                <p>{{n.text}}</p>
+            </div>
+        </div>
+    </div>
+</div>

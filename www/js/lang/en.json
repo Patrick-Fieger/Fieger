@@ -1,0 +1,62 @@
+{
+	"lang":"en",
+	"Menu":[
+		{
+			"title":"Home",
+			"link":"/"
+		},
+		{
+			"title":"About",
+			"link":"/ueber"
+		},
+		{
+			"title":"Systems",
+			"link":"/systeme"
+		},
+		{
+			"title":"News",
+			"link":"/themen"
+		},
+		{	"title":"Calculation",
+			"link":"/fensterberechnung/FLW40"
+		},
+		{
+			"title":"Downloads",
+			"link":"/downloads"
+		},
+		{
+			"title":"Contact",
+			"link":"/kontakt"
+		}
+	],
+	"Start":{
+		"slider":[
+			"img/slider/2.jpg",
+			"img/slider/3.jpg",
+			"img/slider/4.jpg",
+			"img/slider/5.jpg",
+			"img/slider/6.jpg",
+			"img/slider/7.jpg",
+			"img/slider/8.jpg",
+			"img/slider/1.jpg",
+			"img/slider/9.jpg"
+		],
+		"systemchoose":[
+			{
+				"image":"/img/systems5.jpg",
+				"title":"Insulated Systems",
+				"desc":"Under the name of FLW and FLW SmoTec certified louvre windows with isolated glas and 3 specialist glazing for ventilation and smoke ventilation (ventilator)."
+			},
+			{
+				"image":"/img/systems4.jpg",
+				"title":"Non-Insulated Systems",
+				"desc":"Transparency, appearance and function glass panels for areas 2.Hausfassaden walls and patios."
+			},
+			{
+				"image":"/img/systems3.jpg",
+				"title":"Spezial",
+				"desc":"Lift smoke control. Industrial windows, elements for RDA - and pressure systems. Rigid disc."
+			}
+		]
+	}
+}

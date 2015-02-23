@@ -1,0 +1,87 @@
+<ul class="systeme_sub" style="width:540px">
+    <li><a ui-sref="/fensterberechnung/FLW40">FLW40</a></li>
+    <li><a ui-sref="/fensterberechnung/FLW28">FLW28</a></li>
+    <li><a class="active" ui-sref="/fensterberechnung/FLW24">FLW24</a></li>
+    <li><a ui-sref="/fensterberechnung/FGL">FGL</a></li>
+</ul>
+<div class="row" style="margin:50px auto">
+    <div class="fensterberechnung">
+        <form class="left">
+            <p>
+                <span ng-show="showNRGW">{{d.Brechnung.NRGWalerts[0]}}</span>
+                <span ng-show="showNRGWzuklein" ng-bind-html="d.Brechnung.NRGWalerts[1]"></span>
+                <span ng-show="showNRGWzugross" ng-bind-html="d.Brechnung.NRGWalerts[2]"></span>
+                <span ng-show="showNRGWlam" ng-bind-html="d.Brechnung.NRGWalerts[3]"></span>
+            </p>
+            <div class="jvFloat">
+                <label class="placeHolder active">{{d.Brechnung.FLW24.anzahl}}</label>
+                <input ng-model="fens_anz" ng-init="initFirst();" validate="1,1000,4" value="{{fens_anz}}" type="number">
+            </div>
+            <div class="jvFloat">
+                <label class="placeHolder active">{{d.Brechnung.FLW24.breite}}</label>
+                <input ng-model="bfr" value="{{bfr}}" ng-change="init()" validate="250,4800,4" type="number">
+                <span class="mittelpf" ng-show="mpf">{{d.Brechnung.Headings.mittelpfosten}}</span>
+            </div>
+            <div class="jvFloat">
+                <label class="placeHolder active">{{d.Brechnung.FLW24.hoehe}}</label>
+                <input ng-model="hfr" validate="240,3200,4" ng-change="init();optimaleLamellenanzahl();check_nrgw(anz_choose);" type="number">
+            </div>
+
+
+
+            <div class="jvFloat" style="width:50%;">
+                <label class="placeHolder active">{{d.Brechnung.Headings.anzahl}}</label>
+                <select class="first_none" ng-init="optimaleLamellenanzahl();check_nrgw(anz_choose);" ng-change="check_nrgw(anz_choose);init();" ng-model="anz_choose" ng-options="bl as bl for bl in anz">
+                </select>
+            </div>
+            <div class="jvFloat half_cut">
+                <label class="placeHolder active">{{d.Brechnung.Headings.hoehe}}</label>
+                <input style="margin-top:12px" validatecalc="{{h_lam}}" w="h_lam" disabled value="{{h_lam}}" type="text">
+            </div>
+            <div class="jvFloat">
+                <label class="placeHolder active">{{d.Brechnung.Headings.ug}}</label>
+                <select ng-model="ug" ng-change="ug_calc(ug);init()">
+                    <option ng-repeat="item in ug_array" value="{{item}}">{{item}} W/m²K</option>
+                </select>
+            </div>
+            <div class="jvFloat">
+                <label class="placeHolder active">{{d.Brechnung.Headings.rand}}</label>
+                <select ng-model="randverbund" ng-change="init();" class="randverbund">
+                    <option value="0.111">Aluminium: 0,111 W/mK</option>
+                    <option value="0.06">Swisspacer: 0,06 W/mK</option>
+                    <option value="0.041">SwisspacerV: 0,041 W/mK</option>
+                    <option value="0.045">Thermix: 0,045 W/mK</option>
+                    <option value="0.067">Edelstahl: 0,067 W/mK</option>
+                    <option value="0.000">Alu-Paneel 40mm: 0,000 W/mK</option>
+                </select>
+            </div>
+        </form>
+        <form class="left">
+            <h1 style="margin-bottom:22px;">{{d.Brechnung.Headings.berech}}</h1>
+            <div class="jvFloat half_cut">
+                <label class="placeHolder active">{{d.Brechnung.Headings.aaelem}}</label>
+                <input validatecalc="{{AeroElem}}" w="AeroElem" disabled value="{{AeroElem}}">
+            </div>
+            <div class="jvFloat half_cut">
+                <label class="placeHolder active">{{d.Brechnung.Headings.aages}}</label>
+                <input validatecalc="{{AeroElem_Gesamt}}" w="AeroElem_Gesamt" disabled value="{{AeroElem_Gesamt}}">
+            </div>
+            <div class="jvFloat half_cut">
+                <label class="placeHolder active">{{d.Brechnung.Headings.agelem}}</label>
+                <input validatecalc="{{AgeomElem}}" w="AgeomElem" disabled value="{{AgeomElem}}">
+            </div>
+            <div class="jvFloat half_cut">
+                <label class="placeHolder active">{{d.Brechnung.Headings.agges}}</label>
+                <input validatecalc="{{AgeomElem_Gesamt}}" w="AgeomElem_Gesamt" disabled value="{{AgeomElem_Gesamt}}">
+            </div>
+            <div class="jvFloat">
+                <label class="placeHolder active">{{d.Brechnung.Headings.uw}}</label>
+                <input validatecalc="{{uw_op_s}}" w="uw_op_s" disabled value="{{uw_op_s}}">
+            </div>
+            <div class="jvFloat">
+                <label class="placeHolder active">{{d.Brechnung.Headings.wind}}</label>
+                <input validatecalc="{{windlast}}" w="windlast" disabled e="Windlast" value="{{windlast}}">
+            </div>
+        </form>
+    </div>
+</div>

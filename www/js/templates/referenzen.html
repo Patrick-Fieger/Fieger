@@ -1,0 +1,13 @@
+<ul class="systeme_sub ref_change" style="width:675px">
+	<li ng-repeat="f in d.Referenzen_menu">
+		<a ng-class="{active:$first}" data-filter="{{f.filter}}" href="#">{{f.title}}</a>
+	</li>
+</ul>
+
+<div class="row referenzen" style="min-height: 850px">
+    <div class="grid">
+        <a on-finish-render="initReferenzen()" ng-repeat="p in d.Referenzen" class="{{p.class}}" href="img/projects/big/{{p.imgsrc}}.jpg" data-lightbox="example-set" data-title="{{p.title}}">
+            <img src="img/projects/small/{{p.imgsrc}}.jpg">
+        </a>
+    </div>
+</div>

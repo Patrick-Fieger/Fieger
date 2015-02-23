@@ -1,0 +1,109 @@
+<div class="row print">
+	<h1>Anfrage- / Bestellformular</h1>
+	<p style="text-align:center">
+		Beim Ausfullen des Formulars konnen Sie sich gerne mit den Informationen auf unserer Internetseite behelfen.<br>
+		Im Downloadbereich finden Sie Zeichnungen des Systems!
+	</p>
+	
+	<form>
+		<span>Anfrage</span>
+		<input type="checkbox">
+
+		<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bestellung</span>
+		<input type="checkbox">
+		<h2>Angaben zum Bauvorhaben</h2>
+		<div class="print_inner_wrapper">
+			<label>Firma</label>
+			<input type="text" autofocus>
+
+			<label>Ansprechpartner</label>
+			<input type="text">
+
+			<label>Email</label>
+			<input type="email">
+
+			<label>Telefon</label>
+			<input type="tel">
+
+			<label>Bauvorhaben / Bestellnummer</label>
+			<input type="text">
+
+			<label>Position</label>
+			<input type="text">
+		</div>
+		<h2 class="printextrapadding">Angaben zum Fenster</h2>
+		<div class="print_inner_wrapper">
+			<label>Anzahl Fenster</label>
+			<p class="fake_print">{{data.fens_anz}}</p>
+			<label>Breite</label>
+			<p class="fake_print"> {{data.bfr}} mm</p>
+			<label>Höhe</label>
+			<p class="fake_print"> {{data.hfr}} mm</p>
+			<label>Anzahl Lamellen</label>
+			<p class="fake_print"> {{data.anz_choose}}</p>
+			<label>Farbe</label>
+			<select>
+				<option></option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+				<option>Farbe</option>
+			</select>
+			<label>Alternative Farbe</label>
+			<textarea></textarea>
+			<label>Standardverglasung</label>
+			<textarea></textarea>
+			<label>Alternativverglasung</label>
+			<textarea></textarea>
+		</div>
+
+		<h2>Antrieb</h2>
+		<div class="print_inner_wrapper">
+			<label>Antrieb</label>
+			<select>
+				<option></option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+				<option>Antrieb</option>
+			</select>
+			<label>Alternativantrieb</label>
+			<textarea></textarea>
+			<label>Lage des Antriebs</label>
+			<select>
+				<option></option>
+				<option>Rechts</option>
+				<option>Links</option>
+			</select>
+			<label>Maße fur Antrieb (Oberkante Fenster - Oberkante Motor)</label>
+			<textarea></textarea>
+		</div>
+
+		<h2>Bemerkung</h2>
+		<div class="print_inner_wrapper">
+			<textarea></textarea>
+		</div>
+		<h2>Lieferanschrift</h2>
+		<div class="print_inner_wrapper">
+			<textarea></textarea>
+		</div>
+	</form>
+</div>

@@ -1,0 +1,17 @@
+<div class="row faq">
+    <input placeholder="Filter FAQ" autofocus type="text">
+    <div ng-repeat="f in d.FAQ">
+        <h1>{{f.head}}</h1>
+        <ul>
+            <li ng-repeat="item in f.text">
+                <a href="#">{{$index + 1}}. {{item.link}}</a>
+                <div class="inner_info">
+                    <p ng-repeat="p in item.p" ng-bind-html="p"></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row faq_not_found">
+    <h1 ng-bind-html="d.FAQnotfound"></h1>
+</div>

@@ -1,0 +1,14 @@
+<div class="row stdContent">
+    <div class="grid">
+        <div ng-repeat="k in d.Kontakt" class="large-4 medium-6 small-12 columns conBox">
+            <div class="conPho">
+                <img ng-src="{{k.imgsrc}}" />
+            </div>
+            <h4>{{k.name}}</h4>
+            <hr>
+            <p id="conDetailBox2"><a ng-href="{{k.tel_href}}">{{k.tel}}</a></p>
+            <p><a id="conMailTo" ng-href="mailto:{{k.mail}}">{{k.mail}}</a></p>
+            <p id="conDetailBox">{{k.text}}</p>
+        </div>
+    </div>
+</div>
