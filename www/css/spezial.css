@@ -156,7 +156,7 @@ ul.dropdown li:hover > ul {
     margin-top: 0;
     width: 100%;
     z-index: 100;
-    background: rgba(250, 250, 250, 0.95);
+    background: rgba(250, 250, 250, 0.97);
     padding: 0;
     border-top: none;
     -webkit-transform: translatez(0);
@@ -891,6 +891,10 @@ footer a:hover, footer a.active {
     color: #f70014;
 }
 .reader.active {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
     opacity: 1;
     visibility: visible;
 }
@@ -965,10 +969,6 @@ footer a:hover, footer a.active {
     top: 0px;
     background: #f2f2f2;
     overflow: auto;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
@@ -985,6 +985,21 @@ footer a:hover, footer a.active {
     transition: all 0.3s;
 }
 
+.loader_video{
+    position: absolute;
+    margin-top: 167px;
+    margin-left: 207px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.loader_video.active{
+    opacity: 1;
+}
+
 .loader.active{
     opacity: 0;
     visibility: hidden;
@@ -992,14 +1007,14 @@ footer a:hover, footer a.active {
 
 .readerwrapper{
     opacity: 0;
-    -webkit-transition: opacity 4s;
-    -moz-transition: opacity 4s;
-    -o-transition: opacity 4s;
-    transition: opacity 4s;
 }
 
 .readerwrapper.active{
     opacity: 1;
+    -webkit-transition: opacity 4s;
+    -moz-transition: opacity 4s;
+    -o-transition: opacity 4s;
+    transition: opacity 4s;
 }
 
 .reader h1{

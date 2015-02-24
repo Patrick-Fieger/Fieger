@@ -2,7 +2,8 @@ var Themen = ['$scope', '$stateParams', '$location','$rootScope','localStorageSe
 	var route = $stateParams.news;
 	if(route == "" || route == undefined){
 		$rootScope.readerLoader = 0;
-		$rootScope.readerShow = 0;	
+		$rootScope.readerShow = 0;
+		$rootScope.reader = "";
 	}else {
 		$rootScope.loadReader();
 		$.get('/news/' +localStorageService.get('lang') +'/'+ route + '.json', function(data) {
@@ -10,7 +11,6 @@ var Themen = ['$scope', '$stateParams', '$location','$rootScope','localStorageSe
 			$timeout(function(){
 				$rootScope.showReader();
 			},1000);
-			
     	});
 	}
 	ready();

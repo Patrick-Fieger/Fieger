@@ -11,6 +11,14 @@ app.config([
             controller: "Index",
             resolve: loadcontent,
             templateUrl: "js/templates/index.html"
+        }).state("/lamellenfenster", {
+            url: "/lamellenfenster",
+            controller: function(){
+                ready();
+                setTimeout(function(){$('video').attr('src', $('video').attr('src_'));$('video').removeAttr('poster');$('.loader_video').removeClass('active')},1000)
+            },
+            resolve: loadcontent,
+            templateUrl: "js/templates/lamellenfenster.html"
         }).state("/ueber", {
             url: "/ueber",
             controller: "Start",
@@ -137,17 +145,23 @@ app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
         $rootScope.readerShow = 1;
     }
 
+    $rootScope.resetReader = function(){
+        $rootScope.reader = "";
+        $rootScope.readerLoader = 0;
+        $rootScope.readerShow = 0;
+    }
+
     $rootScope.$on('$viewContentLoaded', function() {
         if($(window).scrollTop() > 0){
             $('html,body').animate({scrollTop: 0}, 750, 'easeInOutExpo');
         }
-        // $('.reader_bg').trigger('click');
         $('.container').css('min-height',$(window).height()-151+'px');
         $timeout(function(){
             NProgress.done();
         },500);
     });
     $rootScope.$on('$stateChangeSuccess', function(ev, to, toParams, from, fromParams) {
+        $rootScope.resetReader();
         setTimeout(function(){
             $('footer').fadeIn(300);
         },1200);
