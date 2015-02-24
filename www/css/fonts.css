@@ -10,11 +10,11 @@
 }
 
 .icon-arrow-left:before,
-.lb-nav a.lb-prev:before,
+.fancybox-prev:before,
 .icon-arrow-right:before,
-.lb-nav a.lb-next:before,
+.fancybox-next:before,
 .icon-close:before,
-.lb-data .lb-close:before{
+.fancybox-close:before{
 	font-family: 'fieger';
 	speak: none;
 	font-style: normal;
@@ -29,14 +29,40 @@
 }
 
 .icon-arrow-left:before,
-.lb-nav a.lb-prev:before{
+.fancybox-prev:before{
 	content: "\e600";
 }
 .icon-arrow-right:before,
-.lb-nav a.lb-next:before{
+.fancybox-next:before{
 	content: "\e601";
 }
 .icon-close:before,
-.lb-data .lb-close:before {
+.fancybox-close:before {
 	content: "\e117";
+}
+
+
+.fancybox-prev:before,
+.fancybox-next:before{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	font-size: 50px;
+	margin-top: -25px;
+}
+
+.fancybox-prev:before{
+	left: 10px;
+}
+
+.fancybox-next:before{
+	right: 10px;
+}
+
+.fancybox-close:before{
+	color: #fff;
+	background: rgba(0,0,0,0.8);
+	font-size: 30px;
+	border-radius: 50%;
+	padding: 5px;
 }

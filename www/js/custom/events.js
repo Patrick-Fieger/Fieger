@@ -109,6 +109,8 @@ $.fn.initReferenzen = function(){
             animationEngine:'css'
     });
 
+    initFancy();
+
     $(document).on('click', '.ref_change a', function() {
             $('.ref_change a').removeClass('active');
             $(this).addClass('active');
@@ -304,6 +306,18 @@ function showVal(val){
     var videoDuration = video.duration;
     video.currentTime = videoDuration / 100 * val;
 }
+
+function initFancy(){
+    $('.fancybox').unbind('click.fb');
+    setTimeout(function(){
+        if($('a').hasClass('fancybox'))
+            $(".fancybox").fancybox();
+    },500);
+}
+
+$(document).on('click', '.fancybox', function(e){
+    e.preventDefault();
+});
 
 /*! Pushy - v0.9.2 - 2014-9-13
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.

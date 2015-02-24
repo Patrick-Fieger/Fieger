@@ -179,6 +179,7 @@ app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
         $('footer').hide();
         NProgress.start();
     });
+    initFancy();
 }]);
 
 
