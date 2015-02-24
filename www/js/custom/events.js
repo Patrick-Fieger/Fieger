@@ -338,6 +338,18 @@ $(document).on('click', '.fancybox', function(e){
     e.stopPropagation();
 });
 
+
+function addClassForEachElement(class_){
+    setTimeout(function(){
+        $(class_).each(function(index, el) {
+            var that = $(this);
+            setTimeout(function() {
+                that.addClass('active')
+            }, 100 * index)
+        });
+    },400)
+}
+
 /*! Pushy - v0.9.2 - 2014-9-13
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
 * https://github.com/christophery/pushy/

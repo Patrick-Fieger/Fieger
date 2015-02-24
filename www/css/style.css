@@ -463,21 +463,27 @@ h5 {
     width: 100%;
     height: 221px;
 }
-.system_topics .selectorClass:hover img {
+/*.system_topics .selectorClass:hover img {
     -webkit-transform: scale(1);
     transform: scale(1);
-}
+}*/
 .system_topics .selectorClass {
     -webkit-transition: left 0.4s, opacity 0.3s;
     -moz-transition: left 0.4s, opacity 0.3s;
     -o-transition: left 0.4s, opacity 0.3s;
     -ms-transition: left 0.4s, opacity 0.3s;
     cursor: default;
-}
-.system_topics .selectorClass.inactive {
     opacity: 0;
-    visibility: visible;
-    z-index: -1;
+}
+
+.system_topics .selectorClass:hover{
+    opacity: 0;
+}
+
+
+.system_topics .selectorClass.active,
+.system_topics .selectorClass.active:hover {
+    opacity: 1;
 }
 
 .referenzen a{
@@ -1279,7 +1285,17 @@ hr.contactDivider {
     padding: 10px 20px;
     min-height: 485px;
     float: left !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
 }
+
+.conBox.active{
+    opacity: 1;
+}
+
 .conBox p {
     font-size: 8px;
     /*    text-align: center !important;
@@ -1938,8 +1954,7 @@ figure_news.effect-chico:hover figcaption: :before, figure_news.effect-chico:hov
     overflow: hidden;
     /*  margin: -0.135em;
     width: 50%;*/
-
-margin: 1%;
+    margin: 1%;
     width: 47%;
     height: 400px;
     background: #3085a3;
@@ -2930,10 +2945,18 @@ button.simple:hover{
 }
 
 .compare_item{
-    /*padding: 0 12px;*/
     width: 14.28%;
     float: left;
     border-right:1px solid #e8e8e8;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    transform : scale(0);
+}
+
+.compare_item.active{
+    transform : scale(1);
 }
 
 .compare_item.new:before{

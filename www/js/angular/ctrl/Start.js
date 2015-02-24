@@ -1,19 +1,15 @@
 var Start =  ['$location', '$scope', '$timeout', 'localStorageService',function ($location, $scope, $timeout, localStorageService) {
     var p = $location.$$path;
+    
     if (p == '/partner') {
         showPartner();
     } else if (p == '/referenzen') {
-        $timeout(function() {
-            $('.referenzen a').each(function(index, el) {
-                var that = $(this);
-                $timeout(function() {
-                    that.addClass('active')
-                }, 100 * index)
-            });
-        }, 400)
+        addClassForEachElement('.referenzen a');
+    } else if (p == '/produkte'){
+        addClassForEachElement('.compare_item');
+    } else if (p == '/kontakt'){
+        addClassForEachElement('.conBox');
     }
-
-    ready();
     
     $scope.initReferenzen = function(){
         $('body').initReferenzen();
@@ -26,4 +22,5 @@ var Start =  ['$location', '$scope', '$timeout', 'localStorageService',function 
         });
     }
 
+    ready();
 }];
