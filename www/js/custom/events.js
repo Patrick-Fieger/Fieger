@@ -308,15 +308,34 @@ function showVal(val){
 }
 
 function initFancy(){
+    var speedfancy = 300;
     $('.fancybox').unbind('click.fb');
     setTimeout(function(){
         if($('a').hasClass('fancybox'))
-            $(".fancybox").fancybox();
+            $(".fancybox").fancybox({
+                maxHeight : $(window).height() - 150,
+                nextEffect : 'fade',
+                prevEffect : 'fade',
+                openSpeed: speedfancy,
+                closeSpeed: speedfancy,
+                nextSpeed: speedfancy,
+                prevSpeed: speedfancy,
+                openEasing: 'easeInOutExpo',
+                closeEasing: 'easeInOutExpo',
+                nextEasing: 'easeInOutExpo',
+                prevEasing: 'easeInOutExpo',
+                helpers:  {
+                    title : {
+                        type : 'inside'
+                    }
+                }
+            });
     },500);
 }
 
 $(document).on('click', '.fancybox', function(e){
     e.preventDefault();
+    e.stopPropagation();
 });
 
 /*! Pushy - v0.9.2 - 2014-9-13

@@ -13,10 +13,7 @@ app.config([
             templateUrl: "js/templates/index.html"
         }).state("/lamellenfenster", {
             url: "/lamellenfenster",
-            controller: function(){
-                ready();
-                setTimeout(function(){$('video').attr('src', $('video').attr('src_'));$('video').removeAttr('poster');$('.loader_video').removeClass('active')},1000)
-            },
+            controller: "Lamellenfenster",
             resolve: loadcontent,
             templateUrl: "js/templates/lamellenfenster.html"
         }).state("/ueber", {
@@ -130,7 +127,7 @@ app.config([
         });
     }
 ]);
-var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Print', Print);
+var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Print', Print).controller('Lamellenfenster', Lamellenfenster);
 
 
 app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
@@ -179,7 +176,8 @@ app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
         $('footer').hide();
         NProgress.start();
     });
-    initFancy();
+    setTimeout(function(){initFancy();},1000)
+    
 }]);
 
 
