@@ -1,5 +1,4 @@
 var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
-    initInput();
     $scope.system = "FLW 40";
     $scope.fens_anz = 3;
     $scope.bfr = 1000;

@@ -379,6 +379,11 @@ h5 {
 .video_animation input {
     margin-top: 30px;
 }
+.video_animation video{
+    border: 1px solid #ccc;    
+}
+
+
 .system_choose .title_system {
     text-align: left;
     font-size: 13px !important;
@@ -473,7 +478,7 @@ h5 {
     -o-transition: left 0.4s, opacity 0.3s;
     -ms-transition: left 0.4s, opacity 0.3s;
     cursor: default;
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 .system_topics .selectorClass:hover{
@@ -1427,7 +1432,7 @@ hr.contactDivider {
 }
 .productpage_shortDescription {
     font-size: 24px;
-    margin: 0px 0px 20px 15px;
+    margin: 20px 0px 20px 15px;
     color: #000;
 }
 .productpage_shortDescription2 {

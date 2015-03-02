@@ -138,4 +138,5 @@ module.exports = function(grunt) {
     // 'htmlmin'
     grunt.registerTask('build', ['copy','cssmin:target','uncss','ngmin','cssmin:onefile','concat','uglify','autoprefixer']);
     grunt.registerTask('linting', ['copy','jshint']);
+    grunt.registerTask('css_min', ['copy','cssmin:target','uncss']);
 };

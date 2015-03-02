@@ -1,4 +1,35 @@
 var base=$('head base').attr('href');
+
+NProgress.configure({
+    showSpinner: false
+});
+var baseURL = "http://localhost/";
+var cut = "";
+var hash = location.hash;
+var url = document.URL;
+var slider;
+
+function clearsite() {
+    $('html,body').scrollTop(0);
+    $('.container').removeClass('active').empty();
+    $('footer').removeClass('active');
+}
+
+function ready() {
+    $('header,.container,footer').addClass('active');
+}
+
+function showPartner() {
+        $('#vmap').vectorMap(wrld);
+        $('body').selectRegions();
+        var insert = ["Australien", "Großbritanien", "Österreich", "Frankreich", "Portugal", "Schweiz"];
+        $.each(insert, function(index, val) {
+            var toinsert = $('div[land="Deutschland"]').clone();
+            var toinsert_ = toinsert.attr('land', insert[index]).removeClass('active');
+            $(toinsert_).insertAfter('div[land]:last-child');
+        });
+}
+
 $(window).scroll(function(event) {
     var scroll = $(this).scrollTop();
     if (scroll >= 87) {
@@ -65,7 +96,6 @@ $(document).on('click', '.region_choose li,.region_hor li', function(event) {
     event.preventDefault();
     $('.region_choose li,.region_hor li').removeClass('active');
     $(this).addClass('active');
-    // $('body').showCards($(this).text())
 });
 $(document).on('click', '.headings_l a', function() {
     event.preventDefault();
@@ -121,16 +151,7 @@ $.fn.initReferenzen = function(){
     });
 };
 
-$.fn.showCards = function(cards) {
-    // $('div[land],#contact_box').removeClass('active')
-    // $('div[land="' + cards + '"]').addClass('active');
-    // $('div[land="' + cards + '"] #contact_box').each(function(index) {
-    //     var that = $(this);
-    //     setTimeout(function() {
-    //         that.addClass('active');
-    //     }, 150 * index)
-    // });
-};
+
 $.fn.initDownload = function() {
         var $container = $('.main').isotope({
             itemSelector: '.element-item',

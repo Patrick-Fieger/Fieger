@@ -1,5 +1,4 @@
 var FGL = ['$scope', '$log', '$location',function ($scope, $log, $location) {
-    initInput();
     $scope.system = "FGL";
     $scope.fens_anz = 4;
     $scope.bfr = 2300;
