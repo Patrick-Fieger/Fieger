@@ -22,12 +22,26 @@ input[type=number] {
     background-repeat: no-repeat;
 }
 
-.conBox.active{
+.conBox.active,
+.compare_menu.sticky{
     opacity: 1;
+    visibility: visible;
 }
 
 .compare_item.active{
     transform : scale(1);
+}
+
+.img_window.active{
+    opacity: 1;
+    margin-left: 0;
+}
+
+.margewrapper h1.active,
+.margewrapper h2.active,
+.margewrapper .simple.active{
+    opacity: 1;
+    margin-left: 0;
 }
 
 header {
@@ -548,9 +562,9 @@ footer {
     left: 0;
     width: 100%;
     z-index: -1;
-    background: url(../img/footer.jpg);
+    background: #fafafa;
     background-repeat: repeat;
-    box-shadow: inset -5px 26px 26px rgba(0, 0, 0, 0.4);
+    border-top: 1px solid #ccc;
     float: left;
 }
 footer ul li {
@@ -560,7 +574,8 @@ footer ul li {
 }
 footer a, footer p {
     font-size: 14px !important;
-    color: #fff;
+    /*color: #fff;*/
+    color: #222;
     font-weight: 300;
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;

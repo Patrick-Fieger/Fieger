@@ -1,28 +1,9 @@
 ﻿@charset "utf-8";
 
-@font-face {
-  font-family: fieger;
-  src: url(fonts/fieger.eot?-zf9ees);
-  src: url(fonts/fieger.eot?#iefix-zf9ees) format('embedded-opentype'),url(fonts/fieger.woff?-zf9ees) format('woff'),url(fonts/fieger.ttf?-zf9ees) format('truetype'),url(fonts/fieger.svg?-zf9ees#fieger) format('svg');
-  font-weight: 400;
-  font-style: normal;
+a{
+    color: #222;
 }
 
-.icon-arrow-right:before {
-  font-family: fieger;
-  speak: none;
-  font-style: normal;
-  font-weight: 400;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-arrow-right:before {
-  content: "\e601";
-}
 
 .breadicon {
   font-size: 14px;
@@ -55,6 +36,10 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+.margin_{
+    margin-bottom: 40px;
+}
+
 *,
 a,
 body,
@@ -65,7 +50,7 @@ h4,
 h5,
 li,
 p {
-  font-family: 'Open Sans'!important;
+  font-family: 'Open Sans' !important;
 }
 
 h1 {
@@ -145,10 +130,6 @@ h5 {
   -o-transition: left .4s,opacity .3s;
   -ms-transition: left .4s,opacity .3s;
   cursor: default;
-}
-
-.system_topics .selectorClass:hover {
-  opacity: 0;
 }
 
 .referenzen a {

@@ -192,16 +192,16 @@
             "filter":".FLW40"
         },
         {
-            "title":"FLW28",
-            "filter":".FLW28"
-        },
-        {
-            "title":"FLW24",
-            "filter":".FLW24"
+            "title":"FLW24/28",
+            "filter":".FLW28 .FLW24"
         },
         {
             "title":"FGL",
             "filter":".FGL"
+        },
+        {
+            "title":"FLL",
+            "filter":".FLL"
         }
     ],
     "Referenzen": [{
