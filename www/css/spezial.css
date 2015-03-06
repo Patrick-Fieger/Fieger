@@ -22,6 +22,10 @@ input[type=number] {
     background-repeat: no-repeat;
 }
 
+.hidden{
+    overflow: hidden !important;
+}
+
 .conBox.active,
 .compare_menu.sticky{
     opacity: 1;
@@ -29,7 +33,7 @@ input[type=number] {
 }
 
 .compare_item.active{
-    transform : scale(1);
+    opacity: 1
 }
 
 .img_window.active{
@@ -162,10 +166,11 @@ ul.dropdown li:hover > ul {
     margin-top: 20px;
     border-top: 1px solid rgba(238, 238, 238, 0.6);
     border-bottom: 1px solid rgba(238, 238, 238, 0.6);
-    -webkit-transition: padding 0.3s, box-shadow 0.2s;
-    -moz-transition: padding 0.3s, box-shadow 0.2s;
-    -o-transition: padding 0.3s, box-shadow 0.2s;
-    -ms-transition: padding 0.3s, box-shadow 0.2s;
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
     position: relative;
     z-index: 99;
 }
@@ -181,11 +186,6 @@ ul.dropdown li:hover > ul {
     background: rgba(250, 250, 250, 0.97);
     padding: 0;
     border-top: none;
-    -webkit-transform: translatez(0);
-    -moz-transform: translatez(0);
-    -ms-transform: translatez(0);
-    -o-transform: translatez(0);
-    transform: translatez(0);
     -webkit-box-shadow: 0 -3px 9px 2px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 0 -3px 9px 2px rgba(0, 0, 0, 0.9);
     box-shadow: 0 -3px 9px 2px rgba(0, 0, 0, 0.9);
@@ -833,7 +833,7 @@ footer a:hover, footer a.active {
 }
 .appendnews {
     width: 620px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .close_reader {
     position: absolute;
@@ -1044,6 +1044,46 @@ footer a:hover, footer a.active {
     padding: 0 60px;
     margin-bottom: 30px;
     margin-top: 10px;
+}
+
+
+.scrolltop {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.scrolltop.sticky{
+  opacity: 1;
+  visibility: visible;
+}
+
+.scrolltop div {
+  width: 26px;
+  height: 26px;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -6px 0 0 -13px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.scrolltop:hover {
+  background: rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 
 

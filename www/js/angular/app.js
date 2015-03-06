@@ -162,7 +162,7 @@ app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
         setTimeout(function(){
             $('footer').fadeIn(300);
         },1200);
-
+        $('body').removeClass('hidden');
         $('header a').removeClass('active');
 
         $('header a').each(function(index, el) {
@@ -176,7 +176,7 @@ app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
         $('footer').hide();
         NProgress.start();
     });
-    setTimeout(function(){initFancy();},1000)
+    setTimeout(function(){initFancy();},1500)
     
 }]);
 
@@ -228,8 +228,8 @@ app.controller('MenuCtrl', ['loadContent','$rootScope','$scope','localStorageSer
     });
 
     $scope.changeLanguage= function(l){
-        // localStorageService.set('lang',l);
-        // location.reload();
+        localStorageService.set('lang',l);
+        location.reload();
     };
 }]);
 

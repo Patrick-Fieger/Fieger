@@ -67,7 +67,7 @@
                             <img ng-src="{{reader.img}}">
                         </div>
                         <div class="reader_content">
-                            <p ng-repeat="text in reader.text">{{text}}</p>
+                            <p ng-repeat="text in reader.text" ng-bind-html="text"></p>
                         </div>
                     </div>
                 </div>

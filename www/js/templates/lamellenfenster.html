@@ -1,9 +1,6 @@
-<div class="row" style="padding:60px 0;" id="moreinfo">
-    <div class="columns large-6">
-        <h1>{{d.Start.h1}}</h1>
-        <p>{{d.Start.text1}}</p>
-    </div>
-    <div class="columns large-6">
+<div class="row" style="padding:60px 0;">
+    <h1>{{d.Start.h1}}</h1>
+        <div class="columns large-12">
         <div class="video_animation">
             <div class="loader_video active">
                     <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -20,7 +17,18 @@
                     </svg>
             </div>
             <video preload="auto" id="video" width="550" height="309" src="" src_="img/video/fenster.mp4" poster="img/video/poster.gif"></video>
-            <input type="range" min="0" max="100" step="5" value="0" oninput="showVal(this.value)" onchange="showVal(this.value)">
+            <div class="video_input_wrapper">
+                <input type="range" min="0" max="100" step="5" value="0" oninput="showVal(this.value)" onchange="showVal(this.value)">
+            </div>
         </div>
     </div>
+    <div class="columns large-12 innercolumn2">
+        <p ng-bind-html="d.Start.text1"></p>
+    </div>
+
+    <h1 style="margin-top:60px;float:left">{{d.Start.h2}}</h1>
+    <div class="columns large-12 innercolumn2">
+        <p ng-bind-html="d.Start.text2"></p>
+    </div>
+    <img style="margin-top:30px;border: 1px solid #ccc;" src="/img/crew/crew2.jpg">
 </div>

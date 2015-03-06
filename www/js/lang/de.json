@@ -94,93 +94,49 @@
             "title":"FAQ"
         }
     ],
-    "Copyright":"© 2014 Fieger Lamellenfenster GmbH",
+    "Copyright":"© 2000-2015 Fieger Lamellenfenster GmbH",
     "Start": {
-        "slider": [
-            {
-                "set":["img/slider/5_400.jpg 500w, img/slider/5_1000.jpg 1000w, img/slider/5.jpg 1400w"],
-                "fallback": "img/slider/5.jpg"
-            },
-            
-            {
-                "set":"img/slider/3_400.jpg 500w, img/slider/3_1000.jpg 1000w, img/slider/3.jpg 1400w",
-                "fallback":"img/slider/3.jpg"
-            },
-            {
-                "set":"img/slider/2_400.jpg 500w, img/slider/2_1000.jpg 1000w, img/slider/2.jpg 1400w",
-                "fallback":"img/slider/2.jpg"
-            },
-            {
-                "set":"img/slider/4_400.jpg 500w, img/slider/4_1000.jpg 1000w, img/slider/4.jpg 1400w",
-                "fallback":"img/slider/4.jpg"
-            },
-            {
-                "set":"img/slider/1_400.jpg 500w, img/slider/1_1000.jpg 1000w, img/slider/1.jpg 1400w",
-                "fallback":"img/slider/1.jpg"
-            }
-        ],
         "video": "img/video/fenster5.mp4",
         "h1": "Das Lamellenfenster",
-        "text1": "Das Fieger Lamellenfenster eignet sich besonders für die natürliche Belüftung und Entrauchung von Gebäuden im Brandfall. Der Vorteil zu herkömmlichen Fenstern liegt im wesentlich größeren Lüftungsquerschnitt. Unsere patentierte Zahnstangenmechanik sorgt dafür, dass die Lamellen synchron öffnen und garantiert eine langlebige Funktionssicherheit. Die Lamellenflügel ragen nur geringfügig in den Raum. Fluchtwege werden frei gehalten. Die Bedienung erfolgt mechanisch z.B. mit Handhebel, Kurbel oder automatisiert mit Elektroantrieb. Darüber hinaus unterscheidet sich unser Lamellenfenster auch optisch signifikant gegenüber herkömmlichen Fenstersystemen. Unsere Lamellenfenstersysteme bieten eine Vielzahl von Einsatzmöglichkeiten, näheres finden Sie in der Produktübersicht.",
+        "text1": "Das Fieger Lamellenfenster eignet sich besonders für die natürliche <a ui-sref=''>Lüftung</a> und <a ui-sref=''>Entrauchung</a> von Gebäuden. Der Vorteil zu den herkömmlichen Fenstern liegt im wesentlich größeren Lüftungsquerschnitt. Darüber hinaus unterscheidet sich das Fieger Lamellenfenster auch optisch signifikant gegenüber herkömmlichen Fenstersystemen. Das Fieger Lamellenfenster steht für Nachhaltigkeit und Design um zukunftsweisende Architektur zu verwirklichen. Darüber hinaus bietet es effizienten Schutz und Sicherheit für Gebäude und Ihre Nutzer.Bei steigenden Ansprüchen an Brandschutzkonzepte, Energieeinsparung und Wärmedämmung wird die Be- und Entlüftung immer wichtiger, egal ob Sie einen Neubau planen oder energetisch Sanieren. <br>Bei den Fieger Lamellenfenstern “SmoTec“ die zur Entrauchung dienen, handelt es sich um geprüfte und zertifizierte Fenster nach DIN EN 12101-2 als NRWG. Die Fieger Lamellenfenster können sowohl in vorhandene Brandschutz Anlagen integriert werden oder wir liefern Ihnen die erforderlichen Steuerungen und das entsprechende <a href='/zubehoer'>Zubehör</a> gleich mit.<br>Im Brandfall öffnen sich die Fenster über den Signal- Alarmgeber automatisiert. Fluchtwege werden rauchfrei gehalten und das Fieger Lamellenfenster leistet so seinen Beitrag als Lebensretter.<br></br>Ein Tool zur Berechnung von Lüftungsquerschnitten und Wärmedämmwerten der Fieger Lamellenfenstern steht Ihnen in unserem <a ui-sref=''>Kalkulator</a> zur Verfügung. Unsere patentierte Zahnstangenmechanik sorgt dafür, dass die Lamellen synchron öffnen und garantiert eine langlebige Funktionssicherheit. Die Lamellenflügel ragen dabei  nur geringfügig in den Raum. Fluchtwege werden so frei gehalten und die Räume bleiben barrierefrei.<br>Die Bedienung erfolgt mechanisch z.B. mit Handhebel, Kurbel oder automatisiert mit Elektroantrieben und Pneumatikzylindern.. Unsere Lamellenfenstersysteme bieten eine Vielzahl von Einsatzmöglichkeiten, näheres dazu finden Sie in der Übersicht <a ui-sref=''>Themen</a>.<br>Sie benötigen Fenster oder bewegliche Lamellenkonstruktionen speziell für Ihren Einsatzzweck? Unsere Abteilung Fieger Design und Sonderbau hilft Ihnen dabei und unterstützt Sie tatkräftig bei der Planung und Umsetzung. Einige Beispiele von bereits realisierten innovativen Projekten finden Sie unter den <a ui-sref=''>Spezialausführungen</a>.Im Bereich <a ui-sref=''>Downloads</a> finden Sie Prospekte, technische Zeichnungen, Datenblätter, Prüfberichte, Ausschreibungstexte und weiteres Zubehör.Für weitergehende Informationen stehen Ihnen unsere technisch versierten Mitarbeiter gerne zur Verfügung. Den richtigen Ansprechpartner finden Sie bei <a ui-sref=''>Kontakt</a>.",
         "h2": "Wir über uns",
         "text2": "Die Firma Fieger gehört seit der Gründung im Jahre 2000 zu einer der innovativsten und erfolgreichsten Hersteller von Lamellenfenstern weltweit. In unserem Werk in Birkenau im Odenwald, entwickeln und  fertigten wir mit 20 Mitarbeitern moderne Lamellenfenster, die in viele Ländern versendet und montiert werden. Dabei ist unsere Motivation, dass wir besondere Elemente für besondere Gebäude liefern und wir immer auf das Neue mit Anforderungen an die Funktionalität und an der Ausführung von unseren Kunden und Planern konfrontiert werden.  Und unsere Befriedigung ist besonders groß, wenn wir die Aufträge zur Zufriedenheit unserer Kunden abgewickelt haben und wir unsere Liste der Referenzprojekte neu aktualisieren können.  Unser vergangen Arbeit hat dazu geführt, dass sich der Name Fieger in der Branche zu einem Markennamen entwickelt hat, der für eine hohe Qualität in der Bearbeitung der Aufträge und der Ausführung der Lamellenfenster steht."
     },
     "Themen": [{
-        "href": "themen/die_neue_website",
-        "imgsrc": "img/news/small/news_Systems.jpg",
-        "head1": "Neue",
-        "head2": "Website",
-        "head_text": "Die neue Website",
-        "text": "Die Fieger Lamellenfenster GmbH bietet Ihnen mit ihren hochwertigen Lamellenfenster- Systemen eine außergewöhnliche Alternative zu herkömmliche..."
+        "href": "themen/lueftung",
+        "imgsrc": "img/news/report_001_prev.jpg",
+        "head1": "Thema",
+        "head2": "Lüftung"
     }, {
-        "href": "themen/bau_2015",
-        "imgsrc": "img/news/small/news_Bau2013.jpg",
-        "head1": "Bau",
-        "head2": "2015",
-        "head_text": "Bau 2015",
-        "text": "Auch die Firma Fieger Lamellenfenster GmbH ist auf dieser Weltleitmesse mit ihren Produkten vertreten. Kommen Sie doch vorbei und besuchen Sie uns..."
+        "href": "themen/entrauchung",
+        "imgsrc": "img/news/report_002_prev.jpg",
+        "head1": "Thema",
+        "head2": "Entrauchung"
     }, {
-        "href": "themen/straussenfarm",
-        "imgsrc": "img/news/small/news_Farm.jpg",
-        "head1": "Straußen",
-        "head2": "Farm",
-        "head_text": "Straußenfarm in Libyen",
-        "text": "Was im August 2009 mit einer unverbindlichen, telefonischen Anfrage eines deutschen Hallenbauers begann, entwickelte sich im Laufe..."
-    }, {
-        "href": "themen/civil_justice_center",
-        "imgsrc": "img/news/small/news_CivilJusticeCenter.jpg",
-        "head1": "Civil Justice",
-        "head2": "Center",
-        "head_text": "Civil Justice Center",
-        "text": "Auch für dieses Projekt wurde von den Architekten eine Sonderlösung gefordert, die wir mit den hier abgebildeten Lamellenfenstern realisiert haben. Die filigranen..."
+        "href": "themen/sonderbau",
+        "imgsrc": "img/news/report_003_prev.jpg",
+        "head1": "Thema",
+        "head2": "Sonderbau"
     }, {
         "href": "themen/klassenzimmer",
-        "imgsrc": "img/news/small/news_ClassRoom.jpg",
-        "head1": "Klassen",
-        "head2": "zimmer",
-        "head_text": "Klassenzimmer",
-        "text": "Dicke Luft im Klassenzimmer? Das muss nicht sein, dachten sich Bauherr, Architekten und Planer der Friedrich-List-Schule in Karlsruhe. Das Ergebnis ihrer Überlegungen..."
+        "imgsrc": "img/news/report_004_prev.jpg",
+        "head1": "Thema",
+        "head2": "Schulen"
     }, {
-        "href": "themen/24_stunden_bibliothek",
-        "imgsrc": "img/news/small/news_Library.jpg",
-        "head1": "24-Stunden",
-        "head2": "Bibliothek",
-        "head_text": "24-Stunden Bibliothek",
-        "text": "Für das Projekt 24-Stunden Bibliothek in Karlsruhe wurde von uns für die äußere Kaltfassade eine Sonderlösung, in diesem Fall quasi ein neues Lamellenfenster..."
+        "href": "themen/neubau",
+        "imgsrc": "img/news/report_005_prev.jpg",
+        "head1": "Thema",
+        "head2": "Neubau / Sanierung"
     }, {
-        "href": "themen/loop5",
-        "imgsrc": "img/news/small/loop.jpg",
-        "head1": "Loop",
-        "head2": "5",
-        "head_text": "Loop 5",
-        "text": "Ready for take-off - so eröffneten Sonae Sierra und Partner Fonciére Euris am 9. Oktober 2009 das neue Freizeit- und Einkaufszentrum Loop 5. Es steht unter dem Motto..."
+        "href": "themen/ganzglas",
+        "imgsrc": "img/news/report_006_prev.jpg",
+        "head1": "Thema",
+        "head2": "Ganzglas Optik"
     }, {
-        "href": "themen/hector",
-        "imgsrc": "img/news/small/hector.jpg",
-        "head1": "Sport",
-        "head2": "centrum",
-        "head_text": "Hector-Sportcentrum",
-        "text": "Die offizielle Eröffnung des Hector Sport-Centrums in Weinheim war bereits am 12. Dezember 2009. Mit freundlicher Unterstützung der Eheleute Hector mit ihrer..."
+        "href": "themen/schachtentrauchung",
+        "imgsrc": "img/news/report_002_prev.jpg",
+        "head1": "Thema",
+        "head2": "Schachtentrauchung"
     }],
     "Referenzen_menu":[
         {

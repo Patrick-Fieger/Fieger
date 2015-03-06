@@ -63,6 +63,10 @@ h2 {
   margin: 25px 0 20px;
 }
 
+.innercolumn2 h2:first-child{
+  margin-top: 0 !important;
+}
+
 h4 {
   font-size: 16px;
   text-align: left;
@@ -94,8 +98,39 @@ h5 {
   margin-top: 30px;
 }
 
+.video_input_wrapper{
+  width: 50%;
+  margin:0 auto 40px auto;
+}
+
 .video_animation video {
   border: 1px solid #ccc;
+}
+
+.innercolumn2{
+  margin-top: 20px;
+   -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-rule: 1px outset #ccc;
+    -moz-column-rule: 1px outset #ccc;
+    column-rule: 1px outset #ccc;
+}
+
+.system_under a,.innercolumn2 a{
+  -webkit-transition: color .3s;
+  -moz-transition: color .3s;
+  -o-transition: color .3s;
+  -ms-transition: color .3s;
+  text-decoration: underline;
+}
+
+.innercolumn2 a:hover,
+.system_under a:hover{
+  color:#f70014;
 }
 
 .system_topics {
@@ -108,8 +143,8 @@ h5 {
 }
 
 .system_topics .effect-ruby {
-  width: 220px;
-  height: 220px;
+  width: 298px;
+  height: 298px;
 }
 
 .system_topics .title_system {
@@ -144,10 +179,15 @@ h5 {
   -moz-transition: opacity .3s;
   -o-transition: opacity .3s;
   transition: opacity .3s;
+  overflow: hidden;
 }
 
 .referenzen a:hover {
-  opacity: .6;
+  opacity: .95;
+}
+
+.referenzen a:hover img{
+  transform: scale(1)
 }
 
 .fancybox img,
@@ -156,6 +196,11 @@ h5 {
   height: 100%;
   border-radius: 2px;
   border: 1px solid #ccc;
+  transform: scale(1.15);
+  -webkit-transition: opacity .35s,transform .35s;
+  -moz-transition: opacity .35s,transform .35s;
+  -o-transition: opacity .35s,transform .35s;
+  transition: opacity .35s,transform .35s;
 }
 
 .spezialfancy_wrapper {
@@ -171,7 +216,31 @@ h5 {
 }
 
 .selectorClass:hover {
-  opacity: .6;
+  opacity: .95;
+}
+
+/*ZUBEHOER UND SERVICE*/
+
+.system_under{
+  margin: 20px auto 75px auto;
+}
+
+.system_under section,
+.system_under h1{
+  float: left;
+  clear: both;
+}
+
+.system_under h4{
+  font-weight: bolder
+}
+
+.system_under h2{
+  margin-top: 10px;
+}
+
+.system_under section{
+  margin-bottom: 40px;
 }
 
 .region_choose {
@@ -631,6 +700,10 @@ figure_news.effect-chico:hover figcaption: :before {
   text-align: center;
 }
 
+.grid .columns{
+  float: left !important;
+}
+
 .grid figure {
   position: relative;
   z-index: 1;
@@ -656,7 +729,7 @@ figure_news.effect-chico:hover figcaption: :before {
 }
 
 .grid figure figcaption {
-  padding: 2em;
+  /*padding: 2em;*/
   color: #fff;
   text-transform: uppercase;
   font-size: 1.25em;
@@ -684,7 +757,6 @@ figure_news.effect-chico:hover figcaption: :before {
 .grid figure h4 {
   text-align: center;
   font-size: 22px;
-  word-spacing: -.15em;
   font-weight: 100;
   background-color: rgba(238,238,238,.8);
 }
@@ -718,19 +790,19 @@ figure.effect-ruby:hover img {
 }
 
 figure.effect-ruby h4 {
-  margin-top: 20%;
-  -webkit-transition: -webkit-transform .35s;
+  margin-top: 119px;
+/*  -webkit-transition: -webkit-transform .35s;
   transition: transform .35s;
   -webkit-transform: translate3d(0,20px,0);
-  transform: translate3d(0,20px,0);
+  transform: translate3d(0,20px,0);*/
 }
 
 figure.effect-ruby:hover h4 {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+/*  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);*/
 }
 
-figure.effect-chico figcaption: :before {
+figure.effect-chico figcaption::before {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -1221,7 +1293,7 @@ button.simple:hover {
   -moz-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
-  transform: scale(0);
+  opacity: 0;
 }
 
 .compare_item.new:before {

@@ -1,5 +1,5 @@
 <div class="row agb margin_">
-    <div ng-repeat="block in d.AGB.text" class="large-6 small-12 columns text">
+    <div ng-repeat="block in d.AGB.text" class="large-12 small-12 columns text innercolumn2">
         <div ng-repeat="para in block.block">
             <h2>{{para.head}}</h2>
             <p ng-repeat="p in para.text" ng-bind-html="p"></p>
