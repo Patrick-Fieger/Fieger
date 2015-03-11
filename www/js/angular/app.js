@@ -59,7 +59,7 @@ app.config([
             templateUrl: "js/templates/systeme/zubehoer.html"
         }).state("/spezialausfuehrungen", {
             url: "/spezialausfuehrungen",
-            controller: "Start",
+            controller: "Spezial",
             resolve: loadcontent,
             templateUrl: "js/templates/systeme/spezialausfuehrungen.html"
         }).state("/themen", {
@@ -309,6 +309,19 @@ function setError(that, num, min, max, errorclass,scope,attrs) {
         that.removeClass(errorclass);
     }
 }
+
+app.directive('dynamic', function ($compile) {
+  return {
+    restrict: 'A',
+    replace: true,
+    link: function (scope, ele, attrs) {
+      scope.$watch(attrs.dynamic, function(html) {
+        ele.html(html);
+        $compile(ele.contents())(scope);
+      });
+    }
+  };
+});
 
 app.directive('validatecalc', function() {
     return function(scope, elem, attrs) {

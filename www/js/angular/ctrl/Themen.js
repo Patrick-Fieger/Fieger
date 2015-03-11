@@ -1,6 +1,6 @@
 var Themen = ['$scope', '$stateParams', '$location','$rootScope','localStorageService','$timeout',function ($scope, $stateParams, $location,$rootScope,localStorageService,$timeout) {
 	var route = $stateParams.news;
-	$timeout(function(){addClassForEachElement('.selectorClass');},400)
+	$timeout(function(){addClassForEachElement('.selectorClass');},100)
 	if(route == "" || route == undefined){
 		$rootScope.readerLoader = 0;
 		$rootScope.readerShow = 0;
