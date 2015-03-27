@@ -60,7 +60,9 @@
                 </div>
 
                 <div class="readerwrapper" ng-class="{active: readerShow == 1}">
-                    <a ui-sref="/themen" class="close_reader icon-close"></a>
+                    <!-- <a ui-sref="/themen" class="close_reader icon-close"></a> -->
+                    <a href="" ng-click="closeReader()" class="close_reader icon-close"></a>
+                    
                     <div class="appendnews">
                         <h1>{{reader.title}}</h1>
                         <div class="reader_img">

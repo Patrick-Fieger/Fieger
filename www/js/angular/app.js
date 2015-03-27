@@ -70,8 +70,7 @@ app.config([
         }).state("/themen/:news", {
             url: "/themen/:news",
             controller: "Themen",
-            resolve: loadcontent,
-            templateUrl: "js/templates/themen.html"
+            resolve: loadcontent
         })
         .state("/fensterberechnung/FLW40", {
             url: "/fensterberechnung/FLW40",
@@ -130,7 +129,7 @@ app.config([
 var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Print', Print).controller('Lamellenfenster', Lamellenfenster);
 
 
-app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
+app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$location) {
     $rootScope.readerShow = 0;
     $rootScope.readerLoader = 0;
 
@@ -146,6 +145,14 @@ app.run(['$rootScope','$timeout',function($rootScope,$timeout) {
         $rootScope.reader = "";
         $rootScope.readerLoader = 0;
         $rootScope.readerShow = 0;
+    }
+
+    $rootScope.closeReader = function(){
+        if(window.history.length > 2){
+            window.history.back();
+        }else{
+            $location.path('/themen');
+        }
     }
 
     $rootScope.$on('$viewContentLoaded', function() {

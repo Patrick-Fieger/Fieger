@@ -20,7 +20,4 @@ var Index = ['$scope', '$stateParams', '$location','$rootScope','localStorageSer
 	$scope.showMoreInfos = function(){
 		$location.path('/lamellenfenster');
 	}
-
-
-
 }];
