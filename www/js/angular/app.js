@@ -23,7 +23,7 @@ app.config([
             templateUrl: "js/templates/ueber.html"
         }).state("/produkte", {
             url: "/produkte",
-            controller: "Start",
+            controller: "Produkte",
             resolve: loadcontent,
             templateUrl: "js/templates/produkte.html"
         }).state("/service", {
@@ -112,7 +112,7 @@ app.config([
         // });
     }
 ]);
-var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Lamellenfenster', Lamellenfenster);
+var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Lamellenfenster', Lamellenfenster).controller('Produkte', Produkte);
 
 
 app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$location) {

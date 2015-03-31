@@ -401,7 +401,7 @@ footer.active, .container.active, header.active {
 }
 
 footer {
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -428,9 +428,12 @@ footer a, footer p {
 }
 footer ul {
     float: left;
+    margin-bottom: 10px;
 }
 footer p {
     float: right;
+    font-size: 12px !important;
+    margin-top: 2px;
 }
 footer a:hover, footer a.active {
     color: #f70014;
@@ -572,7 +575,26 @@ footer a:hover, footer a.active {
     visibility: visible;
 }
 
+.info_wrapper{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    overflow: scroll;
+    top: 0px;
+    background: #f2f2f2;
+    overflow: auto;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
 
+.info_wrapper.active{
+    opacity: 1;
+    visibility: visible;
+}
 
 
 

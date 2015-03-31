@@ -5,9 +5,7 @@ var Start =  ['$location', '$scope', '$timeout', 'localStorageService',function 
         showPartner();
     } else if (p == '/referenzen') {
         addClassForEachElement('.referenzen a');
-    } else if (p == '/produkte'){
-        addClassForEachElement('.compare_item');
-    } else if (p == '/kontakt'){
+    }else if (p == '/kontakt'){
         addClassForEachElement('.conBox');
     }
     
