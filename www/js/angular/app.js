@@ -25,28 +25,12 @@ app.config([
             url: "/produkte",
             controller: "Start",
             resolve: loadcontent,
-            templateUrl: "js/templates/systeme/produkte.html"
-        }).state("/produkte/flw40", {
-            url: "/produkte/flw40",
-            controller: "Start",
-            resolve: loadcontent,
-            templateUrl: "js/templates/systeme/flw40.html"
-        }).state("/produkte/flw", {
-            url: "/produkte/flw",
-            controller: "Start",
-            resolve: loadcontent,
-            templateUrl: "js/templates/systeme/flw.html"
-        })
-        .state("/produkte/fgl", {
-            url: "/produkte/fgl",
-            controller: "Start",
-            resolve: loadcontent,
-            templateUrl: "js/templates/systeme/fgl.html"
+            templateUrl: "js/templates/produkte.html"
         }).state("/service", {
             url: "/service",
             controller: "Start",
             resolve: loadcontent,
-            templateUrl: "js/templates/systeme/service.html"
+            templateUrl: "js/templates/service.html"
         }).state("/referenzen", {
             url: "/referenzen",
             controller: "Start",
@@ -56,12 +40,12 @@ app.config([
             url: "/zubehoer",
             controller: "Start",
             resolve: loadcontent,
-            templateUrl: "js/templates/systeme/zubehoer.html"
+            templateUrl: "js/templates/zubehoer.html"
         }).state("/spezialausfuehrungen", {
             url: "/spezialausfuehrungen",
             controller: "Spezial",
             resolve: loadcontent,
-            templateUrl: "js/templates/systeme/spezialausfuehrungen.html"
+            templateUrl: "js/templates/spezialausfuehrungen.html"
         }).state("/themen", {
             url: "/themen",
             controller: "Themen",
@@ -110,23 +94,25 @@ app.config([
             url: "/impressum",
             controller: "Start",
             templateUrl: "js/templates/impressum.html"
-        }).state("/partner", {
-            url: "/partner",
-            controller: "Start",
-            templateUrl: "js/templates/partner.html"
-        }).state("/sitemap", {
+        })
+        // .state("/partner", {
+        //     url: "/partner",
+        //     controller: "Start",
+        //     templateUrl: "js/templates/partner.html"
+        // })
+        .state("/sitemap", {
             url: "/sitemap",
             controller: "Start",
             templateUrl: "js/templates/sitemap.html"
         })
-        .state("/print", {
-            url: "/print",
-            controller: "Print",
-            templateUrl: "js/templates/print.html"
-        });
+        // .state("/print", {
+        //     url: "/print",
+        //     controller: "Print",
+        //     templateUrl: "js/templates/print.html"
+        // });
     }
 ]);
-var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Print', Print).controller('Lamellenfenster', Lamellenfenster);
+var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Lamellenfenster', Lamellenfenster);
 
 
 app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$location) {

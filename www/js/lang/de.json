@@ -58,20 +58,14 @@
             "Menu":[]
         },
         {
-            "title": "Kontakt",
-            "href":"/kontakt",
-            "class":"",
-            "Menu":[]
-        },
-        {
             "title": "Kalkulator",
             "href":"/fensterberechnung/FLW40",
             "class":"",
             "Menu":[]
         },
         {
-            "title": "Partner",
-            "href":"/partner",
+            "title": "Kontakt",
+            "href":"/kontakt",
             "class":"",
             "Menu":[]
         }
