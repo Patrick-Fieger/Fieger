@@ -1,13 +1,53 @@
-var base=$('head base').attr('href');
-
 NProgress.configure({
     showSpinner: false
 });
-var baseURL = "http://localhost/";
-var cut = "";
-var hash = location.hash;
-var url = document.URL;
-var slider;
+var speedfancy = 300;
+var partners = ["AU", "DE", "GB", "AT", "FR", "CH","RU","US","BR","IT","PT","ES","MY","ZA"];
+var wrld = {
+    map: 'world_mill_en',
+    backgroundColor: 'transparent',
+    zoomOnScroll: false,
+    regionStyle: {
+        initial: {
+            fill: '#ccc'
+        },
+        hover: {
+            "fill": '#ccc',
+            "fill-opacity": "1"
+        },
+        selected: {
+            fill: '#f70014'
+        },
+        selectedHover: {
+            fill: '#f70014'
+        }
+    },
+    onRegionClick: function(e,code){
+        loadPartners(code);
+    },
+    onRegionOver: function(e,code){
+        checkPointer(code);
+    }
+};
+
+var fancy = {
+    maxHeight : $(window).height() - 150,
+    nextEffect : 'fade',
+    prevEffect : 'fade',
+    openSpeed: speedfancy,
+    closeSpeed: speedfancy,
+    nextSpeed: speedfancy,
+    prevSpeed: speedfancy,
+    openEasing: 'easeInOutExpo',
+    closeEasing: 'easeInOutExpo',
+    nextEasing: 'easeInOutExpo',
+    prevEasing: 'easeInOutExpo',
+    helpers:  {
+        title : {
+            type : 'inside'
+        }
+    }
+}
 
 function clearsite() {
     $('html,body').scrollTop(0);
@@ -79,10 +119,6 @@ $(document).on('click', 'a[href="#"]', function(event) {
     event.preventDefault();
 });
 
-$(document).on('click', '.breadcrumb a', function(event) {
-    $('.breadcrumb a').removeClass('active');
-    $(this).addClass('active');
-});
 $(document).on('click', '.nav_wrapper a', function(event) {
     $('.nav_wrapper a').removeClass('active');
     $(this).addClass('active');
@@ -92,35 +128,12 @@ $(document).on('click', '.nav_wrapper a', function(event) {
         $('.breadcrumb').removeClass('active');
     }
 });
-$(document).on('click', '.region_choose li,.region_hor li', function(event) {
+$(document).on('click', '.region_choose li', function(event) {
     event.preventDefault();
-    $('.region_choose li,.region_hor li').removeClass('active');
+    $('.region_choose li').removeClass('active');
     $(this).addClass('active');
 });
-$(document).on('click', '.headings_l a', function() {
-    event.preventDefault();
-    if (!$(this).hasClass('active_')) {
-        $('.headings_l ul').hide();
-        $(this).next('ul').show();
-        $('.description p').removeClass('active');
-        $('.product_info').addClass('active');
-        $('.headings_l a').removeClass('active_');
-        $('.description').hide();
-        $(this).addClass('active_');
-        $('.info_l_section').addClass('left');
-        $('.system_choose .selectorClass').addClass('inactive');
-    }
-});
-$(document).on('click', '.opensub', function() {
-    event.preventDefault();
-    $(this).toggleClass('active');
-    $(this).next('ul').slideToggle(200);
-});
-$(document).on('click', '.indicator div', function(e) {
-    $('.reader_slider img,.indicator div').removeClass('active');
-    $(this).addClass('active');
-    $('.reader_slider').find('img').eq($(this).index()).addClass('active');
-});
+
 
 $(document).on('click', '.close_reader', function(e) {
     $('.reader_bg').trigger('click');
@@ -144,7 +157,6 @@ $.fn.initReferenzen = function(){
     $(document).on('click', '.ref_change a', function() {
             $('.ref_change a').removeClass('active');
             $(this).addClass('active');
-
             $container.isotope({
                 filter: $(this).data('filter')
             });
@@ -152,95 +164,12 @@ $.fn.initReferenzen = function(){
 };
 
 
-$.fn.initDownload = function() {
-        var $container = $('.main').isotope({
-            itemSelector: '.element-item',
-            layoutMode: 'fitRows'
-        });
 
-        var viewEmpty = false;
-        $container.isotope('on','layoutComplete',function(){
-            setTimeout(function(){
-                $('.element-item').each(function(index, el) {
-                    var hidden = $(this).is(':visible');
-                    viewEmpty = false;
-                    if(hidden){
-                        viewEmpty = true;
-                        return false;
-                    }
-                }).promise().done(function(){
-                    if(!viewEmpty){
-                        $('.noitemdownload').addClass('active');
-                    }else{
-                        $('.noitemdownload').removeClass('active');
-                    }
-                });
-            },500);
-        });
-
-        var filters = {};
-        $(document).on('change', '.select_filter select', function() {
-            var filterGroup = $(this).attr('data-filter-group');
-            filters[filterGroup] = $(this).find(':selected').data('filter');
-            var filterValue = '';
-            for (var prop in filters) {
-                filterValue += filters[prop];
-            }
-            $container.isotope({
-                filter: filterValue
-            });
-        });
-        $(document).on('click', '.resetfilter', function() {
-            $('.select_filter select').each(function(index, el) {
-                $(this).val($(this).find('option').eq(0).val());
-                $('.select_filter select').trigger('change');
-            });
-        });
-        $('.element-item').each(function(index, el) {
-            $(this).attr('title', $(this).find('p').eq(0).text());
-        });
-        setTimeout(function(){
-            var ex = localStorage.getItem('download');
-            if(ex !== null){
-                $('.select_filter').find('select').eq(0).val(ex);
-                $('.select_filter select').trigger('change');
-                localStorage.removeItem('download');
-            }
-        },400);
-};
-
-var partners = ["AU", "DE", "GB", "AT", "FR", "CH","RU","US","BR","IT","PT","ES","MY","ZA"];
 
 $.fn.selectRegions = function() {
     var mapObj = $('#vmap').vectorMap('get', 'mapObject');
     mapObj.clearSelectedRegions();
     mapObj.setSelectedRegions(partners);
-};
-var wrld = {
-    map: 'world_mill_en',
-    backgroundColor: 'transparent',
-    zoomOnScroll: false,
-    regionStyle: {
-        initial: {
-            fill: '#ccc'
-        },
-        hover: {
-            "fill": '#ccc',
-            "fill-opacity": "1"
-        },
-        selected: {
-            fill: '#f70014'
-        },
-        selectedHover: {
-            fill: '#f70014'
-        }
-    },
-    onRegionClick: function(e,code){
-        loadPartners(code);
-    },
-    onRegionOver: function(e,code){
-        checkPointer(code);
-    }
 };
 
 function loadPartners(c){
@@ -258,64 +187,10 @@ function checkPointer(c){
     }
 }
 
-$(document).on('click', '.openul', function(){
-    $(this).toggleClass('active');
-    $(this).next('ol').toggleClass('active');
-});
-
-$(document).on('click', '[scrollto]', function(){
-    var elem = $(this).attr('scrollto');
-    $('html,body').animate({scrollTop: $('#' + elem).offset().top - (66)}, 750, 'easeInOutExpo');
-});
-
-$(document).on('click', '[toscroll]', function(event) {
-    var scroll = $(this).attr('toscroll');
-    setTimeout(function(){
-        $('html,body').animate({scrollTop: $('#' + scroll).offset().top - 66}, 750, 'easeInOutExpo');
-    },400);
-});
-
-$(document).on('click', '[opennews]', function(event) {
-    var news = $(this).attr('opennews');
-    setTimeout(function(){
-        $('[data-load="'+news+'"]').trigger('click');
-    },400);
-});
-
 $(document).on('click', '.scrolltop', function(){
     $('html,body').animate({scrollTop: 0}, 750, 'easeInOutExpo');
 });
 
-$(document).on('click', '.openauswahl', function(){
-
-
-    if($(this).hasClass('active')){
-        $(this).removeClass('active');
-        $(this).next('ul').removeClass('active');
-    }else{
-        $('.openauswahl,.pushy ol ul').removeClass('active');
-        $(this).toggleClass('active');
-        $(this).next('ul').toggleClass('active');
-    }
-
-    
-});
-
-$(document).on('click', '[download]', function(){
-    var s = $(this).attr('href');
-    
-    if(s.indexOf("download") > -1){
-        localStorage.setItem("download", $(this).attr('download'));
-    }
-
-    localStorage.setItem("showback", true);
-});
-
-
-
-$(document).on('click', '[fromsystem]', function(){
-    localStorage.setItem("showback", true);
-});
 
 $(window).on("debouncedresize", function(event) {
     $('.container').css('min-height',$(window).height()-100+'px');
@@ -329,28 +204,10 @@ function showVal(val){
 }
 
 function initFancy(){
-    var speedfancy = 300;
     $('.fancybox').unbind('click.fb');
     setTimeout(function(){
         if($('a').hasClass('fancybox'))
-            $(".fancybox").fancybox({
-                maxHeight : $(window).height() - 150,
-                nextEffect : 'fade',
-                prevEffect : 'fade',
-                openSpeed: speedfancy,
-                closeSpeed: speedfancy,
-                nextSpeed: speedfancy,
-                prevSpeed: speedfancy,
-                openEasing: 'easeInOutExpo',
-                closeEasing: 'easeInOutExpo',
-                nextEasing: 'easeInOutExpo',
-                prevEasing: 'easeInOutExpo',
-                helpers:  {
-                    title : {
-                        type : 'inside'
-                    }
-                }
-            });
+            $(".fancybox").fancybox(fancy);
     },500);
 }
 
@@ -358,7 +215,6 @@ $(document).on('click', '.fancybox', function(e){
     e.preventDefault();
     e.stopPropagation();
 });
-
 
 function addClassForEachElement(class_){
     setTimeout(function(){
@@ -370,111 +226,3 @@ function addClassForEachElement(class_){
         });
     },400)
 }
-
-/*! Pushy - v0.9.2 - 2014-9-13
-* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
-* https://github.com/christophery/pushy/
-* by Christopher Yee */
-
-$(function() {
-    var pushy = $('.pushy'), //menu css class
-        body = $('body'),
-        container = $('.slide'), //container css class
-        push = $('.push'), //css class to add pushy capability
-        siteOverlay = $('.site-overlay'), //site overlay
-        pushyClass = "pushy-left pushy-open", //menu position & menu open class
-        pushyActiveClass = "pushy-active", //css class to toggle site overlay
-        containerClass = "container-push", //container open class
-        pushClass = "push-push", //css class to add pushy capability
-        menuBtn = $('.menu-btn, .pushy a'), //css classes to toggle the menu
-        menuSpeed = 200, //jQuery fallback menu speed
-        menuWidth = pushy.width() + "px"; //jQuery fallback menu width
-
-    function togglePushy(){
-        body.toggleClass(pushyActiveClass); //toggle site overlay
-        pushy.toggleClass(pushyClass);
-        container.toggleClass(containerClass);
-        push.toggleClass(pushClass); //css class to add pushy capability
-    }
-
-    function openPushyFallback(){
-        body.addClass(pushyActiveClass);
-        pushy.animate({left: "0px"}, menuSpeed);
-        container.animate({left: menuWidth}, menuSpeed);
-        push.animate({left: menuWidth}, menuSpeed); //css class to add pushy capability
-    }
-
-    function closePushyFallback(){
-        body.removeClass(pushyActiveClass);
-        pushy.animate({left: "-" + menuWidth}, menuSpeed);
-        container.animate({left: "0px"}, menuSpeed);
-        push.animate({left: "0px"}, menuSpeed); //css class to add pushy capability
-    }
-
-    //checks if 3d transforms are supported removing the modernizr dependency
-    cssTransforms3d = (function csstransforms3d(){
-        var el = document.createElement('p'),
-        supported = false,
-        transforms = {
-            'webkitTransform':'-webkit-transform',
-            'OTransform':'-o-transform',
-            'msTransform':'-ms-transform',
-            'MozTransform':'-moz-transform',
-            'transform':'transform'
-        };
-
-        // Add it to the body to get the computed style
-        document.body.insertBefore(el, null);
-
-        for(var t in transforms){
-            if( el.style[t] !== undefined ){
-                el.style[t] = 'translate3d(1px,1px,1px)';
-                supported = window.getComputedStyle(el).getPropertyValue(transforms[t]);
-            }
-        }
-
-        document.body.removeChild(el);
-
-        return (supported !== undefined && supported.length > 0 && supported !== "none");
-    })();
-
-    if(cssTransforms3d){
-        //toggle menu
-        menuBtn.click(function(event) {
-            togglePushy();
-        });
-        //close menu when clicking site overlay
-        siteOverlay.click(function(){ 
-            togglePushy();
-        });
-    }else{
-        //jQuery fallback
-        pushy.css({left: "-" + menuWidth}); //hide menu by default
-        container.css({"overflow-x": "hidden"}); //fixes IE scrollbar issue
-
-        //keep track of menu state (open/close)
-        var state = true;
-
-        //toggle menu
-        menuBtn.click(function() {
-            if (state) {
-                openPushyFallback();
-                state = false;
-            } else {
-                closePushyFallback();
-                state = true;
-            }
-        });
-
-        //close menu when clicking site overlay
-        siteOverlay.click(function(){ 
-            if (state) {
-                openPushyFallback();
-                state = false;
-            } else {
-                closePushyFallback();
-                state = true;
-            }
-        });
-    }
-});

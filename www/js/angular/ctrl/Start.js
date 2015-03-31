@@ -13,12 +13,5 @@ var Start =  ['$location', '$scope', '$timeout', 'localStorageService',function 
         $('body').initReferenzen();
     }
 
-    $scope.initMasonry = function(){
-        $('body').initDownload();
-        $('.main a').each(function(index, el) {
-            $(this).attr('href', $('head base').attr('href') + $(this).attr('href'));
-        });
-    }
-
     ready();
 }];

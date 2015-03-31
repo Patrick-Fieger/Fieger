@@ -74,7 +74,7 @@ app.config([
             templateUrl: "js/templates/berechnungen/FGL.html"
         }).state("/downloads", {
             url:"/downloads",
-            controller: "Start",
+            controller: "Downloads",
             resolve: loadcontent,
             templateUrl: "js/templates/downloads.html"
         }).state("/kontakt", {
@@ -112,7 +112,16 @@ app.config([
         // });
     }
 ]);
-var ctrl = angular.module('app.ctrl', ['ngAnimate']).controller('Start', Start).controller('FLW40', FLW40).controller('FLW28', FLW28).controller('FLW24', FLW24).controller('Themen', Themen).controller('Index', Index).controller('Lamellenfenster', Lamellenfenster).controller('Produkte', Produkte);
+var ctrl = angular.module('app.ctrl', ['ngAnimate'])
+.controller('Start', Start)
+.controller('FLW40', FLW40)
+.controller('FLW28', FLW28)
+.controller('FLW24', FLW24)
+.controller('Themen', Themen)
+.controller('Index', Index)
+.controller('Lamellenfenster', Lamellenfenster)
+.controller('Produkte', Produkte)
+.controller('Downloads', Downloads);
 
 
 app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$location) {
