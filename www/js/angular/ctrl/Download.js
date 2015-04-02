@@ -2,7 +2,8 @@ var Downloads = ['$scope',function ($scope) {
 	$scope.initMasonry = function(){
         var $container = $('.main').isotope({
             itemSelector: '.element-item',
-            layoutMode: 'fitRows'
+            layoutMode: 'fitRows',
+            filter : '.flw_40.zeichnungen'
         });
 
         var viewEmpty = false;
@@ -47,12 +48,8 @@ var Downloads = ['$scope',function ($scope) {
             $(this).attr('title', $(this).find('p').eq(0).text());
         });
         setTimeout(function(){
-            var ex = localStorage.getItem('download');
-            if(ex !== null){
-                $('.select_filter').find('select').eq(0).val(ex);
-                $('.select_filter select').trigger('change');
-                localStorage.removeItem('download');
-            }
+            $('.select_filter').find('select').eq(0).val($('.select_filter').find('select').eq(0).val());
+            $('.select_filter select').trigger('change');
         },400);
 	}
 }]

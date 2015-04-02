@@ -258,34 +258,29 @@
             "title": "Wählen Sie ein System:",
             "group": "type",
             "options": [{
-                "class": "",
-                "title": "Alle Systeme"
-            }, {
-                "class": ".FLW_40",
+                "class": ".flw_40",
                 "title": "FLW40"
             }, {
-                "class": ".FLW24",
-                "title": "FLW24"
+                "class": ".flw24_28",
+                "title": "FLW24/28"
             }, {
-                "class": ".FLW28",
-                "title": "FLW28"
-            }, {
-                "class": ".SMOTEC",
-                "title": "SmoTec"
-            }, {
-                "class": ".FGL",
+                "class": ".fgl",
                 "title": "FGL"
+            },
+            {
+                "class": ".flw_40_smotec",
+                "title": "FLW40 - SmoTec"
+            }, {
+                "class": ".flw24_28_smotec",
+                "title": "FLW24/28 - SmoTec"
+            }, {
+                "class": ".fgl_smotec",
+                "title": "FGL - SmoTec"
             }]
         }, {
             "title": "Wählen Sie eine Kategorie:",
             "group": "category",
             "options": [{
-                "class": "",
-                "title": "Alle Kategorien"
-            }, {
-                "class": ".prospekte",
-                "title": "Prospekte"
-            }, {
                 "class": ".zeichnungen",
                 "title": "Zeichnungen"
             }, {
@@ -297,901 +292,579 @@
             }, {
                 "class": ".ausschreibungstexte",
                 "title": "Ausschreibungstexte"
-            }, {
-                "class": ".zubehoer",
-                "title": "Zubehör"
-            }]
-        }, {
-            "title": "Wählen Sie einen Datentyp:",
-            "group": "data_typ",
-            "options": [{
-                "class": "",
-                "title": "Alle Dateitypen"
-            }, {
-                "class": ".doc",
-                "title": ".doc"
-            }, {
-                "class": ".pdf",
-                "title": ".pdf"
-            }, {
-                "class": ".dwg",
-                "title": ".dwg"
-            }, {
-                "class": ".DXF",
-                "title": ".dxf"
             }]
         }],
-        "Downloads": [{
-            "link:": "dwnlds/FLW40/drawings/pdf/FLW%2040%20Fenster.pdf",
-            "classes": "element-item pdf-file FLW_40 zeichnungen pdf",
-            "desc1": "FLW40 Einzelelement",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/drawings/pdf/FLW%2040%20Detail%20WSS%20Motor.pdf",
-            "classes": "element-item pdf-file FLW_40 zeichnungen pdf",
-            "desc1": "FLW40 Antrieb WSS",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/drawings/pdf/FLW%2040%20Detail%20Handhebel.pdf",
-            "classes": "element-item pdf-file FLW_40 zeichnungen pdf",
-            "desc1": "FLW40 Antrieb Handhebel",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/drawings/pdf/FLW%2040%20Antrieb%20Getriebe.pdf",
-            "classes": "element-item pdf-file FLW_40 zeichnungen pdf",
-            "desc1": "FLW40 Antrieb Getriebe",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/drawings/pdf/FLW%2040%20Detail%20Adapter%2017x40mm.pdf",
-            "classes": "element-item pdf-file FLW_40 zeichnungen pdf",
-            "desc1": "FLW40 Adapter 17",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/drawings/pdf/FLW%2040%20Detail%20Adapter%2025x40mm.pdf",
-            "classes": "element-item pdf-file FLW_40 zeichnungen pdf",
-            "desc1": "FLW40 Adapter 25",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/drawings/other/FLW%2040.dwg",
-            "classes": "element-item dwg-file FLW_40 zeichnungen dwg",
-            "desc1": "FLW40",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/drawings/other/FLW%2040.dxf",
-            "classes": "element-item dxf-file FLW_40 zeichnungen DXF",
-            "desc1": "FLW40",
-            "desc2": "FLW40/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW40/actuators/D+H_Motor_LDF_100_60.pdf",
-            "classes": "element-item pdf-file FLW_40 antriebe pdf",
-            "desc1": "D+H_Motor LDF_100_60",
-            "desc2": "FLW40/Antriebe"
-        }, {
-            "link": "dwnlds/FLW40/actuators/Motor_WSS_24_V_500N.pdf",
-            "classes": "element-item pdf-file FLW_40 antriebe pdf",
-            "desc1": "Motor WSS 24_V_500N",
-            "desc2": "FLW40/Antriebe"
-        }, {
-            "link": "dwnlds/FLW40/actuators/Motor_WSS_230V_500N.pdf",
-            "classes": "element-item pdf-file FLW_40 antriebe pdf",
-            "desc1": "Motor WSS 230V_500N",
-            "desc2": "FLW40/Antriebe"
-        }, {
-            "link": "dwnlds/FLW40/actuators/Motor_WSS_230V_1200N.pdf",
-            "classes": "element-item pdf-file FLW_40 antriebe pdf",
-            "desc1": "Motor WSS 230V_1200N",
-            "desc2": "FLW40/Antriebe"
-        }, {
-            "link": "dwnlds/FLW40/test_reports/FLW40_Prüfbericht_Luftdurchl&auml;ssigkeit,Schlagregen,Windlast.pdf",
-            "classes": "element-item pdf-file FLW_40 pruefberichte pdf",
-            "desc1": "PrüfberichtLuftdurchldl&auml;ssigkeit, Schlagregen , Windlast",
-            "desc2": "FLW40/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW40/test_reports/FLW40_Prüfbericht_Schalld&auml;mmung_8_VSG.pdf",
-            "classes": "element-item pdf-file FLW_40 pruefberichte pdf",
-            "desc1": "Prüfbericht Schalld&auml;mmung 8 VSG",
-            "desc2": "FLW40/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW40/test_reports/FLW40_Prüfbericht_Schalld&auml;mmung_12_VSG.pdf",
-            "classes": "element-item pdf-file FLW_40 pruefberichte pdf",
-            "desc1": "Prüfbericht Schalld&auml;mmung 12 VSG",
-            "desc2": "FLW40/Prüfberichte"
-        }, {
-            "link": "http://www.heinze.de/at-manager/14288583?context=2060",
-            "classes": "element-item doc-file FLW_40 ausschreibungstexte doc",
-            "desc1": "Ausschreibungstexte FLW40",
-            "desc2": "FLW40/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW40/miscellaneous/Pulverliste.pdf",
-            "classes": "element-item pdf-file FLW_40 zubehoer",
-            "desc1": "Pulverliste",
-            "desc2": "FLW40/Zubehör"
-        }, {
-            "link": "dwnlds/FLW40/miscellaneous/System_FLW40.pdf",
-            "classes": "element-item pdf-file FLW_40 zubehoer",
-            "desc1": "System_FLW40",
-            "desc2": "FLW40/Zubehör"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/pdf/FLW%2024%20Einzelelement.pdf",
-            "classes": "element-item pdf-file FLW24 zeichnungen pdf",
-            "desc1": "FLW24 Einzelelement",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/pdf/FLW%2024%20Doppelelement.pdf",
-            "classes": "element-item pdf-file FLW24 zeichnungen pdf",
-            "desc1": "FLW24 Doppelelement",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/pdf/FLW%2024%20Detail%20WSS%20Motor.pdf",
-            "classes": "element-item pdf-file FLW24 zeichnungen pdf",
-            "desc1": "FLW24 E-Antrieb",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/pdf/FLW%2024%20Detail%20Handhebel.pdf",
-            "classes": "element-item pdf-file FLW24 zeichnungen pdf",
-            "desc1": "FLW24 Antrieb Handhebel",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/pdf/FLW%2024%20Detail%20Kurbelgetriebe.pdf",
-            "classes": "element-item pdf-file FLW24 zeichnungen pdf",
-            "desc1": "FLW24 Antrieb Getriebe",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/pdf/FLW%2024%20Adapter%20PR%2017mm.pdf",
-            "classes": "element-item pdf-file FLW24 zeichnungen pdf",
-            "desc1": "FLW24 Adapter 17",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/pdf/FLW%2024%20Adapter%2030x42mm.pdf",
-            "classes": "element-item pdf-file FLW24 zeichnungen pdf",
-            "desc1": "FLW24 Adapter 42",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/other/FLW%2024.dwg",
-            "classes": "element-item dwg-file FLW24 zeichnungen dwg",
-            "desc1": "Zeichnung FLW24 DWG",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_24/other/FLW%2024.dxf",
-            "classes": "element-item dwg-file FLW24 zeichnungen dxf",
-            "desc1": "Zeichnung FLW24 DXF",
-            "desc2": "FLW24/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/FLW%2028%20Einzelelement.pdf",
-            "classes": "element-item pdf-file FLW28 zeichnungen pdf",
-            "desc1": "FLW28 Einzelelement",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/FLW%2028%20Doppelelement.pdf",
-            "classes": "element-item pdf-file FLW28 zeichnungen pdf",
-            "desc1": "FLW28 Doppelelement",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/FLW%2028%20WSS%20Detail.pdf",
-            "classes": "element-item pdf-file FLW28 zeichnungen pdf",
-            "desc1": "FLW28 E-Antrieb",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/FLW%2028%20Handhebel%20Detail.pdf",
-            "classes": "element-item pdf-file FLW28 zeichnungen pdf",
-            "desc1": "FLW28 Antrieb Handhebel",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/FLW%2028%20Kurbelgetriebe%20Detail.pdf",
-            "classes": "element-item pdf-file FLW28 zeichnungen pdf",
-            "desc1": "FLW28 Antrieb Getriebe",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/FLW%2028%20Adapter%2017%20mm%20Detail.pdf",
-            "classes": "element-item pdf-file FLW28 zeichnungen pdf",
-            "desc1": "FLW28 Adapter 17",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/FLW%2028%20Adapter%2042x30%20mm%20Detail.pdf",
-            "classes": "element-item pdf-file FLW28 zeichnungen pdf",
-            "desc1": "FLW28 Adapter 42",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/other/FLW%2028.dwg",
-            "classes": "element-item dwg-file FLW28 zeichnungen dwg",
-            "desc1": "Zeichnung FLW28 DWG",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/drawings/FLW_28/other/FLW%2028.dxf",
-            "classes": "element-item dwg-file FLW28 zeichnungen dxf",
-            "desc1": "Zeichnung FLW28 DXF",
-            "desc2": "FLW28/Zeichnungen"
-        }, {
-            "link": "dwnlds/FLW/actuators/D+H_Motor_LDF_100_60.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "D+H_Motor LDF_100_60",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/actuators/Motor_WSS_24_V_500N.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "Motor WSS 24_V_500N",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/actuators/Motor_WSS_24V_1200N.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "Motor WSS 24V_1200N",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/actuators/Motor_WSS_230V_500N.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "Motor WSS 230V_500N",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/actuators/Motor_WSS_230V_1200N.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "Motor WSS 230V_1200N",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/actuators/Motor_GU_S24_LAM_24V.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "Motor GU S24_LAM_24V",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/actuators/Grasl_PUDV_32_12-M6x45-BA1R.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "Grasl PUDV 32_12-M6x45-BA1R",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/actuators/STG_Beikirch_RWA_Stellenantrieb.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 antriebe pdf",
-            "desc1": "STG Beikirch RWA_Stellenantrieb",
-            "desc2": "FLW/Antriebe"
-        }, {
-            "link": "dwnlds/FLW/test_reports/Datenblatt_FLW.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 pruefberichte pdf",
-            "desc1": "Datenblatt FLW",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW/test_reports/Luftdurchlässigkeit_und_Schlagregendichtheit.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 pruefberichte pdf",
-            "desc1": "Luftdurchlässigkeit und Schlagregendichtheit",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW/test_reports/Prüfung_Ballwurfsicherheit.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 pruefberichte pdf",
-            "desc1": "Prüfung Ballwurfsicherheit",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW/test_reports/Prüfung_Schallschutz_FLW.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 pruefberichte pdf",
-            "desc1": "Prüfung Schallschutz FLW",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW/test_reports/Prüfung_Wärmedurchgang_FLW.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 pruefberichte pdf",
-            "desc1": "Prüfung Wärmedurchgang FLW",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW/test_reports/Prüfzeugnis_nach_TRAV.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 pruefberichte pdf",
-            "desc1": "Prüfzeugnis nach TRAV",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW/test_reports/TÜV_Klemmschutz.pdf",
-            "classes": "element-item pdf-file FLW28 FLW24 pruefberichte pdf",
-            "desc1": "TÜV Klemmschutz",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "http://www.heinze.de/at-manager/14214415?context=2060",
-            "classes": "element-item doc-file FLW28 FLW24 ausschreibungstexte pdf",
-            "desc1": "Ausschreibungstexte FLW",
-            "desc2": "FLW/Prüfberichte"
-        }, {
-            "link": "dwnlds/FLW/miscellaneous/Pulverliste.pdf",
-            "classes": "element-item doc-file FLW28 FLW24 zubehoer pdf",
-            "desc1": "Pulverliste",
-            "desc2": "FLW/Zubehör"
-        }, {
-            "link": "dwnlds/FLW/miscellaneous/System_FLW.pdf",
-            "classes": "element-item doc-file FLW28 FLW24 zubehoer ",
-            "desc1": "System_FLW",
-            "desc2": "FLW/Zubehör"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/pdf/FLW%2040%20SmoTec%20Fenster.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW40 Einzelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/pdf/FLW%2040%20SmoTec%20Detail%20WSS%20Motor.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW40 SmoTec Antrieb WSS",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/pdf/FLW%2040%20SmoTec%20Detail%20D_H%20Motor.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW40 SmoTec Antrieb D+H",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/pdf/FLW%2040%20SmoTec%20Detail%20Adapter%2017x40mm.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW40 SmoTec Adapter 17",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/pdf/FLW%2040%20SmoTec%20Detail%20Adapter%2025x40mm.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW40 SmoTec Adapter 25",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20Einzelelement.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Einzelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20Doppelelement.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Doppelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20WSS%20Motor%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Antrieb WSS",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20Hubzylinder%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Antrieb Pneumatisch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20D+H%20Motor%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Antrieb D+H",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20Antrieb%20Beikirch.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Antrieb Beikirch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20Adapter%2017%20mm%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Adapter 17",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_28/pdf/FLW%2028%20SmoTec%20Adapter%2030%20x%2042%20mm%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW28 SmoTec Adapter 42",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Einzelelement.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Einzelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Doppelelement.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Doppelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Detail%20WSS%20Motor.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Antrieb WSS",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Antrieb%20Pneumatisch.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Antrieb Pneumatisch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Detail%20D_H%20Motor.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Antrieb D+H",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Antrieb%20Beikirch.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Antrieb Beikirch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Detail%20Adapter%2017%20mm.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Adapter 17",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_24/pdf/FLW%2024%20SmoTec%20Detail%20Adapter%2030%20x%2042%20mm.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FLW24 SmoTec Adapter 42",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/pdf/Einzelelement%20FGL%20LG%20SmoTec%20geschupppt.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG geschuppt Einzelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/pdf/Doppelelement%20FGL%20LG%20SmoTec%20geschupppt.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG geschuppt Doppelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/pdf/WSS%20Detail%20FGL%20LG%20SmoTec%20geschuppt.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG geschuppt Antrieb WSS",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/pdf/D+H Detail%20FGL%20LG%20SmoTec%20geschupppt.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG geschuppt Antrieb D+H",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/pdf/FGL%20SmoTec%20LG%20geschuppt%20Antrieb%20Beikirch.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG geschupptAntrieb Beikirch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/pdf/FGL%20SmoTec%20LG%20geschuppt%20Adapter.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG geschuppt Adapter",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_overlapping/pdf/Einzelelement%20FGL%20PG%20SmoTec%20geschuppt.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG geschuppt Einzelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_overlapping/pdf/FGL%20SmoTec%20PG%20geschuppt%20Doppelelement.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG geschuppt Doppelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_overlapping/pdf/FGL%20PG%20SmoTec%20geschuppt%20Detail%20WSS.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG geschuppt Antrieb WSS",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_overlapping/pdf/FGL%20PG%20geschuppt%20D+H%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG geschuppt Antrieb D+H",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_overlapping/pdf/FGL%20SmoTec%20PG%20geschuppt%20Antrieb%20Beikirch.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG geschuppt Antrieb Beikirch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_overlapping/pdf/FGL%20SmoTec%20PG%20geschuppt%20Adapter.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG geschuppt Adapter",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_stepped/pdf/Einzelelement%20FGL%20LG%20SmoTec%20Stufe.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG Stufe Einzelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_stepped/pdf/Doppelelelement%20FGL%20LG%20SmoTec%20Stufe.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG Stufe Doppelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_stepped/pdf/WSS%20Detail%20FGL%20LG%20SmoTec%20Stufe.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG Stufe Antrieb WSS",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_stepped/pdf/D+H%20Detail%20FGL%20LG%20SmoTec%20Stufe.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG Stufe Antrieb D+H",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_stepped/pdf/FGL%20SmoTec%20LG%20Stufe%20Antrieb%20Beikirch.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG Stufe Antrieb Beikirch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_stepped/pdf/FGL%20SmoTec%20LG%20Stufe%20Adapter.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec LG Stufe Adapter",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_stepped/pdf/Einzelelement%20FGL%20PG%20Smotec%20Stufe.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG Stufe Einzelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_stepped/pdf/Doppelelement%20FGL%20PG%20SmoTec%20Stufe.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG Stufe Doppelelement",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_stepped/pdf/FGL%20PG%20SmoTec%20Stufe%20WSS%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG Stufe Antrieb WSS",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_stepped/pdf/FGL%20PG%20Smotec%20Stufe%20D+H%20Detail.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG Stufe Antrieb D+H",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_stepped/pdf/FGL%20SmoTec%20PG%20Stufe%20Antrieb%20Beikirch.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG Stufe Antrieb Beikirch",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_pg_stepped/pdf/FGL%20SmoTec%20PG%20Stufe%20Adapter.pdf",
-            "classes": "element-item pdf-file SMOTEC zeichnungen pdf",
-            "desc1": "FGL SmoTec PG Stufe Adapter",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/other/FLW%2040%20SmoTec.dwg",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dwg",
-            "desc1": "Zeichnung FLW40 SmoTec DWG",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/other/FLW%2040%20SmoTec.dxf",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dxf",
-            "desc1": "Zeichnung FLW40 SmoTec DXF",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/other/FLW%2028%20SmoTec.dwg",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dwg",
-            "desc1": "Zeichnung FLW28 SmoTec DWG",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/other/FLW%2028%20SmoTec.dxf",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dxf",
-            "desc1": "Zeichnung FLW28 SmoTec DXF",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/other/FLW%2024%20SmoTec.dwg",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dwg",
-            "desc1": "Zeichnung FLW24 SmoTec DWG",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FLW_40/other/FLW%2024%20SmoTec.dxf",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dxf",
-            "desc1": "Zeichnung FLW24 SmoTec DXF",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/other/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dwg",
-            "desc1": "Zeichnung FGL SmoTec LG geschuppt DWG",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/other/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dxf",
-            "desc1": "Zeichnung FGL SmoTec LG geschuppt DXF",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/other/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dwg",
-            "desc1": "Zeichnung FGL SmoTec PG geschuppt DWG",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/drawings/FGL/fgl_lg_overlapping/other/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dxf",
-            "desc1": "Zeichnung FGL SmoTec PG geschuppt DXF",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dwg",
-            "desc1": "Zeichnung FGL SmoTec LG Stufe DWG",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dxf",
-            "desc1": "Zeichnung FGL SmoTec LG Stufe DXF",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dwg",
-            "desc1": "Zeichnung FGL SmoTec PG Stufe DWG",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/",
-            "classes": "element-item dwg-file SMOTEC zeichnungen dxf",
-            "desc1": "Zeichnung FGL SmoTec PG Stufe DXF",
-            "desc2": "SmoTec/Zeichnungen"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/D+H_Motor_LDF_100_60.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "D+H_Motor LDF_100_60",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/Motor_WSS_24_V_500N.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "Motor WSS 24_V_500N",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/Motor_WSS_24V_1200N.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "Motor WSS 24V_1200N",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/Motor_WSS_230V_500N.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "Motor WSS 230V_500N",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/Motor_WSS_230V_1200N.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "Motor WSS 230V_1200N",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/Motor_GU_S24_LAM_24V.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "Motor GU S24_LAM_24V",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/Grasl_PUDV_32_12-M6x45-BA1R.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "Grasl PUDV 32_12-M6x45-BA1R",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/actuators/STG_Beikirch_RWA_Stellenantrieb.pdf",
-            "classes": "element-item pdf-file SMOTEC antriebe pdf",
-            "desc1": "STG Beikirch RWA_Stellenantrieb",
-            "desc2": "SmoTec/Antriebe"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Datenblatt_FLW.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Datenblatt FLW",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Konformitätserklär_FL_K-0701-FLW_SmoTec.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Konformitätserklärung FL_K-0701-FLW_SmoTec",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Konformitätserklär_FL_K-1003-3_FGL_SmoTec.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Konformitätserklärung FL_K-1003-3_FGL_SmoTec",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Konformitätszertifikat_FLW_SmoTec.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Konformitätszertifikat FLW_SmoTec",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Konfromitätszertifikat_FGL_SmoTec.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Konfromitätszertifikat FGL_SmoTec",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Luftdurchlässigkeit_und_Schlagregendichtheit.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Luftdurchlässigkeit und Schlagregendichtheit",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Prüfung_Ballwurfsicherheit.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Prüfung Ballwurfsicherheit",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Prüfung_Schallschutz_FLW.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Prüfung Schallschutz FLW",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Prüfung_Wärmedurchgang_FLW.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Prüfung Wärmedurchgang FLW",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/Prüfzeugnis_nach_TRAV.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "Prüfzeugnis nach TRAV",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/test_reports/TÜV_Klemmschutz.pdf",
-            "classes": "element-item pdf-file SMOTEC pruefberichte pdf",
-            "desc1": "TÜV Klemmschutz",
-            "desc2": "SmoTec/Prüfberichte"
-        }, {
-            "link": "dwnlds/SmoTec/miscellaneous/Pulverliste.pdf",
-            "classes": "element-item pdf-file SMOTEC zubehoer pdf",
-            "desc1": "Pulverliste",
-            "desc2": "SmoTec/Zubehör"
-        }, {
-            "link": "dwnlds/SmoTec/miscellaneous/System_SmoTec.pdf",
-            "classes": "element-item pdf-file SMOTEC zubehoer pdf",
-            "desc1": "System SmoTec",
-            "desc2": "SmoTec/Zubehör"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/pdf/Einzelelment%20FGL%20LG%20geschuppt.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG geschuppt Einzelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/pdf/Doppelelement%20FGL%20LG%20geschuppt.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG geschuppt Doppelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/pdf/FGL%20LG%20WSS%20Detail.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG geschuppt Antrieb WSS",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/pdf/FGL%20LG%20geschuppt%20Antrieb%20Handhebel.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG geschuppt Antrieb Handhebel",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/pdf/FGL%20LG%20Kurbelgetriebe%20Detail.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG geschuppt Antrieb Getriebe",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/pdf/FGL%20LG%20geschuppt%20Adapter.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG geschuppt Adapter",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/pdf/FGL%20PG%20geschuppt%20Einzelelement.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG geschuppt Einzelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/pdf/FGL%20PG%20geschuppt%20Doppelelement%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG geschuppt Doppelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/pdf/FGL%20PG%20geschuppt%20WSS%20Detail.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG geschuppt Antrieb WSS",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/pdf/FGL%20PG%20geschuppt%20Antrieb%20Handhebel (1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG geschuppt Antrieb Handhebel",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/pdf/FGL%20PG%20geschuppt%20Antrieb%20Getriebe (1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG geschuppt Antrieb Getriebe",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/pdf/FGL%20PG%20geschuppt%20Adapter%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG geschuppt Adapter",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/pdf/Einzelelement%20FGL%20LG%20Stufe.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG Stufe Einzelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/pdf/Doppelelement%20FGL%20LG%20Stufe.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG Stufe Doppelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/pdf/FGL%20LG%20Stufe%20Detail%20WSS.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG Stufe Antrieb WSS",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/pdf/FGL%20LG%20Stufe%20Antrieb%20Handhebel%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG Stufe Antrieb Handhebel",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/pdf/FGL%20LG%20Stufe%20Detail%20Kurbelgetriebe.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG Stufe Antrieb Getriebe",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/pdf/FGL%20LG%20Stufe%20Adapter%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL LG Stufe Adapter",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/pdf/FGL%20PG%20Stufe%20Einzelelement.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL SmoTec PG Stufe Einzelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/pdf/FGL%20PG%20Stufe%20Doppelelement%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG Stufe Doppelelement",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/pdf/FGL%20PG%20Stufe%20WSS%20Detail.pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG Stufe Antrieb WSS",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/pdf/FGL%20PG%20Stufe%20Antrieb%20Handhebel%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG Stufe Antrieb Handhebel",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/pdf/FGL%20PG%20Stufe%20Antrieb%20Getriebe%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG Stufe Antrieb Getriebe",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/pdf/FGL%20PG%20Stufe%20Adapter%20(1).pdf",
-            "classes": "element-item pdf-file FGL zeichnungen pdf",
-            "desc1": "FGL PG Stufe Adapter",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/other/FGL%20LG%20geschuppt.dwg",
-            "classes": "element-item dwg-file FGL zeichnungen dwg",
-            "desc1": "Zeichnung FGL LG geschuppt DWG",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_overlapping/other/FGL%20LG%20geschuppt.dxf",
-            "classes": "element-item dwg-file FGL zeichnungen dxf",
-            "desc1": "Zeichnung FGL LG geschuppt DXF",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/other/FGL%20PG%20geschuppt.dwg",
-            "classes": "element-item dwg-file FGL zeichnungen dwg",
-            "desc1": "Zeichnung FGL PG geschuppt DWG",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_overlapping/other/FGL%20PG%20geschuppt.dxf",
-            "classes": "element-item dwg-file FGL zeichnungen dxf",
-            "desc1": "Zeichnung FGL PG geschuppt DXF",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/other/FGL%20LG%20Stufe.dwg",
-            "classes": "element-item dwg-file FGL zeichnungen dwg",
-            "desc1": "Zeichnung FGL LG Stufe DWG",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_lg_stepped/other/FGL%20LG%20Stufe.dxf",
-            "classes": "element-item dwg-file FGL zeichnungen dxf",
-            "desc1": "Zeichnung FGL LG Stufe DXF",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/other/FGL%20PG%20Stufe.dwg",
-            "classes": "element-item dwg-file FGL zeichnungen dwg",
-            "desc1": "Zeichnung FGL PG Stufe DWG",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/drawings/fgl_pg_stepped/other/FGL%20PG%20Stufe.dxf",
-            "classes": "element-item dwg-file FGL zeichnungen dxf",
-            "desc1": "Zeichnung FGL PG Stufe DXF",
-            "desc2": "FGL/Zeichnungen"
-        }, {
-            "link": "dwnlds/FGL/actuators/D+H_Motor_LDF_100_60.pdf",
-            "classes": "element-item pdf-file FGL antriebe pdf",
-            "desc1": "D+H_Motor LDF_100_60",
-            "desc2": "FGL/Antriebe"
-        }, {
-            "link": "dwnlds/FGL/actuators/Motor_WSS_24_V_500N.pdf",
-            "classes": "element-item pdf-file FGL antriebe pdf",
-            "desc1": "Motor WSS 24_V_500N",
-            "desc2": "FGL/Antriebe"
-        }, {
-            "link": "dwnlds/FGL/actuators/Motor_WSS_24V_1200N.pdf",
-            "classes": "element-item pdf-file FGL antriebe pdf",
-            "desc1": "Motor WSS 24V_1200N",
-            "desc2": "FGL/Antriebe"
-        }, {
-            "link": "dwnlds/FGL/actuators/Motor_WSS_230V_500N.pdf",
-            "classes": "element-item pdf-file FGL antriebe pdf",
-            "desc1": "Motor WSS 230V_500N",
-            "desc2": "FGL/Antriebe"
-        }, {
-            "link": "dwnlds/FGL/actuators/",
-            "classes": "element-item pdf-file FGL antriebe pdf",
-            "desc1": "Motor WSS 230V_1200N",
-            "desc2": "FGL/Antriebe"
-        }, {
-            "link": "http://www.heinze.de/at-manager/14214427?context=2060",
-            "classes": "element-item doc-file FGL ausschreibungstexte pdf",
-            "desc1": "Ausschreibungstexte FGL",
-            "desc2": "FGL/Prüfberichte"
-        }, {
-            "link": "dwnlds/FGL/miscellaneous/Pulverliste.pdf",
-            "classes": "element-item doc-file FGL zubehoer pdf",
-            "desc1": "Pulverliste",
-            "desc2": "FLW/Zubehör"
-        }, {
-            "link": "dwnlds/FGL/miscellaneous/System_FGL.pdf",
-            "classes": "element-item doc-file FGL zubehoer pdf",
-            "desc1": "FGL",
-            "desc2": "FLW/Zubehör"
-        }]
+        "Downloads": [
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_handhebel_flw24.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE ol90 Handhebel FLW24/28"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_handhebel_flw40.pdf",
+                "classes": "element-item pdf-file flw_40 antriebe",
+                "desc": "GEZE ol90 Handhebel FLW40"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_kurbelgetriebe_fgl_lg.pdf",
+                "classes": "element-item pdf-file fgl antriebe",
+                "desc": "GEZE ol90 Kurbelgetriebe FGL"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_kurbelgetriebe_flw24.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE ol90 Kurbelgetriebe FLW24/28"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_kurbelgetriebe_flw28.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE ol90 Kurbelgetriebe FLW24/28"
+            },
+            {
+                "link": "dwn/antriebe/motor/d+h/datenblaetter/d+h_24v_typ_cdc200-350_d_e_f_s.pdf",
+                "classes": "element-item pdf-file flw_40 flw_40_smotec antriebe",
+                "desc": "D+H 24V Typ CDC 200-350"
+            },
+            {
+                "link": "dwn/antriebe/motor/d+h/datenblaetter/d+h_24v_typ_ldf100-060_d_e.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec fgl fgl_smotec antriebe",
+                "desc": "D+H 24V Typ LDF 100-060"
+            },
+            {
+                "link": "dwn/antriebe/motor/d+h/datenblaetter/d+h_24v_typ_ldf100-070_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw_40_smotec antriebe",
+                "desc": "D+H 24V Typ LDF 100-070"
+            },
+            {
+                "link": "dwn/antriebe/motor/geze/datenblaetter/geze_230v_typ_e212r1_deutsch.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE 230V Typ E212R1"
+            },
+            {
+                "link": "dwn/antriebe/motor/groeninger/datenblaetter/groeninger_24v_typ_ls1400_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 antriebe",
+                "desc": "Groeninger 24V Typ LS1400"
+            },
+            {
+                "link": "dwn/antriebe/motor/groeninger/datenblaetter/groeninger_24v_typ_ml1500_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 antriebe",
+                "desc": "Groeninger 24V Typ ML1500"
+            },
+            {
+                "link": "dwn/antriebe/motor/groeninger/datenblaetter/groeninger_230v_typ_ls1400_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 antriebe",
+                "desc": "Groeninger 230V Typ LS1400"
+            },
+            {
+                "link": "dwn/antriebe/motor/gu/datenblaetter/gu_24v_typ_eltrals24lam_deutsch.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec antriebe",
+                "desc": "GU 24V Typ ELTRAL S 24 LAM"
+            },
+            {
+                "link": "dwn/antriebe/motor/gu/datenblaetter/gu_230v_typ_eltrals230lam_deutsch.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GU 230V Typ ELTRAL S 230 LAM"
+            },
+            {
+                "link": "dwn/antriebe/motor/stg_beikirch/datenblaetter/stg_beikirch_24v_typ_fla800_d_e.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec antriebe",
+                "desc": "STG Beikirch 24V Typ FLA800"
+            },
+            {
+                "link": "dwn/antriebe/motor/wss/datenblaetter/wss_24v_typ_60000_deutsch.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 fgl flw_40_smotec flw24_28_smotec fgl_smotec antriebe",
+                "desc": "WSS 24V Typ 60000"
+            },
+            {
+                "link": "dwn/antriebe/motor/wss/datenblaetter/wss_230v_typ_60000_deutsch.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 fgl flw_40_smotec antriebe",
+                "desc": "WSS 230V Typ 60000"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/grasl_hubzylinder_typ_pudv32_12.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec antriebe",
+                "desc": "Grasl Hubzylinder Typ Pudv32 12"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/pneumatic_cylinder_ph-kh-l-ev_02_40-120_english.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "RSB Pneumatikzylinder PH-KH-L-EV 02 40-120"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/rsb-gerhard_hubzylinder_typ_40-54.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "RSB Gerhard Hubzylinder Typ 40-54"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/rsb-gerhard_hubzylinder_typ_40-54ev.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "RSB Gerhard Hubzylinder Typ 40-54EV"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dwg/fgl_lg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dwg/fgl_lg_stufe.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dxf/fgl_lg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dxf/fgl_lg_stufe.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_geschuppt_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt Doppelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_geschuppt_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt Einzelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Doppelelement"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Einzelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dwg/fgl_pg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dwg/fgl_pg_stufe.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dxf/fgl_pg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dxf/fgl_pg_stufe.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/pdf/fgl_pg_geschuppt_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt Einzelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/pdf/fgl_pg_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Doppelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/pdf/fgl_pg_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Einzelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dwg/flw24.pdf",
+                "classes": "element-item dwg-file flw24_28 zeichnungen",
+                "desc": "FLW24"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dwg/flw28.dwg",
+                "classes": "element-item dwg-file flw24_28 zeichnungen",
+                "desc": "FLW28"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dxf/flw24.dxf",
+                "classes": "element-item dxf-file flw24_28 zeichnungen",
+                "desc": "FLW24"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dxf/flw28.dxf",
+                "classes": "element-item dxf-file flw24_28 zeichnungen",
+                "desc": "FLW28"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw24_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW24 Doppelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw24_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW24 Einzelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw28_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW28 Doppelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw28_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW28 Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/flw40/zeichnungen/dwg/flw40_mit_schraubkanal.dwg",
+                "classes": "element-item dwg-file flw_40 zeichnungen",
+                "desc": "FLW40 mit Schraubkanal"
+            },
+
+            {
+                "link": "dwn/flw40/zeichnungen/dwg/flw40.dwg",
+                "classes": "element-item dwg-file flw_40 zeichnungen",
+                "desc": "FLW40"
+            },
+
+            {
+                "link": "dwn/flw40/zeichnungen/dxf/flw40.dxf",
+                "classes": "element-item dxf-file flw_40 zeichnungen",
+                "desc": "FLW40"
+            },
+
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_0_mit_schraubkanal.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40 mit Schraubkanal"
+            },
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_0.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40_0"
+            },
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_17.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40_17"
+            },
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_25.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40_25"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_lg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_lg_stufe.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_pg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG geschuppt"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_pg_stufe.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_lg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_lg_stufe.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_pg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG geschuppt"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_pg_stufe.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe"
+            },
+
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_schuppe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_schuppe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt Einzelelement"
+            },
+
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe Einzelelement"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_pg_smotec_schuppe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG geschuppt Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_pg_smotec_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_pg_smotec_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/flw24_smotec.dwg",
+                "classes": "element-item dwg-file flw24_smotec zeichnungen",
+                "desc": "FLW24 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/flw28_smotec.dwg.dwg",
+                "classes": "element-item dwg-file flw24_28_smotec zeichnungen",
+                "desc": "FLW28 SmoTec"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/flw24_smotec.dxf",
+                "classes": "element-item dxf-file flw24_smotec zeichnungen",
+                "desc": "FLW24 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/flw28_smotec.dxf",
+                "classes": "element-item dxf-file flw24_28_smotec zeichnungen",
+                "desc": "FLW28 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw24_smotec_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_smotec zeichnungen",
+                "desc": "FLW24 SmoTec Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw24_smotec_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec zeichnungen",
+                "desc": "FLW24 SmoTec Einzelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw28_smotec_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_smotec zeichnungen",
+                "desc": "FLW28 SmoTec Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw28_smotec_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec zeichnungen",
+                "desc": "FLW28 SmoTec Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/flw40_smotec.dwg",
+                "classes": "element-item dwg-file flw_40_smotec zeichnungen",
+                "desc": "FLW40 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/flw40_smotec.dxf",
+                "classes": "element-item dxf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40 SmoTec"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw40_0_smotec.pdf",
+                "classes": "element-item pdf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40_0 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw40_17_smotec.pdf",
+                "classes": "element-item pdf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40_17 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw40_25_smotec.pdf",
+                "classes": "element-item pdf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40_25 SmoTec"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/FLW28_Pruefzeugnis_Ballwurfsicherheit.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "FLW28 Prüfzeugnis Ballwurfsicherheit"
+            },
+
+            {
+                "link": "dwn/pruefberichte/flw/luftdurchlaessigkeit_schlagregendichtigkeit_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Luftdurchlässigkeit Schlagregendichtigkeit"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pendelschlag_trav_pruefung_2008_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Pendelschlag Prüfung"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pendelschlag_trav_pruefung_verlaengerung_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Pendelschlag Prüfung Verlängerung"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pruefung_schallschutz_flw24.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Prüfung Schallschutz FLW24"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/schallschutz_flw28.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Prüfung Schallschutz FLW28"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pruefung_waermedurchgang_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Prüfung Wäremedurchgang"
+            },
+
+            {
+                "link": "dwn/pruefberichte/flw40/FLW40_Allgem._bauaufs._Pruefzeugnis_TRAV.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Allgem. bauaufs. Prüfzeugnis"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/FLW40_Pruefbericht_Ballwurfsicherheit.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Prüfzeugnis Ballwurfsicherheit"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/flw40_pruefbericht_luftdurchlaessigkeit_schlagregen_windlast.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Prüfbericht Luftdurchlässigkeit Schlagregendichtigkeit Windlast"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/flw40_pruefbericht_schalldaemmung_doppelglas.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Schalldämmung Doppelglas"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/flw40_pruefbericht_schalldaemmung.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Schalldämmung"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL LG geschuppt"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_stufe_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL LG stufe"
+            },
+
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_stufe_smotec_ausschreibungstext.pdf.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL LG stufe SmoTec"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_smotec_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL LG geschuppt SmoTec"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL PG geschuppt"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_stufe_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL PG stufe"
+            },
+
+
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_stufe_smotec_ausschreibungstext.pdf.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL PG stufe SmoTec"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_smotec_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL PG geschuppt SmoTec"
+            },
+
+
+
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw24_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28 ausschreibungstexte",
+                "desc": "FLW24"
+            },
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw28_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28 ausschreibungstexte",
+                "desc": "FLW28"
+            },
+
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw24_smotec_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec ausschreibungstexte",
+                "desc": "FLW24 SmoTec"
+            },
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw28_smotec_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec ausschreibungstexte",
+                "desc": "FLW28 SmoTec"
+            },
+            {
+                "link": "dwn/flw40/ausschreibungstexte/flw40_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw_40 ausschreibungstexte",
+                "desc": "FLW40"
+            },
+            {
+                "link": "dwn/flw40/ausschreibungstexte/flw40_smotec_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw_40_smotec ausschreibungstexte",
+                "desc": "FLW40 SmoTec"
+            }
+        ]
     },
     "Brechnung": {
         "NRGWalerts": ["NRGW-Geprüft.", "Nicht NRGW-Geprüft.<br> Lamellenanzahl zu klein.", "Nicht NRGW-Geprüft.<br> Lamellenanzahl zu groß.", "Nicht NRGW-Geprüft.<br>Bitte Lamellenanzahl auswählen."],

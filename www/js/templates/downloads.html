@@ -12,10 +12,10 @@
 </div>
 <div class="row">
     <div class="main">
-        <a on-finish-render="initMasonry()" ng-repeat="down in d.Downloads.Downloads" href="{{down.link}}" target="_blank">
+        <a on-finish-render="initMasonry()" ng-repeat="down in d.Downloads.Downloads" ng-href="{{down.link}}" target="_blank">
         <div class="{{down.classes}}">
-            <p>{{down.desc1}}</p>
-            <p>{{down.desc2}}</p>
+            <p>{{down.desc}}</p>
+            <p>&nbsp;</p>
         </div>
         </a>
     </div>

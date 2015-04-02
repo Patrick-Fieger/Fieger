@@ -1,7 +1,6 @@
 NProgress.configure({
     showSpinner: false
 });
-var speedfancy = 300;
 var partners = ["AU", "DE", "GB", "AT", "FR", "CH","RU","US","BR","IT","PT","ES","MY","ZA"];
 var wrld = {
     map: 'world_mill_en',
@@ -34,10 +33,10 @@ var fancy = {
     maxHeight : $(window).height() - 150,
     nextEffect : 'fade',
     prevEffect : 'fade',
-    openSpeed: speedfancy,
-    closeSpeed: speedfancy,
-    nextSpeed: speedfancy,
-    prevSpeed: speedfancy,
+    openSpeed: 300,
+    closeSpeed: 300,
+    nextSpeed: 300,
+    prevSpeed: 300,
     openEasing: 'easeInOutExpo',
     closeEasing: 'easeInOutExpo',
     nextEasing: 'easeInOutExpo',
