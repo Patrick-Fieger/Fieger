@@ -6,13 +6,17 @@
         <title>Fieger Lamellenfenster</title>
         <base href="/">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-            <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
-            <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
-            <link rel="stylesheet" type="text/css" href="css/spezial.css"/>
-            <link rel="stylesheet" type="text/css" href="css/style.css"/>
-            <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css"/>
-        </head>
-        <body style="overflow-x: hidden; overflow-y: visible;" ng-class="{hidden: readerShow == 1}">
+        <link rel="stylesheet" type="text/css" href="css/foundation.css"/>
+        <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="css/spezial.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/photoswipe.css"/>
+        <link rel="stylesheet" type="text/css" href="css/default-skin.css"/>
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <![endif]-->
+    </head>
+    <body style="overflow-x: hidden; overflow-y: visible;" ng-class="{hidden: readerShow == 1}">
 <!--             <nav class="pushy pushy-left" ng-controller="MenuCtrl">
                 <ul>
                     <li ng-repeat="item in Menu" ng-include="'menu-renderer'"></li>
@@ -107,14 +111,16 @@
             <script type="text/javascript" src="js/core/route.js"></script>
             <script type="text/javascript" src="js/core/local.js"></script>
             <script type="text/javascript" src="js/core/jquery.js"></script>
-            <script type="text/javascript" src="js/core/jquery.fancybox.js"></script>
             <script type="text/javascript" src="js/core/jquery.vmap.packed.js"></script>
             <script type="text/javascript" src="js/core/jquery.vmap.world.js"></script>
             <script type="text/javascript" src="js/core/nprogress.js"></script>
             <script type="text/javascript" src="js/core/isotope.js"></script>
             <script type="text/javascript" src="js/core/easing.js"></script>
+            <script type="text/javascript" src="js/core/photoswipe.min.js"></script>
+            <script type="text/javascript" src="js/core/photoswipe-ui-default.min.js"></script>
             <script type="text/javascript" src="js/core/highlight.js"></script>
             <script type="text/javascript" src="js/custom/events.js"></script>
+
 
             <!-- ANGULAR -->
             <script type="text/javascript" src="js/angular/ctrl/Start.js"></script>
@@ -124,10 +130,79 @@
             <script type="text/javascript" src="js/angular/ctrl/FGL.js"></script>
             <script type="text/javascript" src="js/angular/ctrl/Themen.js"></script>
             <script type="text/javascript" src="js/angular/ctrl/Spezial.js"></script>
+            <script type="text/javascript" src="js/angular/ctrl/Referenzen.js"></script>
             <script type="text/javascript" src="js/angular/ctrl/Produkte.js"></script>
             <script type="text/javascript" src="js/angular/ctrl/Download.js"></script>
             <script type="text/javascript" src="js/angular/ctrl/Lamellenfenster.js"></script>
             <script type="text/javascript" src="js/angular/ctrl/Index.js"></script>
             <script type="text/javascript" src="js/angular/app.js"></script>
+            <!-- Root element of PhotoSwipe. Must have class pswp. -->
+            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            
+                <!-- Background of PhotoSwipe. 
+                     It's a separate element as animating opacity is faster than rgba(). -->
+                <div class="pswp__bg"></div>
+            
+                <!-- Slides wrapper with overflow:hidden. -->
+                <div class="pswp__scroll-wrap">
+            
+                    <!-- Container that holds slides. 
+                        PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                        Don't modify these 3 pswp__item elements, data is added later on. -->
+                    <div class="pswp__container">
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                        <div class="pswp__item"></div>
+                    </div>
+            
+                    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                    <div class="pswp__ui pswp__ui--hidden">
+            
+                        <div class="pswp__top-bar">
+            
+                            <!--  Controls are self-explanatory. Order can be changed. -->
+            
+                            <div class="pswp__counter"></div>
+            
+                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+            
+                            <button class="pswp__button pswp__button--share" title="Share"></button>
+            
+                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+            
+                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+            
+                            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                            <!-- element will get class pswp__preloader--active when preloader is running -->
+                            <div class="pswp__preloader">
+                                <div class="pswp__preloader__icn">
+                                  <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                            <div class="pswp__share-tooltip"></div> 
+                        </div>
+            
+                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                        </button>
+            
+                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                        </button>
+            
+                        <div class="pswp__caption">
+                            <div class="pswp__caption__center"></div>
+                        </div>
+            
+                    </div>
+            
+                </div>
+            
+            </div>
+
+
         </body>
     </html>

@@ -29,25 +29,6 @@ var wrld = {
     }
 };
 
-var fancy = {
-    maxHeight : $(window).height() - 150,
-    nextEffect : 'fade',
-    prevEffect : 'fade',
-    openSpeed: 300,
-    closeSpeed: 300,
-    nextSpeed: 300,
-    prevSpeed: 300,
-    openEasing: 'easeInOutExpo',
-    closeEasing: 'easeInOutExpo',
-    nextEasing: 'easeInOutExpo',
-    prevEasing: 'easeInOutExpo',
-    helpers:  {
-        title : {
-            type : 'inside'
-        }
-    }
-}
-
 function clearsite() {
     $('html,body').scrollTop(0);
     $('.container').removeClass('active').empty();
@@ -143,28 +124,6 @@ $(document).on('click', '.md-close', function() {
     $('body').find('.error_').eq(0).trigger('focus');
 });
 
-
-$.fn.initReferenzen = function(){
-    var $container = $('.referenzen').isotope({
-            itemSelector: '.gallery',
-            layoutMode: 'fitRows',
-            animationEngine:'css'
-    });
-
-    initFancy();
-
-    $(document).on('click', '.ref_change a', function() {
-            $('.ref_change a').removeClass('active');
-            $(this).addClass('active');
-            $container.isotope({
-                filter: $(this).data('filter')
-            });
-    });
-};
-
-
-
-
 $.fn.selectRegions = function() {
     var mapObj = $('#vmap').vectorMap('get', 'mapObject');
     mapObj.clearSelectedRegions();
@@ -201,19 +160,6 @@ function showVal(val){
     var videoDuration = video.duration;
     video.currentTime = videoDuration / 100 * val;
 }
-
-function initFancy(){
-    $('.fancybox').unbind('click.fb');
-    setTimeout(function(){
-        if($('a').hasClass('fancybox'))
-            $(".fancybox").fancybox(fancy);
-    },500);
-}
-
-$(document).on('click', '.fancybox', function(e){
-    e.preventDefault();
-    e.stopPropagation();
-});
 
 function addClassForEachElement(class_){
     setTimeout(function(){

@@ -1,13 +1,16 @@
 <ul class="systeme_sub ref_change" style="width:675px">
 	<li ng-repeat="f in d.Referenzen_menu">
-		<a ng-class="{active:$first}" data-filter="{{f.filter}}" href="#">{{f.title}}</a>
+		<a ng-class="{active:$first}" data-filter="{{f.filter}}" ng-click="filter($event)" href="#">{{f.title}}</a>
 	</li>
 </ul>
 
 <div class="row referenzen" style="min-height: 850px">
-    <div class="grid">
-        <a ng-click="" on-finish-render="initReferenzen()" ng-repeat="p in d.Referenzen" class="{{p.class}} fancybox" href="" href_="img/projects/big/{{p.imgsrc}}.jpg" data-fancybox-group="gallery1" title="{{p.title}}">
-            <img src="img/projects/small/{{p.imgsrc}}.jpg">
-        </a>
+    <div class="grid my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure on-finish-render="init()" ng-repeat="p in d.Referenzen" class="{{p.class}}" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="img/projects/big/{{p.imgsrc}}.jpg" itemprop="contentUrl" data-size="600x400">
+                <img src="img/projects/small/{{p.imgsrc}}.jpg" itemprop="thumbnail" alt="Image description" />
+            </a>
+            <figcaption itemprop="caption description">{{p.title}}</figcaption>
+        </figure>
     </div>
 </div>

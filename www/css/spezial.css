@@ -439,28 +439,6 @@ footer a:hover, footer a.active {
     color: #f70014;
 }
 
-.next_,.prev_{
-    position: absolute;
-    background: #000;
-    color: #fff;
-    padding: 10px;
-    font-size: 23px;
-    border-radius: 50%;
-    top: 123px;  
-}
-
-.next_{
-    right: 20px;
-}
-
-.prev_{
-    left: 20px;
-}
-
-.next_:hover,.prev_:hover{
-    cursor: pointer;
-}
-
 .md-modal {
     position: fixed;
     top: 50%;
@@ -769,34 +747,6 @@ footer a:hover, footer a.active {
     margin-left: -30px;
 }
 
-.indicator_mini{
-  width: 100%;
-  float: left;
-  margin-top: 20px;
-}
-
-.indicator_mini ul{
-    margin: 0 auto;
-}
-
-.indicator div,
-.indicator_mini div{
-    width: 10px;
-    height: 10px;
-    float: left;
-    margin: 0 5px;
-    background: #555;
-    border-radius: 50%;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.indicator div.active, .indicator div:hover,
-.indicator_mini div.active, .indicator_mini div:hover {
-    background: #f70014;
-    cursor: pointer;
-}
 .closereader {
     position: fixed;
     top: 15px;
