@@ -1,15 +1,6 @@
 var Produkte = ['$scope',function ($scope) {
-	$scope.showInfo = false;
-
-	$scope.showInfos = function(){
-		$scope.showInfo = true;
+	$scope.toggleInfo = function(){
+		$('.info_wrapper').slideToggle(300);
 	}
-
-	$scope.closeInfo = function(){
-		$scope.showInfo = false;
-	}
-
 	addClassForEachElement('.compare_item');
 }]
-
-

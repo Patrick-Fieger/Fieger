@@ -22,9 +22,12 @@ div[land] h1 {
   margin-bottom: 30px;
 }
 
- {
-  color: #9aa8c2;
-  font-size: 20px;
+.notavailable{
+  text-decoration:line-through !important;
+}
+
+.notavailable:hover{
+  cursor: default !important;
 }
 
 .icon_type4 {
@@ -178,6 +181,10 @@ h5 {
   opacity: 0;
   visibility: hidden;
   overflow: hidden;
+  -webkit-transition: all 0.3;
+  -moz-transition: all 0.3;
+  -o-transition: all 0.3;
+  -ms-transition: all 0.3;
 }
 
 .referenzen figure figcaption{
@@ -1148,7 +1155,7 @@ table td {
 }
 
 .home_big {
-  background: url(/img/start/blur/8.jpg) 50% 0;
+  background: url(../img/start/blur/8.jpg) 50% 0;
   background-size: cover;
   width: 100%;
   position: relative;
@@ -1168,7 +1175,7 @@ button.simple {
 .img_window {
   width: 100%;
   height: 100%;
-  background: url(/img/start/beschnitten_2.png) bottom right no-repeat;
+  background: url(../img/start/beschnitten_2.png) bottom right no-repeat;
   background-size: 100%;
   opacity: 0;
   margin-left: -100px;
@@ -1274,7 +1281,7 @@ button.simple:hover {
 
 .compare_menu ul li {
   float: left;
-  width: 196.5px;
+  width: 157.4px;
   border-right: 1px solid #e8e8e8;
   text-align: center;
   font-size: 20px;
@@ -1296,7 +1303,7 @@ button.simple:hover {
 }
 
 .compare_item {
-  width: 16.6666%;
+  width: 13.3333%;
   float: left;
   border-right: 1px solid #e8e8e8;
   -webkit-transition: all .3s;
@@ -1312,7 +1319,7 @@ button.simple:hover {
   color: #f70014;
   font-size: 16px;
   font-weight: bolder;
-  width: 196.5px;
+  width: 157.4px;
   text-align: center;
   margin-top: -28px;
 }
@@ -1343,13 +1350,14 @@ button.simple:hover {
   text-align: center;
   margin-bottom: 0;
   line-height: 20px;
-  padding: 0 25px;
+  padding: 0px 18px;
+  width: 100%;
 }
 
 .compare_item .heading {
   padding-bottom: 30px;
-  margin-bottom: 30px;
   border-bottom: 1px solid #e8e8e8;
+  min-height: 406px;
 }
 
 .compare_item .heading img {
@@ -1365,7 +1373,7 @@ button.simple:hover {
 .issmotec,
 .technik,
 .technik_ {
-  padding: 20px 0 30px;
+  padding: 20px 0 20px;
 }
 
 .comparepadding {
@@ -1374,6 +1382,19 @@ button.simple:hover {
 
 .technik_ {
   background: #fbfbfb;
+}
+
+
+.glas{
+    height: 110px !important;
+    line-height: 70px !important;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.glas p{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 14px;
 }
 
 /*SONDERBAU*/

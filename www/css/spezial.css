@@ -555,26 +555,12 @@ footer a:hover, footer a.active {
 
 .info_wrapper{
     width: 100%;
-    position: fixed;
-    height: 100%;
+    height: auto;
+    display: none;
     overflow: scroll;
-    top: 0px;
     background: #f2f2f2;
-    overflow: auto;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    position: relative;
 }
-
-.info_wrapper.active{
-    opacity: 1;
-    visibility: visible;
-}
-
-
 
 
 .element-item {
@@ -584,11 +570,7 @@ footer a:hover, footer a.active {
     margin: 1%;
     background: #fff;
     padding: 14px 10px 12px 52px;
-    /*position: relative;
-    border: 1px solid rgba(238,238,238,0.6);
-    border-bottom-width: 2px;*/
-
--webkit-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
     -moz-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     -ms-transition: opacity 0.3s;
@@ -698,7 +680,7 @@ footer a:hover, footer a.active {
 }
 .appendnews {
     width: 620px;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 .close_reader {
     position: absolute;

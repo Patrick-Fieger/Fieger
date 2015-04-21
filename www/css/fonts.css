@@ -66,3 +66,25 @@
 	border-radius: 50%;
 	padding: 5px;
 }
+
+.check_,
+.no,
+.ip{
+	width: 100%;
+	height: 30px;
+	background-size: contain;
+ 	background-repeat: no-repeat;
+ 	background-position-x: 50%;
+}
+
+.check_{
+	background-image: url('../img/checkmark.svg');
+}
+
+.no{
+	background-image: url('../img/close.svg')
+}
+
+.ip{
+	background-image: url('../img/dash.svg')
+}
