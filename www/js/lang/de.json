@@ -107,11 +107,6 @@
         "head1": "Thema",
         "head2": "Entrauchung"
     }, {
-        "href": "themen/sonderbau",
-        "imgsrc": "img/news/report_003_prev.jpg",
-        "head1": "Thema",
-        "head2": "Sonderbau"
-    }, {
         "href": "themen/klassenzimmer",
         "imgsrc": "img/news/report_004_prev.jpg",
         "head1": "Thema",
@@ -1236,15 +1231,6 @@
                     ]
                 },
                 {
-                    "link":"Welche Adapter stehen zur Verfügung?",
-                    "p":[
-                        "Beschichtungen von Fieger Lamellenfenster",
-                        "Sie erhalten unsere Lamellenfenster in jeder gewünschten Farbe. Unsere Profile sind bei unserem Beschichter eingelagert und werden gemäß Ihren Vorgaben beschichtet oder eloxiert. Fieger Standard Farben sind gängige Farben, die wir auf Lager haben und Ihnen besonders günstig anbieten können. Andere Farbe lassen wir Auftragsweise beschichten und rechnen den Verschnitt der Profile in die Kosten der Lamellenfenster mit ein. Das bedeutet nichts anderes, als dass Sie bei der Bestellung von einzelnen Elementen mit höheren Beschichtungskosten rechnen müssen.",
-                        "Auf Wunsch besorgen wir den von Ihnen gewünschten Pulvernummern der verschiedenen Pulverlieferanten. Wobei auf die Mindestbestellmenge zu achten ist. Ist auch möglich, dass Sie uns für Ihr Projekt die entsprechende Pulvermenge zur Beschichtung zur Verfügung stellen.",
-                        "Im Downloadbereich finden Sie die <a ui-sref='/downloads'>aktuelle Farbtabelle</a>. Gerne senden wir Ihnen diese auch zu."
-                    ]
-                },
-                {
                     "link":"Welche Adapter stehen zur Verfügung? ",
                     "p":[
                         "Adapterprofile (Einbauprofile) für Fieger Lamellenfenster",
@@ -1299,7 +1285,7 @@
                     ]
                 },
                 {
-                    "link":"Was muss ich bezüglich des Klemmschutzes bei Lamellenfenstern beachten?n>",
+                    "link":"Was muss ich bezüglich des Klemmschutzes bei Lamellenfenstern beachten?",
                     "p":[
                         "Nutzungssicherheit von Fieger-Lamellenfenstern mit automatischen Antrieben. Umgang mit der Maschinenrichtlinie 2006/42/EG ",
                         "Der Anteil der von uns gelieferten Lamellenfenstern mit elektrischem Antrieb gegenüber manuellen Lamellenfenstern steigt kontinuierlich an. Die Hauptanforderungen an das kraftbetätigte Fenster lautet: „Das Fenster muss sicher sein“. Dabei ist die Maschinenrichtlinie 2006/42/EG, umgesetzt durch das Geräte- und Produktionssicherheitsgesetz (GPSG), zu beachten. Im Sinne dieser Maschinenrichtlinie ist die Firma Fieger Lamellenfenster Hersteller einer Maschine, wenn sie die einzelnen Komponenten Lamellenfenster und Antrieb miteinander verbaut. Was wir in der Regel auch tun. ",
@@ -1316,15 +1302,6 @@
                         "Unsere Lamellenfenster öffnen und schließen mit dem E-Antrieb. Durch die mittige Lagerung der Lamellen und der Mechanik ist sichergestellt, dass die Lamellen nach Betätigung in Ihrer Öffnungsstellung verbleiben.",
                         "Dieser Funktionserhalt ist im Rahmen einer Brandprüfung nach der EN 12101-2 nachgewiesen worden. (Prüfung des Fensters bei 300 °C für die Dauer von 30 Minuten. Nach 5 Minuten muss der Antrieb das Fenster öffnen und in  dieser Stellung die restlichen 25 Minuten verharren)",
                         "Ein weitergehender Funktionserhalt der Verkabelung vom E-Antrieb bis zur Dose in Ausführung E30 ist nicht notwendig. Die Steuerung muss gewährleisten, dass die E-Antriebe im Brandfall nach kurzer Zeit öffnen. Danach ist keine Ansteuerung über ein funktionserhaltenes E-Kabel mehr vorgesehen. "
-                    ]
-                },
-                {
-                    "link":"Bietet die Firma Fieger ihre Lamellenfenster auch als Ganzglasausführung an?",
-                    "p":[
-                        "Unterschied zum Ganzglaslamellenfenster",
-                        "Als Ganzglaslamellenfenster bezeichnet man ein Lamellenfenster mit horizontalen und bei manchen Systemen auch vertikalen freien Glaskanten. Dabei werden die Isoliergläser meist eingeklebt und bei manchen Systemen, gemäß der Richtlinie, zusätzlich mit Haltern gesichert. Dies macht die Ausführung entsprechend aufwändig und teuer. Das eigentliche Ganzglaslamellenfenster mit Isolierglas gibt es eigentlich nicht. Das wäre eine Lamelle die komplett transparent erscheint, was aber durch den Randverbund und durch den notwendigen Siebdruck im Randbereich der Isolierglasscheiben technisch nicht machbar ist. Deswegen bleibt nur die vom Planer gewünschte Ganzglasansicht von außen übrig, wenn die Verglasung stark verspiegelt ist. Eine innenseitige Leuchtquelle durch Tageslicht oder eine innenseitig Beleuchtung hebt diesen Effekt aber umgehend auf, sodass das Erscheinungsbild wie bei einem normalen gerahmtes Lamellenfenster erscheint. Genauso verhält es sich bei der Ansicht von innen, wenn durch die Lichtverhältnisse die zusätzlichen Rahmen und der Stoßbereich der Lamellen sichtbar werden. ",
-                        "Daher hat sich die Firma Fieger dazu entschlossen, diese Art der isolierverglasten Ganzglasfenster nicht zu produzieren,  wir konzentrieren uns auf unsere Systeme FLW und FLW SmoTec. Diese Elemente haben den Vorteil einer minimalen Ansichtsbreite der Glasumfassung und der außen bündigen Lamellen. Sie haben die gleiche Funktion, erzielen optisch einen ähnlichen Effekt und sind um einiges günstiger. ",
-                        "Natürlich gibt es noch eine Möglichkeit, in einem Gebäude größtmögliche Transparenz und eine Lüftungsfunktion über Lamellen zu realisieren. Wir bieten besonders für Zweite-Haut-Fassaden unsere Fieger Ganzglaslamelle TYP FGL mit einer Monoscheibe an. Bei diesem System besteht die Lamelle nur aus einer transparenten Glasscheibe. Bitte sprechen Sie uns für weitere Informationen zu diesem Thema an. "
                     ]
                 },
                 {

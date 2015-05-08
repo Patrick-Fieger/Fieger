@@ -1,4 +1,4 @@
-var Downloads = ['$scope',function ($scope) {
+var Downloads = ['$scope','$stateParams',function ($scope,$stateParams) {
 	$scope.initMasonry = function(){
         var $container = $('.main').isotope({
             itemSelector: '.element-item',
@@ -22,6 +22,7 @@ var Downloads = ['$scope',function ($scope) {
                     }else{
                         $('.noitemdownload').removeClass('active');
                     }
+
                 });
             },500);
         });
@@ -38,20 +39,34 @@ var Downloads = ['$scope',function ($scope) {
                 filter: filterValue
             });
         });
-        $(document).on('click', '.resetfilter', function() {
-            $('.select_filter select').each(function(index, el) {
-                $(this).val($(this).find('option').eq(0).val());
-                $('.select_filter select').trigger('change');
-            });
-        });
+
         $('.element-item').each(function(index, el) {
             $(this).attr('title', $(this).find('p').eq(0).text());
         });
         setTimeout(function(){
             $('.select_filter').find('select').eq(0).val($('.select_filter').find('select').eq(0).val());
+            var param = $stateParams.system;
+            var rep = param.replace('-','/')
+            var states = ['FLW40','FLW24/28','FGL']
+            if(param !== undefined){
+                for (var i = 0; i < states.length; i++) {
+                    if(states[i] == rep){
+                        console.log('param')
+                        $('.select_filter').find('select').eq(0).val(rep);
+                        $('.select_filter select').trigger('change');
+                    }
+                };
+            }
+
             $('.select_filter select').trigger('change');
         },400);
 	}
+
+
+
+
+
+    
 }]
 
 

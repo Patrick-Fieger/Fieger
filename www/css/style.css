@@ -111,7 +111,7 @@ h5 {
 }
 
 .innercolumn2{
-  margin-top: 20px;
+  
    -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -121,6 +121,10 @@ h5 {
     -webkit-column-rule: 1px outset #ccc;
     -moz-column-rule: 1px outset #ccc;
     column-rule: 1px outset #ccc;
+}
+
+.system_under div{
+  margin-top: 20px;
 }
 
 .system_under a,.innercolumn2 a{
@@ -236,7 +240,7 @@ h5 {
 /*ZUBEHOER UND SERVICE*/
 
 .system_under{
-  margin: 20px auto 75px auto;
+  margin: 50px auto 75px auto;
 }
 
 .system_under section,
@@ -1176,9 +1180,10 @@ button.simple {
   width: 100%;
   height: 100%;
   background: url(../img/start/beschnitten_2.png) bottom right no-repeat;
-  background-size: 100%;
+  background-size: contain;
   opacity: 0;
   margin-left: -100px;
+  margin-top: 30px;
 }
 
 .margewrapper {
@@ -1281,7 +1286,7 @@ button.simple:hover {
 
 .compare_menu ul li {
   float: left;
-  width: 157.4px;
+  width: 196.6px;
   border-right: 1px solid #e8e8e8;
   text-align: center;
   font-size: 20px;
@@ -1303,7 +1308,7 @@ button.simple:hover {
 }
 
 .compare_item {
-  width: 13.3333%;
+  width: 16.6666%;
   float: left;
   border-right: 1px solid #e8e8e8;
   -webkit-transition: all .3s;
@@ -1319,7 +1324,7 @@ button.simple:hover {
   color: #f70014;
   font-size: 16px;
   font-weight: bolder;
-  width: 157.4px;
+  width: 196.6px;
   text-align: center;
   margin-top: -28px;
 }
@@ -1357,7 +1362,7 @@ button.simple:hover {
 .compare_item .heading {
   padding-bottom: 30px;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 406px;
+  min-height: 379px;
 }
 
 .compare_item .heading img {
@@ -1372,7 +1377,8 @@ button.simple:hover {
 .glasart,
 .issmotec,
 .technik,
-.technik_ {
+.technik_,
+.technik__ {
   padding: 20px 0 20px;
 }
 
@@ -1391,10 +1397,23 @@ button.simple:hover {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.glas p{
+.glas p,
+.technik_ p,
+.technik__ p{
   display: inline-block;
   vertical-align: middle;
   line-height: 14px;
+}
+
+.technik_{
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.technik_,
+.technik__{
+  height: 120px !important;
+  line-height: 80px !important;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 /*SONDERBAU*/

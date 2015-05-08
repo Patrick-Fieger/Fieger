@@ -1,7 +1,8 @@
 var Index = ['$scope', '$stateParams', '$location','$rootScope','localStorageService',function ($scope, $stateParams, $location,$rootScope,localStorageService) {
 	
 	function setHeights(){
-		$('.home_big,.img_window').height($(window).height() - 138);
+		$('.home_big').height($(window).height() - 138);
+		$('.img_window').height($(window).height() - 198);
 		$('.margewrapper').css('margin',((($(window).height() - 138) - $('.margewrapper').height())/2) - 40 + 'px 0px');
 	}
 

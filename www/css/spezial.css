@@ -39,7 +39,7 @@ input[type=number] {
 
 .img_window.active{
     opacity: 1;
-    margin-left: 0;
+    margin-left: -30px;
 }
 
 .margewrapper h1.active,

@@ -77,6 +77,11 @@ app.config([
             controller: "Downloads",
             resolve: loadcontent,
             templateUrl: "js/templates/downloads.html"
+        }).state("/downloads/:system", {
+            url:"/downloads/:system",
+            controller: "Downloads",
+            resolve: loadcontent,
+            templateUrl: "js/templates/downloads.html"
         }).state("/kontakt", {
             url: "/kontakt",
             controller: "Start",

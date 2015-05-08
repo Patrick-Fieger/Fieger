@@ -4,7 +4,7 @@
             <div ng-repeat="downmenu in d.Downloads.Menu" class="large-4 medium-4 small-12 columns text">
                 <h5>{{downmenu.title}}</h5>
                 <select data-filter-group="{{downmenu.group}}">
-                    <option ng-repeat="options in downmenu.options"  data-filter="{{options.class}}">{{options.title}}</option>
+                    <option ng-repeat="options in downmenu.options"  data-filter="{{options.class}}" value="{{options.title}}">{{options.title}}</option>
                 </select>
             </div>
         </div>
