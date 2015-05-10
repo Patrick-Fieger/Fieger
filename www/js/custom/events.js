@@ -156,6 +156,7 @@ $(window).on("debouncedresize", function(event) {
 
 
 function showVal(val){
+    console.log(val)
     var video = document.getElementById("video");
     var videoDuration = video.duration;
     video.currentTime = videoDuration / 100 * val;

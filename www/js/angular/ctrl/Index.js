@@ -9,6 +9,20 @@ var Index = ['$scope', '$stateParams', '$location','$rootScope','localStorageSer
 	function initAnimation(class_,time){
 		setTimeout(function(){
 			$(class_).addClass('active');
+			if(class_ == '.img_window'){
+				var size = $('.img_window').size() - 1;
+				$('.img_window.bg_1').addClass('show_');
+				setInterval(function(){
+					var index = $('.show_').index()
+					
+					if(index == size){
+						$('.img_window:last-child').removeClass('show_')
+						$('.img_window.bg_1').addClass('show_');
+					}else{
+						$('.show_').removeClass('show_').next('div').addClass('show_')
+					}
+				},6000)
+			}
 		},time);
 	};
 
