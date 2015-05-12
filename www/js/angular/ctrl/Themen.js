@@ -9,8 +9,10 @@ var Themen = ['$scope', '$stateParams', '$location','$rootScope','localStorageSe
 	}else {
 		$rootScope.loadReader();
 		$('body').addClass('hidden');
+		console.log(localStorageService.get('lang'))
+		console.log(route)
 		$.get('/news/' +localStorageService.get('lang') +'/'+ route + '.json', function(data) {
-			$rootScope.reader = data;
+			$rootScope.reader = JSON.parse(data);
 			$timeout(function(){
 				$rootScope.showReader();
 			},1000);

@@ -191,17 +191,29 @@ h5 {
   -ms-transition: all 0.3;
 }
 
+.referenzen figure p{
+  position: absolute;
+  z-index: 10000;
+  bottom: 0;
+  left: 0;
+  background: rgba(255,255,255,0.8);
+  width: 100%;
+  color: #000;
+  padding: 2px 0;
+  font-size: 14px;
+  margin: 0;
+}
+
 .referenzen figure figcaption{
   display: none;
 }
 
-.referenzen figure.active{
-  opacity: 1;
-  visibility: visible;
-}
-
 .referenzen figure:hover {
   opacity: .95;
+}
+
+.referenzen figure:hover p{
+  background: rgba(255,255,255,1);
 }
 
 .referenzen figure:hover img{
@@ -1203,19 +1215,21 @@ button.simple {
 
 .margewrapper {
   display: block;
-  float: left;
+  float: right;
+  /*width: 100%*/
 }
 
 .home_big h1,
 .home_big h2 {
-  background: rgba(255,255,255,.6);
-  color: #222;
+  background: rgba(0,0,0,.6);
+  color: #e0e0e0;
   display: inline-block;
-  float: left;
+  float: right;
   clear: both;
   padding: 7px 10px;
   border-radius: 2px;
   margin: 0;
+  text-align: right;
 }
 
 .home_big h1 {
@@ -1250,6 +1264,7 @@ button.simple:hover {
 
 .home_big .simple {
   background: rgba(255,255,255,.8);
+  float: right;
 }
 
 .home_big .simple:hover {
@@ -1459,7 +1474,25 @@ button.simple:hover {
 
 
 
+/*MOBILE REDIRECT*/
 
+.mobile{
+  width: 300px;
+  margin: 30px auto;
+}
+
+.mobile .logo{
+  margin: 0 auto 50px auto;
+  float: inherit;
+}
+
+.mobile p{
+  text-align: center;
+}
+
+.mobile p{
+  font-size: 18px;
+}
 
 
 

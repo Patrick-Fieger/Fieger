@@ -266,8 +266,10 @@ a.pswp__share--download:hover {
   text-align: left;
   max-width: 800px;
   margin: 0 auto;
-  font-size: 13px;
+  font-size: 18px;
+  /*font-weight: bolder;*/
   padding: 10px;
+  text-align: center;
   line-height: 20px;
   color: #CCC; }
 

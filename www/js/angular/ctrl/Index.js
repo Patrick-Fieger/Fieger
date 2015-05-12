@@ -3,7 +3,7 @@ var Index = ['$scope', '$stateParams', '$location','$rootScope','localStorageSer
 	function setHeights(){
 		$('.home_big').height($(window).height() - 138);
 		$('.img_window').height($(window).height() - 198);
-		$('.margewrapper').css('margin',((($(window).height() - 138) - $('.margewrapper').height())/2) - 40 + 'px 0px');
+		$('.margewrapper').css('margin',((($(window).height() - 138) - $('.margewrapper').height())) - 70 + 'px 30px 0px 0px');
 	}
 
 	function initAnimation(class_,time){

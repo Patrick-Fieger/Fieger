@@ -902,6 +902,11 @@ footer a:hover, footer a.active {
   visibility: visible;
 }
 
+.referenzen figure.active{
+  opacity: 1;
+  visibility: visible;
+}
+
 .scrolltop div {
   width: 26px;
   height: 26px;

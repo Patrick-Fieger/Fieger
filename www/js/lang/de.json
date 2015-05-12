@@ -183,70 +183,217 @@
         },
         {
             "title":"FLW40",
-            "filter":".FLW40"
+            "filter":".flw40"
         },
         {
             "title":"FLW24/28",
-            "filter":".FLW28 .FLW24"
+            "filter":".flw"
         },
         {
             "title":"FGL",
-            "filter":".FGL"
-        },
-        {
-            "title":"FLL",
-            "filter":".FLL"
+            "filter":".fgl"
         }
     ],
-    "Referenzen": [{
-        "imgsrc": "project_1",
-        "class":"gallery FLW40",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_2",
-        "class":"gallery FLW40",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_3",
-        "class":"gallery FLW28",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_4",
-        "class":"gallery FLW24",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_5",
-        "class":"gallery FLW40",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_6",
-        "class":"gallery FLW24",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_7",
-        "class":"gallery FLW40",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_8",
-        "class":"gallery FGL",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_9",
-        "class":"gallery FLW40",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_10",
-        "class":"gallery FGL",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_11",
-        "class":"gallery FLW40",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }, {
-        "imgsrc": "project_12",
-        "class":"gallery FGL",
-        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }],
+    "Referenzen": [
+    {
+        "imgsrc":"fgl/adac_duesseldorf_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - ADAC Düsseldorf",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"fgl/church-point_sydney_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Church Point Sydney",
+        "size": "2048x1536"
+    },
+    {
+        "imgsrc":"fgl/cimut_de_quimper1_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Cimut de Quimper",
+        "size": "4000x3000"
+    },
+    {
+        "imgsrc":"fgl/cimut_de_quimper2_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Cimut de Quimper",
+        "size": "4000x3000"
+    },
+    {
+        "imgsrc":"fgl/cuisine_de_france_dublin_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Cuisine de France Dublin",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"fgl/macquery_street_sydney_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Macquery Street Sydney",
+        "size": "1765x1536"
+    },
+    {
+        "imgsrc":"fgl/uni_brisbane_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Uni Brisbane",
+        "size": "927x704"
+    },
+    {
+        "imgsrc":"fgl/volme_galerie_hagen_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Volme Galerie Hagen",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"flw/bmw-welt_muenchen1_flw28.jpg",
+        "class": "flw",
+        "title": "FLW - BMW Welt München",
+        "size": "1000x667"
+    },
+    {
+        "imgsrc":"flw/deutschhaus-gymnasium_wuerzburg_flw28.jpg",
+        "class": "flw",
+        "title": "FLW - Deutschhaus Gymnasium Würzburg",
+        "size": "1000x750"
+    },
+    {
+        "imgsrc":"flw/friedrich_list_schule_karlsruhe_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Friedrich List Schule Karlsruhe",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"flw/golspie_street_glasgow_flw28_smotec.jpg",
+        "class": "flw",
+        "title": "FLW - Golspie Street Glasgow",
+        "size": "1000x936"
+    },
+    {
+        "imgsrc":"flw/gruga_park_essen_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Gruga Park Essen",
+        "size": "1632x1224"
+    },
+    {
+        "imgsrc":"flw/maerkisches_zentrum_berlin_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Märkisches Zentrum Berlin",
+        "size": "1200x1600"
+    },
+    {
+        "imgsrc":"flw/mediatheque_de_pontivy1_flw24_smotec.jpg",
+        "class": "flw",
+        "title": "FLW - Mediatheque de Pontivy",
+        "size": "760x450"
+    },
+    {
+        "imgsrc":"flw/ministery_of_agriculture_canberra_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Ministery of Agriculture Canberra",
+        "size": "1536x2048"
+    },
+    {
+        "imgsrc":"flw/ndr_locksted_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - NDR Locksted",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"flw/playmobil_zirndorf_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Playmobil Zirndorf",
+        "size": "1600x1200"
+    },
+    {
+        "imgsrc":"flw/project_10.jpg",
+        "class": "flw",
+        "title": "FLW - FLW - Ecole de Drize",
+        "size": "1124x900"
+    },
+    {
+        "imgsrc":"flw/rheinparkcenter_neuss2_flw28_smotec.jpg",
+        "class": "flw",
+        "title": "FLW - Rheinparkcenter Neuss",
+        "size": "850x567"
+    },
+    {
+        "imgsrc":"flw/spreepalais_berlin_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Spreepalais Berlin",
+        "size": "1600x1200"
+    },
+    {
+        "imgsrc":"flw40/1.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - University of Limerick",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/2.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Queen's University Belfast",
+        "size":"1000x667"
+    },
+    {
+        "imgsrc":"flw40/3.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Queen's University Belfast",
+        "size":"1000x1500"
+    },
+    {
+        "imgsrc":"flw40/4.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Queen's University Belfast",
+        "size":"1000x667"
+    },
+    {
+        "imgsrc":"flw40/5.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Kettler Kolleg",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/6.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Kettler Kolleg",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/7.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Schule Halstenbek",
+        "size":"1000x1422"
+    },
+    {
+        "imgsrc":"flw40/8.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Produktion Birkenau",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/9.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Limberger",
+        "size":"1024x681"
+    },
+    {
+        "imgsrc":"flw40/10.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Limberger",
+        "size":"1024x681"
+    },
+    {
+        "imgsrc":"flw40/11.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - CHBA de Vannes",
+        "size":"1000x1333"
+    },
+    {
+        "imgsrc":"flw40/12.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Frauenhofer Holzkirchen",
+        "size":"1000x750"
+    }
+    ],
     "Kontakt": [{
         "imgsrc": "img/crew/thomas_fieger.jpg",
         "name": "Thomas Fieger",
@@ -1178,11 +1325,9 @@
                     ]
                 },
                 {
-                    "link":"Wie bekomme ich technischen Zeichnungen über die Lamellenfenster?",
+                    "link":"Wie bekomme ich technische Zeichnungen der Lamellenfenster?",
                     "p":[
-                        "Technischen Zeichnungen",
-                        "Die Firma Fieger arbeitet mit Autocad Mechanical und Inventor. Auf Wunsch erhalten Sie von uns Zeichnungen unserer Produkte in DWG-Format oder Sie laden sich die Zeichnungen im Internet herunter. Gerne überprüfen wir auch Ihre Zeichnungen für den Einsatz unserer Lamellenfenster und ändern diese entsprechend ab. Das Anfertigen von Zeichnungen gemäß ihren Wünschen ist prinzipiell auch möglich, hängt aber auch etwas von unseren Ressourcen ab, das heißt nichts anderes, als dass es auch mal etwas dauern kann. Trotzdem bitten wir Sie sich bereits in der Planungsphase mit uns in Verbindung zu setzen, da durch die zeichnerische Darstellung vorab viel geklärt werden kann und eventuelle Probleme schnell erkannt werden.",
-                        "Wichtiger Hinweis: Gerne senden Sie uns bei Aufträgen eine Bestellzeichnung mit, so dass wir die Einbausituation noch mal überprüfen können. Bitte schicken Sie aber parallel auch eine Stückliste der bestellten Lamellenfenster mit den Maßangaben. Wir übernehmen keine Haftung für Maße, die von uns aus Bestellzeichnungen ermittelt werden müssen."
+                        "Die Firma Fieger arbeitet mit Autocad Mechanical und Inventor. Auf Wunsch erhalten Sie von uns Zeichnungen unserer Produkte oder Sie laden sich die Zeichnungen im Downloadbereich herunter. Gerne überprüfen wir auch Ihre Zeichnungen für den Einsatz unserer Lamellenfenster und ändern diese entsprechend ab. Sie können sich auch bereits in der Planungsphase mit uns in Verbindung setzen, da durch die zeichnerische Darstellung vorab viel geklärt werden kann."
                     ]
                 },
                 {
@@ -1380,7 +1525,7 @@
             "head":"Serviceleistungen",
             "text":[
                 {
-                    "link":"Thema Inbetriebnahme",
+                    "link":"Inbetriebnahme",
                     "p":[
                         "Hinweis zur Inbetriebnahme für den Bauherrn bzw. den Betreiber",
                         "Die Inbetriebnahme der Lamellenfenster erfolgt in der Regel durch den Errichter der elektrischen Anlagen, der dann eine Funktionskontrolle der E-Anlage durchführt. Besonders bei dem Betrieb von Fieger Lamellenfenstern als natürliche Rauch-Wärme-Abzugsgeräte (NRWG) ist eine gesonderte Inbetriebnahme der Fieger Lamellenfenster durch eine von uns autorisierte Firma oder durch die Firma Fieger selbst für den Bauherrn bzw. den Betreiber des  Gebäudes dringend zu empfehlen. ",
@@ -1389,7 +1534,7 @@
                     ]
                 },
                 {
-                    "link":"Thema Wartung",
+                    "link":"Wartung",
                     "p":[
                         "Hinweis zur Wartung für den Bauherrn bzw. den Betreiber",
                         "Der Betreiber einer RWA-Anlage ist verpflichtet, alle notwendigen Schutzvorkehrungen zu treffen, um Gefahren von Personen und Sachen, die sich im Gebäude befinden, abzuwenden. Indem er durch regelmäßige Wartung der RWA-Anlage für deren Funktionsfähigkeit Sorge trägt, verringert er entscheidend die tatsächliche Schadensgefahr und zugleich sein Haftungsrisiko im Schadensfall. Er kann jederzeit dokumentieren, dass er seiner Verpflichtung, die RWA-Anlage einsatz- und betriebsbereit zu halten, nachgekommen ist. Auch im Bereich natürliche, kontrollierte Lüftung sorgt eine regelmäßige Wartung und Instandhaltung für hohe Betriebssicherheit und somit das Wohlbefinden der Nutzer. ",
@@ -1398,7 +1543,7 @@
                     ]
                 },
                 {
-                    "link":"Thema Reparatur",
+                    "link":"Reparatur",
                     "p":[
                         "Bearbeitung von Reparaturen",
                         "Für unsere gelieferten Lamellenfenster stehen dem Kunden noch sämtliche Ersatzteile zur Verfügung. Alle Aufträge sind dokumentiert und archiviert, so dass wir mit der entsprechenden Vorgangs- und Auftragsnummer und der Angabe der Position die notwendigen Ersatzteile ermitteln können. Unsere Serviceabteilung ist für solche Reparaturen der richtige Ansprechpartner, sie organisiert die Ersatzteillieferung, gibt Ihnen die Reparaturanweisungen durch und leitet die Maßnahmen ein, wenn eine Reparatur durch uns oder einen Servicepartner durchgeführt werden soll. Wichtig ist, dass für alle vor Ort durchzuführenden Reparaturmaßnahmen die Fenster zugänglich gemacht werden und ggf. Gerüste oder Hubsteiger zur Verfügung gestellt werden. ",
@@ -1406,7 +1551,7 @@
                     ]
                 },
                 {
-                    "link":"Thema Reklamation",
+                    "link":"Reklamation",
                     "p":[
                         "Bearbeitung von Reklamationen",
                         "Auch uns kann (leider) mal ein Fehler unterlaufen. Wenn es sich bei Ihrer Reklamation um einen berechtigten Mangel handelt, erfolgt nach Absprache eine Nachlieferung von Austauschteilen oder ggf. eine Reparatur der defekten Teile vor Ort. Falls der Mangel durch eine Falschmontage oder unsachgemäße Nutzung hervorgerufen wurde, berechnen wir die Ersatzteile und unsere Aufwendungen nach Erstellung eines Reparaturauftrages. ",

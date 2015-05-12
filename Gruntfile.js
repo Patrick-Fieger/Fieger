@@ -47,9 +47,11 @@ module.exports = function(grunt) {
       			'public/www/css/app.css': [
       				'public/www/css/foundation.css',
       				'public/www/css/fonts.css',
-					'public/www/css/spezial.css',
-					'public/www/css/tidy.css',
-					'public/www/css/lightbox.css'
+					   'public/www/css/spezial.css',
+					     'public/www/css/tidy.css',
+					'public/www/css/lightbox.css',
+          'public/www/css/photoswipe.css',
+          'public/www/css/default-skin.css'
       			]
     		}
           }
@@ -119,7 +121,7 @@ module.exports = function(grunt) {
 		},
     ngmin: {
       controllers: {
-        src: [destination+'www/js/angular/**/**.js'],
+        src: [destination+'www/js/angular/ctrl/*.js'],
         dest: destination+'www/js/angular/all.js'
       }
     },
@@ -134,7 +136,7 @@ module.exports = function(grunt) {
     }
     });
     
-    grunt.registerTask('build_all', ['copy','uglify','cssmin:target','imagemin','uncss','cssmin:onefile']);
+    grunt.registerTask('build_all', ['copy','uglify','cssmin:target','uncss','cssmin:onefile']);
     // 'htmlmin'
     grunt.registerTask('build', ['copy','cssmin:target','uncss','ngmin','cssmin:onefile','concat','uglify','autoprefixer']);
     grunt.registerTask('linting', ['copy','jshint']);

@@ -35,6 +35,7 @@ var Downloads = ['$scope','$stateParams',function ($scope,$stateParams) {
             for (var prop in filters) {
                 filterValue += filters[prop];
             }
+            console.log(filterValue)
             $container.isotope({
                 filter: filterValue
             });
@@ -46,7 +47,11 @@ var Downloads = ['$scope','$stateParams',function ($scope,$stateParams) {
         setTimeout(function(){
             $('.select_filter').find('select').eq(0).val($('.select_filter').find('select').eq(0).val());
             var param = $stateParams.system;
-            var rep = param.replace('-','/')
+            var rep = function(){
+                if(param !== undefined){
+                    return param.replace('-','/')       
+                }
+            }
             var states = ['FLW40','FLW24/28','FGL']
             if(param !== undefined){
                 for (var i = 0; i < states.length; i++) {
@@ -60,13 +65,5 @@ var Downloads = ['$scope','$stateParams',function ($scope,$stateParams) {
 
             $('.select_filter select').trigger('change');
         },400);
-	}
-
-
-
-
-
-    
+	}  
 }]
-
-
