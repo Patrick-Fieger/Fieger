@@ -1496,5 +1496,32 @@ button.simple:hover {
 
 
 
+@-moz-document url-prefix() { 
+  footer{
+    display: block !important;
+  }
 
+  .info_wrapper{
+    width: 100%;
+    overflow: initial;
+    margin-top: -27px;
+    padding: 30px 0;
+  }
+
+  .info_wrapper .close_reader{
+    top:40px
+  }
+
+  .system_topics{
+    overflow: inherit !important;
+  }
+
+  .check_{
+    margin-left: 80px;
+  }
+
+  .ip{
+    margin-left: 70px;
+  }
+}
 
