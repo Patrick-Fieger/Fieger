@@ -1,62 +1,1626 @@
 {
-	"lang":"en",
-	"Menu":[
-		{
-			"title":"Home",
-			"link":"/"
-		},
-		{
-			"title":"About",
-			"link":"/ueber"
-		},
-		{
-			"title":"Systems",
-			"link":"/systeme"
-		},
-		{
-			"title":"News",
-			"link":"/themen"
-		},
-		{	"title":"Calculation",
-			"link":"/fensterberechnung/FLW40"
-		},
-		{
-			"title":"Downloads",
-			"link":"/downloads"
-		},
-		{
-			"title":"Contact",
-			"link":"/kontakt"
-		}
-	],
-	"Start":{
-		"slider":[
-			"img/slider/2.jpg",
-			"img/slider/3.jpg",
-			"img/slider/4.jpg",
-			"img/slider/5.jpg",
-			"img/slider/6.jpg",
-			"img/slider/7.jpg",
-			"img/slider/8.jpg",
-			"img/slider/1.jpg",
-			"img/slider/9.jpg"
-		],
-		"systemchoose":[
-			{
-				"image":"/img/systems5.jpg",
-				"title":"Insulated Systems",
-				"desc":"Under the name of FLW and FLW SmoTec certified louvre windows with isolated glas and 3 specialist glazing for ventilation and smoke ventilation (ventilator)."
-			},
-			{
-				"image":"/img/systems4.jpg",
-				"title":"Non-Insulated Systems",
-				"desc":"Transparency, appearance and function glass panels for areas 2.Hausfassaden walls and patios."
-			},
-			{
-				"image":"/img/systems3.jpg",
-				"title":"Spezial",
-				"desc":"Lift smoke control. Industrial windows, elements for RDA - and pressure systems. Rigid disc."
-			}
-		]
-	}
+    "lang": "de",
+    "version": "0.0.1",
+    "Menu":[
+        {
+            "title": "Das Lamellenfenster",
+            "href":"/lamellenfenster",
+            "class":"",
+            "Menu":[]
+        },
+        {
+            "title": "Produkte",
+            "href":"/produkte",
+            "class":"",
+            "Menu":[
+                {
+                    "title": "Standard Systeme",
+                    "href":"/produkte",
+                    "class":"",
+                    "Menu":[]
+                },
+                {
+                    "title": "Spezialausführungen",
+                    "href":"/spezialausfuehrungen",
+                    "class":"system",
+                    "Menu":[]
+                },
+                {
+                    "title": "Zubehör",
+                    "href":"/zubehoer",
+                    "class":"system",
+                    "Menu":[]
+                },
+                {
+                    "title": "Service",
+                    "href":"/service",
+                    "class":"system",
+                    "Menu":[]
+                }
+            ]
+        },
+        {
+            "title": "Themen",
+            "href":"/themen",
+            "class":"",
+            "Menu":[]
+        },
+        {
+            "title": "Referenzen",
+            "href":"/referenzen",
+            "class":"",
+            "Menu":[]
+        },
+        {
+            "title": "Downloads",
+            "href":"/downloads",
+            "class":"",
+            "Menu":[]
+        },
+        {
+            "title": "Kalkulator",
+            "href":"/fensterberechnung/FLW40",
+            "class":"",
+            "Menu":[]
+        },
+        {
+            "title": "Kontakt",
+            "href":"/kontakt",
+            "class":"",
+            "Menu":[]
+        }
+    ],
+    "Footer":[
+        {
+            "href":"/impressum",
+            "title":"Impressum"
+        },
+        {
+            "href":"/agb",
+            "title":"AGB"
+        },
+        {
+            "href":"/faq",
+            "title":"FAQ"
+        }
+    ],
+    "Copyright":"© 2000-2015 Fieger Lamellenfenster GmbH",
+    "Start": {
+        "video": "img/video/fenster5.mp4",
+        "h1": "Das Lamellenfenster",
+        "text1": "Das Fieger Lamellenfenster eignet sich besonders für die natürliche <a href='/themen/lueftung'>Lüftung</a> und <a href='/themen/entrauchung'>Entrauchung</a> von Gebäuden. Der Vorteil zu den herkömmlichen Fenstern liegt im wesentlich größeren Lüftungsquerschnitt. Darüber hinaus unterscheidet sich das Fieger Lamellenfenster auch optisch signifikant gegenüber herkömmlichen Fenstersystemen. Das Fieger Lamellenfenster steht für Nachhaltigkeit und Design um zukunftsweisende Architektur zu verwirklichen. Darüber hinaus bietet es effizienten Schutz und Sicherheit für Gebäude und Ihre Nutzer.Bei steigenden Ansprüchen an Brandschutzkonzepte, Energieeinsparung und Wärmedämmung wird die Be- und Entlüftung immer wichtiger, egal ob Sie einen Neubau planen oder energetisch Sanieren. <br>Bei den Fieger Lamellenfenstern “SmoTec“ die zur Entrauchung dienen, handelt es sich um geprüfte und zertifizierte Fenster nach DIN EN 12101-2 als NRWG. Die Fieger Lamellenfenster können sowohl in vorhandene Brandschutz Anlagen integriert werden oder wir liefern Ihnen die erforderlichen Steuerungen und das entsprechende <a href='/zubehoer'>Zubehör</a> gleich mit.<br>Im Brandfall öffnen sich die Fenster über den Signal- Alarmgeber automatisiert. Fluchtwege werden rauchfrei gehalten und das Fieger Lamellenfenster leistet so seinen Beitrag als Lebensretter.<br></br>Ein Tool zur Berechnung von Lüftungsquerschnitten und Wärmedämmwerten der Fieger Lamellenfenstern steht Ihnen in unserem <a href='/fensterberechnung/FLW40'>Kalkulator</a> zur Verfügung. Unsere patentierte Zahnstangenmechanik sorgt dafür, dass die Lamellen synchron öffnen und garantiert eine langlebige Funktionssicherheit. Die Lamellenflügel ragen dabei  nur geringfügig in den Raum. Fluchtwege werden so frei gehalten und die Räume bleiben barrierefrei.<br>Die Bedienung erfolgt mechanisch z.B. mit Handhebel, Kurbel oder automatisiert mit Elektroantrieben und Pneumatikzylindern.. Unsere Lamellenfenstersysteme bieten eine Vielzahl von Einsatzmöglichkeiten, näheres dazu finden Sie in der Übersicht <a href='/themen'>Themen</a>.<br>Sie benötigen Fenster oder bewegliche Lamellenkonstruktionen speziell für Ihren Einsatzzweck? Unsere Abteilung Fieger Design und Sonderbau hilft Ihnen dabei und unterstützt Sie tatkräftig bei der Planung und Umsetzung. Einige Beispiele von bereits realisierten innovativen Projekten finden Sie unter den <a href='/spezialausfuehrungen'>Spezialausführungen</a>.Im Bereich <a href='/downloads'>Downloads</a> finden Sie Prospekte, technische Zeichnungen, Datenblätter, Prüfberichte, Ausschreibungstexte und weiteres Zubehör.Für weitergehende Informationen stehen Ihnen unsere technisch versierten Mitarbeiter gerne zur Verfügung. Den richtigen Ansprechpartner finden Sie bei <a href='/kontakt'>Kontakt</a>.",
+        "h2": "Wir über uns",
+        "text2": "Die Firma Fieger gehört seit der Gründung im Jahre 2000 zu einer der innovativsten und erfolgreichsten Hersteller von Lamellenfenstern weltweit. In unserem Werk in Birkenau im Odenwald, entwickeln und  fertigten wir mit 20 Mitarbeitern moderne Lamellenfenster, die in viele Ländern versendet und montiert werden. Dabei ist unsere Motivation, dass wir besondere Elemente für besondere Gebäude liefern und wir immer auf das Neue mit Anforderungen an die Funktionalität und an der Ausführung von unseren Kunden und Planern konfrontiert werden.  Und unsere Befriedigung ist besonders groß, wenn wir die Aufträge zur Zufriedenheit unserer Kunden abgewickelt haben und wir unsere Liste der Referenzprojekte neu aktualisieren können.  Unser vergangen Arbeit hat dazu geführt, dass sich der Name Fieger in der Branche zu einem Markennamen entwickelt hat, der für eine hohe Qualität in der Bearbeitung der Aufträge und der Ausführung der Lamellenfenster steht."
+    },
+    "Produkte":{
+        "flw40":{
+            "info": {
+                "heading" : "FLW40",
+                "text": [
+                    "Durch Wärmedämmwerte Uw von bis zu 0,9 W/m2K ergeben sich für Architekten und Fassadenplaner ungeahnte, neue Möglichkeiten. Dabei kombiniert unser System FLW 40 die neuen, technischen Fähigkeiten mit edler und eleganter Optik, die auch gestalterisch neue Wege aufzeigt.",
+                    "Mit thermisch getrennten Profilen und 3-fach-Isolierglas verbinden wir neue technische Möglichkeiten mit hochsolider Bauweise und extrem stabiler Mechanik.",
+                    "Gleichzeitig gefällt das System FLW 40 durch optische Leichtigkeit und schmale Ansichtsbreiten der Profile. Dies gilt sowohl für das umlaufende Rahmenprofil (40 mm) als auch die Lamellenprofile (28 mm).",
+                    "Das umlaufende Rahmenprofil wird auf Gehrung zugeschnitten und verpresst, was die elegante Optik noch unterstreicht."
+                ]
+            }
+        },
+        "flw40v":{
+            "info": {
+                "heading" : "FLW40V",
+                "text": [
+                    "Die Systeminfo für dieses System folgt in kürze..."
+                ]
+            }
+        },
+        "flw24_28":{
+            "info": {
+                "heading" : "FLW24/28",
+                "text": [
+                    "Unser System FLW24/28 mit thermisch getrennten Profilen und 2-fach-Isolierglas steht für optische Leichtigkeit gepaart mit hochsolider Grundkonstruktion und langlebiger Mechanik.",
+                    "Die Systemreihe FLW überzeugt hierbei mit durchgängig schmalen Ansichtsbreiten der Profile. Dies gilt sowohl für die vertikalen (seitlich 40 mm/Mittelpfosten 60 mm) als auch für die horizontalen Rahmenprofile (20 mm). Die Lamellen sind umlaufend ebenfalls fein gerahmt (20 mm).",
+                    "Verglast werden die Elemente mit 2-Fach-Isolierglas mit Gesamtdicke 24 bis 28 mm in verschiedenen Aufbaukombinationen.",
+                    "Die Lamellenanzahl ist, unter Berücksichtigung der minimalen bzw. maximalen Lamellenhöhe (in der Regel 175 bis 325 mm), frei wählbar.",
+                    "Je nach Gesamtgröße der Fenster und Höhe der Einzellamellen können wir Elemente bis zu einer Gesamtbreite von 2000 mm mit durchgehenden Lamellen herstellen.",
+                    "Größere Elemente können wir Ihnen mittig geteilt mit dem speziell für unsere FLW-Systeme entwickelten Mittelpfosten anbieten.",
+                    "Lamellenfenster der Systemreihe FLW können mit manuellem, elektrischem oder pneumatischem Antrieb geliefert werden."
+                ]
+            }
+        },
+        "fgl":{
+            "info": {
+                "heading" : "FGL",
+                "text": [
+                    "Ob punktgehalten oder mit linienförmiger Verglasung, unser elegantes Monoglas-System FGL verbindet edle Optik mit hoher Funktionalität.",
+                    "Ziel bei der Entwicklung dieses Systems war es, Altbekanntes neu zu entdecken und ihm ein „neues Gesicht“ zu geben.",
+                    "Als Ergebnis bieten wir Ihnen ein Fenster an, das die funktionellen Eigenschaften und den Qualitätsanspruch der Firma Fieger mit den optischen Vorzügen eines Ganzglas-Lamellenfensters verbindet."
+                ]
+            }
+        },
+        "fll":{
+            "info": {
+                "heading" : "FLL",
+                "text": [
+                    "Die Systeminfo für dieses System folgt in kürze..."
+                ]
+            }
+        }
+    },
+    "Themen": [{
+        "href": "themen/lueftung",
+        "imgsrc": "img/news/report_001_prev.jpg",
+        "head1": "Thema",
+        "head2": "Lüftung"
+    }, {
+        "href": "themen/entrauchung",
+        "imgsrc": "img/news/report_002_prev.jpg",
+        "head1": "Thema",
+        "head2": "Entrauchung"
+    }, {
+        "href": "themen/klassenzimmer",
+        "imgsrc": "img/news/report_004_prev.jpg",
+        "head1": "Thema",
+        "head2": "Schulen"
+    }, {
+        "href": "themen/neubau",
+        "imgsrc": "img/news/report_005_prev.jpg",
+        "head1": "Thema",
+        "head2": "Neubau / Sanierung"
+    }, {
+        "href": "themen/ganzglas",
+        "imgsrc": "img/news/report_006_prev.jpg",
+        "head1": "Thema",
+        "head2": "Ganzglas Optik"
+    }, {
+        "href": "themen/schachtentrauchung",
+        "imgsrc": "img/news/report_002_prev.jpg",
+        "head1": "Thema",
+        "head2": "Schachtentrauchung"
+    }],
+    "Referenzen_menu":[
+        {
+            "title":"Alle",
+            "filter":"*"
+        },
+        {
+            "title":"FLW40",
+            "filter":".flw40"
+        },
+        {
+            "title":"FLW24/28",
+            "filter":".flw"
+        },
+        {
+            "title":"FGL",
+            "filter":".fgl"
+        }
+    ],
+    "Referenzen": [
+    {
+        "imgsrc":"fgl/adac_duesseldorf_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - ADAC Düsseldorf",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"fgl/church-point_sydney_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Church Point Sydney",
+        "size": "2048x1536"
+    },
+    {
+        "imgsrc":"fgl/cimut_de_quimper1_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Cimut de Quimper",
+        "size": "4000x3000"
+    },
+    {
+        "imgsrc":"fgl/cimut_de_quimper2_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Cimut de Quimper",
+        "size": "4000x3000"
+    },
+    {
+        "imgsrc":"fgl/cuisine_de_france_dublin_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Cuisine de France Dublin",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"fgl/macquery_street_sydney_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Macquery Street Sydney",
+        "size": "1765x1536"
+    },
+    {
+        "imgsrc":"fgl/uni_brisbane_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Uni Brisbane",
+        "size": "927x704"
+    },
+    {
+        "imgsrc":"fgl/volme_galerie_hagen_fgl_pg.jpg",
+        "class": "fgl",
+        "title": "FGL - Volme Galerie Hagen",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"flw/bmw-welt_muenchen1_flw28.jpg",
+        "class": "flw",
+        "title": "FLW - BMW Welt München",
+        "size": "1000x667"
+    },
+    {
+        "imgsrc":"flw/deutschhaus-gymnasium_wuerzburg_flw28.jpg",
+        "class": "flw",
+        "title": "FLW - Deutschhaus Gymnasium Würzburg",
+        "size": "1000x750"
+    },
+    {
+        "imgsrc":"flw/friedrich_list_schule_karlsruhe_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Friedrich List Schule Karlsruhe",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"flw/golspie_street_glasgow_flw28_smotec.jpg",
+        "class": "flw",
+        "title": "FLW - Golspie Street Glasgow",
+        "size": "1000x936"
+    },
+    {
+        "imgsrc":"flw/gruga_park_essen_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Gruga Park Essen",
+        "size": "1632x1224"
+    },
+    {
+        "imgsrc":"flw/maerkisches_zentrum_berlin_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Märkisches Zentrum Berlin",
+        "size": "1200x1600"
+    },
+    {
+        "imgsrc":"flw/mediatheque_de_pontivy1_flw24_smotec.jpg",
+        "class": "flw",
+        "title": "FLW - Mediatheque de Pontivy",
+        "size": "760x450"
+    },
+    {
+        "imgsrc":"flw/ministery_of_agriculture_canberra_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Ministery of Agriculture Canberra",
+        "size": "1536x2048"
+    },
+    {
+        "imgsrc":"flw/ndr_locksted_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - NDR Locksted",
+        "size": "2592x1944"
+    },
+    {
+        "imgsrc":"flw/playmobil_zirndorf_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Playmobil Zirndorf",
+        "size": "1600x1200"
+    },
+    {
+        "imgsrc":"flw/project_10.jpg",
+        "class": "flw",
+        "title": "FLW - FLW - Ecole de Drize",
+        "size": "1124x900"
+    },
+    {
+        "imgsrc":"flw/rheinparkcenter_neuss2_flw28_smotec.jpg",
+        "class": "flw",
+        "title": "FLW - Rheinparkcenter Neuss",
+        "size": "850x567"
+    },
+    {
+        "imgsrc":"flw/spreepalais_berlin_flw24.jpg",
+        "class": "flw",
+        "title": "FLW - Spreepalais Berlin",
+        "size": "1600x1200"
+    },
+    {
+        "imgsrc":"flw40/1.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - University of Limerick",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/2.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Queen's University Belfast",
+        "size":"1000x667"
+    },
+    {
+        "imgsrc":"flw40/3.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Queen's University Belfast",
+        "size":"1000x1500"
+    },
+    {
+        "imgsrc":"flw40/4.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Queen's University Belfast",
+        "size":"1000x667"
+    },
+    {
+        "imgsrc":"flw40/5.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Kettler Kolleg",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/6.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Kettler Kolleg",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/7.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Schule Halstenbek",
+        "size":"1000x1422"
+    },
+    {
+        "imgsrc":"flw40/8.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Produktion Birkenau",
+        "size":"1000x750"
+    },
+    {
+        "imgsrc":"flw40/9.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Limberger",
+        "size":"1024x681"
+    },
+    {
+        "imgsrc":"flw40/10.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Limberger",
+        "size":"1024x681"
+    },
+    {
+        "imgsrc":"flw40/11.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - CHBA de Vannes",
+        "size":"1000x1333"
+    },
+    {
+        "imgsrc":"flw40/12.jpg",
+        "class": "flw40",
+        "title" : "FLW40 - Frauenhofer Holzkirchen",
+        "size":"1000x750"
+    }
+    ],
+    "Kontakt": [{
+        "imgsrc": "img/crew/thomas_fieger.jpg",
+        "name": "Thomas Fieger",
+        "tel_href": "tel:+496201844340",
+        "tel": "+49 6201 / 84434-0",
+        "mail": "info@fieger-lamellenfenster.de",
+        "text": "Entwicklung, Produktmanagement und Sonderanfertigungen"
+    }, {
+        "imgsrc": "img/crew/michael_fieger.jpg",
+        "name": "Michael Fieger",
+        "tel_href": "tel:+4962018443410",
+        "tel": "+49 6201 / 84434-10",
+        "mail": "michael@fieger-lamellenfenster.de",
+        "text": "Verkaufsleiter In- und Ausland, Techn. Kaufm. Kundenservice"
+    }, {
+        "imgsrc": "img/crew/matthias_ficht.jpg",
+        "name": "Matthias Ficht",
+        "tel_href": "tel:+4962018443411",
+        "tel": "+49 6201 / 84434-11",
+        "mail": "ficht@fieger-lamellenfenster.de",
+        "text": "Produkt- und Vertriebsmanagement"
+    }, {
+        "imgsrc": "img/crew/allen_johnson.jpg",
+        "name": "Allen Johnson",
+        "tel_href": "tel:+4962018443412",
+        "tel": "+49 6201 / 84434-12",
+        "mail": "johnson@fieger-lamellenfenster.de",
+        "text": "Techn.Kaufm. Kundenservice"
+    }, {
+        "imgsrc": "img/crew/rolf_bernt.jpg",
+        "name": "Rolf Bernt",
+        "tel_href": "tel:+4962018443413",
+        "tel": "+49 6201 / 84434-13",
+        "mail": "bernt@fieger-lamellenfenster.de",
+        "text": "Techn.Kaufm. Kundenservice"
+    }, {
+        "imgsrc": "img/crew/claudia_schad.jpg",
+        "name": "Claudia Schad",
+        "tel_href": "tel:+4962018443415",
+        "tel": "+49 6201 / 84434-15",
+        "mail": "schad@fieger-lamellenfenster.de",
+        "text": "Kundenservice und Versand"
+    }, {
+        "imgsrc": "img/crew/thomas_pulter.jpg",
+        "name": "Thomas Pulter",
+        "tel_href": "tel:+4962018443417",
+        "tel": "+49 6201 / 84434-17",
+        "mail": "pulter@fieger-lamellenfenster.de",
+        "text": "Leiter Serviceabteilung"
+    }],
+    "Downloads": {
+        "Menu": [{
+            "title": "Wählen Sie ein System:",
+            "group": "type",
+            "options": [{
+                "class": ".flw_40",
+                "title": "FLW40"
+            }, {
+                "class": ".flw24_28",
+                "title": "FLW24/28"
+            }, {
+                "class": ".fgl",
+                "title": "FGL"
+            },
+            {
+                "class": ".flw_40_smotec",
+                "title": "FLW40 - SmoTec"
+            }, {
+                "class": ".flw24_28_smotec",
+                "title": "FLW24/28 - SmoTec"
+            }, {
+                "class": ".fgl_smotec",
+                "title": "FGL - SmoTec"
+            }]
+        }, {
+            "title": "Wählen Sie eine Kategorie:",
+            "group": "category",
+            "options": [{
+                "class": ".zeichnungen",
+                "title": "Zeichnungen"
+            }, {
+                "class": ".antriebe",
+                "title": "Antriebe"
+            }, {
+                "class": ".pruefberichte",
+                "title": "Prüfberichte"
+            }, {
+                "class": ".ausschreibungstexte",
+                "title": "Ausschreibungstexte"
+            }]
+        }],
+        "Downloads": [
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_handhebel_flw24.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE ol90 Handhebel FLW24/28"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_handhebel_flw40.pdf",
+                "classes": "element-item pdf-file flw_40 antriebe",
+                "desc": "GEZE ol90 Handhebel FLW40"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_kurbelgetriebe_fgl_lg.pdf",
+                "classes": "element-item pdf-file fgl antriebe",
+                "desc": "GEZE ol90 Kurbelgetriebe FGL"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_kurbelgetriebe_flw24.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE ol90 Kurbelgetriebe FLW24/28"
+            },
+            {
+                "link": "dwn/antriebe/manuell/zeichnungen_pdf/geze_ol90_kurbelgetriebe_flw28.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE ol90 Kurbelgetriebe FLW24/28"
+            },
+            {
+                "link": "dwn/antriebe/motor/d+h/datenblaetter/d+h_24v_typ_cdc200-350_d_e_f_s.pdf",
+                "classes": "element-item pdf-file flw_40 flw_40_smotec antriebe",
+                "desc": "D+H 24V Typ CDC 200-350"
+            },
+            {
+                "link": "dwn/antriebe/motor/d+h/datenblaetter/d+h_24v_typ_ldf100-060_d_e.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec fgl fgl_smotec antriebe",
+                "desc": "D+H 24V Typ LDF 100-060"
+            },
+            {
+                "link": "dwn/antriebe/motor/d+h/datenblaetter/d+h_24v_typ_ldf100-070_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw_40_smotec antriebe",
+                "desc": "D+H 24V Typ LDF 100-070"
+            },
+            {
+                "link": "dwn/antriebe/motor/geze/datenblaetter/geze_230v_typ_e212r1_deutsch.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GEZE 230V Typ E212R1"
+            },
+            {
+                "link": "dwn/antriebe/motor/groeninger/datenblaetter/groeninger_24v_typ_ls1400_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 antriebe",
+                "desc": "Groeninger 24V Typ LS1400"
+            },
+            {
+                "link": "dwn/antriebe/motor/groeninger/datenblaetter/groeninger_24v_typ_ml1500_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 antriebe",
+                "desc": "Groeninger 24V Typ ML1500"
+            },
+            {
+                "link": "dwn/antriebe/motor/groeninger/datenblaetter/groeninger_230v_typ_ls1400_d_e.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 antriebe",
+                "desc": "Groeninger 230V Typ LS1400"
+            },
+            {
+                "link": "dwn/antriebe/motor/gu/datenblaetter/gu_24v_typ_eltrals24lam_deutsch.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec antriebe",
+                "desc": "GU 24V Typ ELTRAL S 24 LAM"
+            },
+            {
+                "link": "dwn/antriebe/motor/gu/datenblaetter/gu_230v_typ_eltrals230lam_deutsch.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "GU 230V Typ ELTRAL S 230 LAM"
+            },
+            {
+                "link": "dwn/antriebe/motor/stg_beikirch/datenblaetter/stg_beikirch_24v_typ_fla800_d_e.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec antriebe",
+                "desc": "STG Beikirch 24V Typ FLA800"
+            },
+            {
+                "link": "dwn/antriebe/motor/wss/datenblaetter/wss_24v_typ_60000_deutsch.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 fgl flw_40_smotec flw24_28_smotec fgl_smotec antriebe",
+                "desc": "WSS 24V Typ 60000"
+            },
+            {
+                "link": "dwn/antriebe/motor/wss/datenblaetter/wss_230v_typ_60000_deutsch.pdf",
+                "classes": "element-item pdf-file flw_40 flw24_28 fgl flw_40_smotec antriebe",
+                "desc": "WSS 230V Typ 60000"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/grasl_hubzylinder_typ_pudv32_12.pdf",
+                "classes": "element-item pdf-file flw24_28 flw24_28_smotec antriebe",
+                "desc": "Grasl Hubzylinder Typ Pudv32 12"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/pneumatic_cylinder_ph-kh-l-ev_02_40-120_english.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "RSB Pneumatikzylinder PH-KH-L-EV 02 40-120"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/rsb-gerhard_hubzylinder_typ_40-54.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "RSB Gerhard Hubzylinder Typ 40-54"
+            },
+            {
+                "link": "dwn/antriebe/pneumatik/hersteller_datenblaetter/rsb-gerhard_hubzylinder_typ_40-54ev.pdf",
+                "classes": "element-item pdf-file flw24_28 antriebe",
+                "desc": "RSB Gerhard Hubzylinder Typ 40-54EV"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dwg/fgl_lg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dwg/fgl_lg_stufe.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dxf/fgl_lg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/dxf/fgl_lg_stufe.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_geschuppt_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt Doppelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_geschuppt_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt Einzelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Doppelelement"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/zeichnungen/pdf/fgl_lg_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Einzelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dwg/fgl_pg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dwg/fgl_pg_stufe.dwg",
+                "classes": "element-item dwg-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dxf/fgl_pg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/dxf/fgl_pg_stufe.dxf",
+                "classes": "element-item dxf-file fgl zeichnungen",
+                "desc": "FGL LG stufe"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/pdf/fgl_pg_geschuppt_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG geschuppt Einzelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/pdf/fgl_pg_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Doppelelement"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/zeichnungen/pdf/fgl_pg_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl zeichnungen",
+                "desc": "FGL LG stufe Einzelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dwg/flw24.pdf",
+                "classes": "element-item dwg-file flw24_28 zeichnungen",
+                "desc": "FLW24"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dwg/flw28.dwg",
+                "classes": "element-item dwg-file flw24_28 zeichnungen",
+                "desc": "FLW28"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dxf/flw24.dxf",
+                "classes": "element-item dxf-file flw24_28 zeichnungen",
+                "desc": "FLW24"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/dxf/flw28.dxf",
+                "classes": "element-item dxf-file flw24_28 zeichnungen",
+                "desc": "FLW28"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw24_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW24 Doppelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw24_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW24 Einzelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw28_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW28 Doppelelement"
+            },
+            {
+                "link": "dwn/flw/zeichnungen/pdf/flw28_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28 zeichnungen",
+                "desc": "FLW28 Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/flw40/zeichnungen/dwg/flw40_mit_schraubkanal.dwg",
+                "classes": "element-item dwg-file flw_40 zeichnungen",
+                "desc": "FLW40 mit Schraubkanal"
+            },
+
+            {
+                "link": "dwn/flw40/zeichnungen/dwg/flw40.dwg",
+                "classes": "element-item dwg-file flw_40 zeichnungen",
+                "desc": "FLW40"
+            },
+
+            {
+                "link": "dwn/flw40/zeichnungen/dxf/flw40.dxf",
+                "classes": "element-item dxf-file flw_40 zeichnungen",
+                "desc": "FLW40"
+            },
+
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_0_mit_schraubkanal.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40 mit Schraubkanal"
+            },
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_0.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40_0"
+            },
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_17.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40_17"
+            },
+            {
+                "link": "dwn/flw40/zeichnungen/pdf/flw40_25.pdf",
+                "classes": "element-item pdf-file flw_40 zeichnungen",
+                "desc": "FLW40_25"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_lg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_lg_stufe.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_pg_geschuppt.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG geschuppt"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/fgl_smotec_pg_stufe.dwg",
+                "classes": "element-item dwg-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_lg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_lg_stufe.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_pg_geschuppt.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG geschuppt"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/fgl_smotec_pg_stufe.dxf",
+                "classes": "element-item dxf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe"
+            },
+
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_schuppe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_schuppe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG geschuppt Einzelelement"
+            },
+
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_lg_smotec_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec LG stufe Einzelelement"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_pg_smotec_schuppe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG geschuppt Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_pg_smotec_stufe_doppelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/fgl_pg_smotec_stufe_einzelelement.pdf",
+                "classes": "element-item pdf-file fgl_smotec zeichnungen",
+                "desc": "FGL SmoTec PG stufe Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/flw24_smotec.dwg",
+                "classes": "element-item dwg-file flw24_smotec zeichnungen",
+                "desc": "FLW24 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/flw28_smotec.dwg.dwg",
+                "classes": "element-item dwg-file flw24_28_smotec zeichnungen",
+                "desc": "FLW28 SmoTec"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/flw24_smotec.dxf",
+                "classes": "element-item dxf-file flw24_smotec zeichnungen",
+                "desc": "FLW24 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/flw28_smotec.dxf",
+                "classes": "element-item dxf-file flw24_28_smotec zeichnungen",
+                "desc": "FLW28 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw24_smotec_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_smotec zeichnungen",
+                "desc": "FLW24 SmoTec Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw24_smotec_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec zeichnungen",
+                "desc": "FLW24 SmoTec Einzelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw28_smotec_doppelelement.pdf",
+                "classes": "element-item pdf-file flw24_smotec zeichnungen",
+                "desc": "FLW28 SmoTec Doppelelement"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw28_smotec_einzelelement.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec zeichnungen",
+                "desc": "FLW28 SmoTec Einzelelement"
+            },
+
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dwg/flw40_smotec.dwg",
+                "classes": "element-item dwg-file flw_40_smotec zeichnungen",
+                "desc": "FLW40 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/dxf/flw40_smotec.dxf",
+                "classes": "element-item dxf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40 SmoTec"
+            },
+
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw40_0_smotec.pdf",
+                "classes": "element-item pdf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40_0 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw40_17_smotec.pdf",
+                "classes": "element-item pdf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40_17 SmoTec"
+            },
+            {
+                "link": "dwn/smotec_en_12101-2/zeichnungen/pdf/flw40_25_smotec.pdf",
+                "classes": "element-item pdf-file flw_40_smotec zeichnungen",
+                "desc": "FLW40_25 SmoTec"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/FLW28_Pruefzeugnis_Ballwurfsicherheit.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "FLW28 Prüfzeugnis Ballwurfsicherheit"
+            },
+
+            {
+                "link": "dwn/pruefberichte/flw/luftdurchlaessigkeit_schlagregendichtigkeit_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Luftdurchlässigkeit Schlagregendichtigkeit"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pendelschlag_trav_pruefung_2008_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Pendelschlag Prüfung"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pendelschlag_trav_pruefung_verlaengerung_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Pendelschlag Prüfung Verlängerung"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pruefung_schallschutz_flw24.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Prüfung Schallschutz FLW24"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/schallschutz_flw28.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Prüfung Schallschutz FLW28"
+            },
+            {
+                "link": "dwn/pruefberichte/flw/pruefung_waermedurchgang_flw.pdf",
+                "classes": "element-item pdf-file flw24_28 pruefberichte",
+                "desc": "Prüfung Wäremedurchgang"
+            },
+
+            {
+                "link": "dwn/pruefberichte/flw40/FLW40_Allgem._bauaufs._Pruefzeugnis_TRAV.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Allgem. bauaufs. Prüfzeugnis"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/FLW40_Pruefbericht_Ballwurfsicherheit.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Prüfzeugnis Ballwurfsicherheit"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/flw40_pruefbericht_luftdurchlaessigkeit_schlagregen_windlast.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Prüfbericht Luftdurchlässigkeit Schlagregendichtigkeit Windlast"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/flw40_pruefbericht_schalldaemmung_doppelglas.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Schalldämmung Doppelglas"
+            },
+            {
+                "link": "dwn/pruefberichte/flw40/flw40_pruefbericht_schalldaemmung.pdf",
+                "classes": "element-item pdf-file flw_40 pruefberichte",
+                "desc": "FLW40 Schalldämmung"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL LG geschuppt"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_stufe_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL LG stufe"
+            },
+
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_stufe_smotec_ausschreibungstext.pdf.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL LG stufe SmoTec"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_lg/ausschreibungstexte/fgl_lg_smotec_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL LG geschuppt SmoTec"
+            },
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL PG geschuppt"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_stufe_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl ausschreibungstexte",
+                "desc": "FGL PG stufe"
+            },
+
+
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_stufe_smotec_ausschreibungstext.pdf.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL PG stufe SmoTec"
+            },
+
+            {
+                "link": "dwn/fgl/fgl_pg/ausschreibungstexte/fgl_pg_smotec_geschuppt_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file fgl_smotec ausschreibungstexte",
+                "desc": "FGL PG geschuppt SmoTec"
+            },
+
+
+
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw24_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28 ausschreibungstexte",
+                "desc": "FLW24"
+            },
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw28_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28 ausschreibungstexte",
+                "desc": "FLW28"
+            },
+
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw24_smotec_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec ausschreibungstexte",
+                "desc": "FLW24 SmoTec"
+            },
+            {
+                "link": "dwn/flw/ausschreibungstexte/flw28_smotec_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw24_28_smotec ausschreibungstexte",
+                "desc": "FLW28 SmoTec"
+            },
+            {
+                "link": "dwn/flw40/ausschreibungstexte/flw40_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw_40 ausschreibungstexte",
+                "desc": "FLW40"
+            },
+            {
+                "link": "dwn/flw40/ausschreibungstexte/flw40_smotec_ausschreibungstext.pdf",
+                "classes": "element-item pdf-file flw_40_smotec ausschreibungstexte",
+                "desc": "FLW40 SmoTec"
+            }
+        ]
+    },
+    "Brechnung": {
+        "NRGWalerts": ["NRGW-Geprüft.", "Nicht NRGW-Geprüft.<br> Lamellenanzahl zu klein.", "Nicht NRGW-Geprüft.<br> Lamellenanzahl zu groß.", "Nicht NRGW-Geprüft.<br>Bitte Lamellenanzahl auswählen."],
+        "Headings": {
+            "verglasung": "Verglasung",
+            "anzahl": "Anzahl Lamellen",
+            "hoehe": "Lamellenhöhe in mm",
+            "mittelpfosten": "mit Mittelpfosten",
+            "ug": "Ug-Wert",
+            "rand": "Randverbund",
+            "berech": "Brechnungen / Werte",
+            "aaelem": "A aero (Element)",
+            "aages": "A aero (Gesamt)",
+            "agelem": "A geom (Element)",
+            "agges": "A geom (Gesamt)",
+            "uw": "UW - gedämmt",
+            "uwm": "UW - gedämmt + zusätzliche Einschieblinge",
+            "wind": "Windlast"
+        },
+        "FLW40": {
+            "anzahl": "Anzahl der Fenster (1 - 1000)",
+            "breite": "Element Breite (250mm - 2500mm)",
+            "hoehe": "Element Höhe (350mm - 6000mm)"
+        },
+        "FLW28": {
+            "anzahl": "Anzahl der Fenster (1 - 1000)",
+            "breite": "Element Breite (250mm - 4800mm)",
+            "hoehe": "Element Höhe (240mm - 3200mm)"
+        },
+        "FLW24": {
+            "anzahl": "Anzahl der Fenster (1 - 1000)",
+            "breite": "Element Breite (250mm - 4800mm)",
+            "hoehe": "Element Höhe (240mm - 3200mm)"
+        },
+        "FGL": {
+            "anzahl": "Anzahl der Fenster (1 - 1000)",
+            "breite": "Element Breite (300mm - 3300mm)",
+            "hoehe": "Element Höhe (240mm - 3000mm)"
+        }
+    },
+    "Impressum": {
+        "Impressum": {
+            "head": "Impressum",
+            "block1": ["Fieger Lamellenfenster GmbH<br>Auf der Aue 10 <br> D - 69488 Birkenau", "Geschäfstführer: Thomas Fieger", "Gerichtsstand: 64658 Fürth/Odw. <br> Handelsregister: Fürth/Odw. <br> HRB: 41154", "UStId-Nr.: DE 206445104"],
+            "block2": ["<a id='hyperlink_small' href='mailto:info@fieger-lamellenfenster.de'>info@fieger-lamellenfenster.de</a>", "<a id='hyperlink_small' href='http://www.fieger-lamellenfenster.de'>www.fieger-lamellenfenster.de</a>", "Telefon: +49-6201-84434-0", "Fax: +49-6201-84434-19"]
+        },
+        "Haft": {
+            "head": "Haftungsausschluss",
+            "block1": ["Mit Urteil vom 12. Mai 1998 hat das Landgericht Hamburg entschieden, dass man durch die Anbringung eines Links die Inhalte der gelinkten Seite ggf. mit zu verantworten hat. Dies kann - so das LG - nur dadurch verhindert werden, dass man sich ausdrücklich von diesen Inhalten distanziert.Sie finden auf unseren Seiten Links zu anderen Seiten im Internet.", "Für all diese Links gilt: Wir möchten ausdrücklich betonen, dass wir keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten haben. Deshalb distanzieren wir uns hiermit ausdrücklich von allen Inhalten aller gelinkten Seiten auf unserer Homepage. Diese Erklärung gilt für alle auf unserer Homepage angebrachten Links und für alle Inhalte der Seiten, zu denen Banner führen.", "Selbes gilt natürlich für Einträge die von Besuchern dieser Seite vorgenommen werden können. Die Meinung der Besucher spiegelt natürlich nicht unbedingt unsere eigene Meinung wieder. Wir distanzieren uns daher ausdrücklich von Besuchern selbst erstellten Texten! Sollte Ihnen ein 'toter', oder gesetzeswidriger Link auffallen, so teilen Sie uns diesen Link bitte per E-Mail mit."]
+        }
+    },
+    "AGB": {
+        "text": [{
+            "block": [{
+                "head": "1. Allgemeines",
+                "text": ["Die nachfolgenden AGB gelten für sämtliche zwischen uns und dem Kunden abgeschlossenen Werklieferungsverträge über die Lieferung von Lamellenfestern und diesbezüglichem Zubehör. Es gelten ausschließlich unsere AGB. Abweichende AGB unserer Kunden gelten nicht, auch wenn wir ihnen nicht ausdrücklich widersprechen. Unsere AGB sind auch für alle zukünftigen Verträge anzuwenden, auch wenn wir nicht ausdrücklich auf die AGB Bezug nehmen. Wir weisen ausdrücklich darauf hin, dass derartige Werklieferverträge keine Bauleistungen darstellen und daher bauvertragliche Regelungen, wie beispielsweise Werkvertragsrecht oder VOB, keine Anwendung finden."]
+            }, {
+                "head": "2. Vertragsschluss und Vertragsinhalt",
+                "text": ["a) Unsere Angebote sind freibleibend. Nach Bestellung des Kunden kommt der Vertrag durch unsere schriftliche Auftragsbestätigung zustande. Maßgebend für den Inhalt des Vertrages ist unsere schriftliche Auftragsbestätigung, sofern der Kunde nicht binnen drei Werktagen schriftlich, per Telefax oder E-Mail widerspricht. Dies gilt auch bei Abweichungen zwischen Bestellung und Auftragsbestätigungen.", "b) Muster, Abbildungen, Zeichnungen, Gewichts- und Maßangaben in Werbung und Angeboten sind unverbindlich."]
+            }, {
+                "head": "3. Preise, Zahlungsbedingungen",
+                "text": ["a) Sämtliche Preise gelten zuzüglich Mehrwertsteuer in der jeweils gesetzlich geltenden Höhe. Ist der Kunde Verbraucher, so bleibt eine seit dem Zeitpunkt des Vertragsschlusses erfolgte Erhöhung der Mehrwertsteuer unberücksichtigt.", "b) Bei Verträgen, bei welchen die Lieferung später als sechs Wochen nach Vertragsschluss erfolgen soll, ist eine Preiserhöhung zulässig, wenn sie auf der Veränderung von preisbildenden Faktoren beruht, welche nach Vertragsschluss entstanden ist. Die Preiserhöhung muss ihrer Höhe nach durch die Veränderung der preisbildenden Faktoren gerechtfertigt sein und dem Kunden innerhalb angemessener Frist angezeigt werden. Soweit der Kunde nicht Kaufmann ist, gilt anstelle der sechswöchigen Frist eine Frist von vier Monaten. Hiervon unberührt bleiben Änderungen des Angebotspreises, die auf Abänderungen des Lieferumfanges o. Ä. auf Wunsch des Kunden nach unserer Auftragsbestätigung erfolgen.", "c) Die von uns benannten Preise beinhalten anteilig Verpackungs- und Frachtkosten (letztere inklusive Speditionsversicherung) und beziehen sich auf eine Lieferung. Teillieferungen sind nach Absprache möglich und werden gesondert behandelt. Weitere von der Auftragsbestätigung abweichende Sondervereinbarungen, wie beispielsweise Anlieferung nicht am Sitz des Kunden, sondern an einer Baustelle o. Ä., können nach Rücksprache getroffen werden. Hierbei werden die Lieferkonditionen neu verhandelt.", "d) Aufträge werden entsprechend der Brutto-Gesamtsumme von uns mit einer Forderungsausfallversicherung abgesichert. Bei derart versicherten Aufträgen sind unsere Rechnungen, soweit nicht anders vereinbart, binnen 30 Tagen ab Rechnungsstellung ohne Abzug zahlbar. Bei Bezahlung innerhalb von 10 Tagen ab Rechnungsstellung gewähren wir einen Skontoabzug von 2%. Bei nicht versicherten Aufträgen erfolgt Lieferung - soweit nichts Abweichendes vereinbart ist - nur gegen Vorkasse oder gegen Stellung einer Bankbürgschaft. Wir melden eingehende Bestellungen unverzüglich unserer Forderungsausfallversicherung und teilen unserem Kunden sodann unverzüglich mit, ob für den jeweiligen Auftrag Versicherungsschutz besteht oder nicht.", "e) Ein Zurückbehaltungsrecht gemäß der §§ 273, 320 BGB und § 369 HGB steht dem Kunden nicht zu; dies gilt nicht, soweit der Kunde nicht Kaufmann ist. Ein Recht zur Aufrechnung steht dem Kunden gegenüber unseren Ansprüchen nur dann zu, wenn der zur Aufrechnung gestellte Anspruch unbestritten oder rechtskräftig festgestellt ist."]
+            }, {
+                "head": "4. Anlieferung",
+                "text": ["a) Die in der Auftragsbestätigung (Ziff. 2 a) genannten Liefertermine sind unverbindlich. Bei Lieferengpässen seitens des Glaslieferanten oder anderen Zulieferern kann es im Ausnahmefall zu Verzögerungen kommen. Fixtermine bedürfen daher einer ausdrücklichen entsprechenden Vereinbarung. Soweit wir zur Auftragsausführung Unterlagen des Kunden benötigen, kann sich dieser auf eine etwaige Nichteinhaltung der Lieferfrist oder des Lieferdatums nicht berufen, soweit er uns diese Unterlagen nicht so viele Tage vor Lieferdatum bzw. Ablauf der Lieferfrist zur Verfügung gestellt hat, wie sie dem Zeitraum der Lieferfrist bzw. dem Zeitraum zwischen unserer Auftragsbestätigung und dem vereinbarten Liefertermin liegend entsprechen. Im Falle einer Lieferverzögerung kann der Kunde vom Vertrag zurücktreten, sofern er uns zuvor eine mindestens dreiwöchige Nachfrist zur Lieferung gesetzt hat und diese Frist fruchtlos verstrichen ist. Werden wir an der Erfüllung unserer Verpflichtungen durch Ereignisse gehindert, die auch mit zumutbarer Sorgfalt nicht abgewendet werden konnten, wie z. B. Streik, Aussperrung, Bruch, Feuer, Wasserschäden und Fälle höherer Gewalt bei uns oder bei einem unserer Zulieferer, so verlängert sich die Lieferzeit um die Dauer der Behinderung zuzüglich einer angemessenen Anlaufzeit. Eine Haftung für Lieferverzögerungen ist ausgeschlossen, soweit diese auf einer verzögerten Materiallieferung durch Zulieferbetriebe beruht.", "b) Sobald die Liefergegenstände an unserem Werk versandfertig sind, übergeben wir diese dem Transportunternehmen, welches die Anlieferung besorgt. Die Auslieferung erfolgt in der Regel binnen 48 Stunden. Soweit der Kunde eine schnellere Auslieferung wünscht, ist hierfür eine ausdrückliche schriftliche Vereinbarung erforderlich. Die hierdurch entstehenden Frachtmehrkosten trägt der Kunde. Ist ein Fixtermin für die Anlieferung vereinbart (Ziff. 4 a), so übergeben wir die Ware so rechtzeitig an das Transportunternehmen, dass unter Berücksichtigung der üblichen Lieferzeit von 48 Stunden eine termingerechte Anlieferung erfolgt. Verzögerungen der Anlieferung, welche aus der Sphäre des Transportunternehmens herrühren, haben wir nicht zu vertreten.", "c) Bei Ankunft der Ware am Bestimmungsort ist der Kunde verpflichtet, das Transportmittel sofort zu entladen. Der Kunde hat dafür Sorge zu tragen, dass am Bestimmungsort alle für die Entladung des Transportmittels erforderlichen Gerätschaften (Stapler etc.) vorhanden sind und auch sonstige Umstände (beispielsweise Straßen- und Wegeverhältnisse o. Ä.) einer Entladung nicht entgegenstehen. Wartezeiten und daraus resultierende etwaige Standgeldansprüche des Transportunternehmens oder sonstige Mehrkosten gehen zu Lasten des Kunden."]
+            }, {
+                "head": "5. Eigentumsvorbehalt",
+                "text": ["a) Bis zur vollständigen Bezahlung unserer Forderungen aus der Geschäftsverbindung mit dem Kunden bleiben die verkauften Waren unser Eigentum. Der Kunde ist befugt, über die gekaufte Ware im ordentlichen Geschäftsgang zu verfügen.", "b) Der Eigentumsvorbehalt erstreckt sich auch auf die durch Verarbeitung, Vermischung oder Verbindung unserer Ware entsprechenden Erzeugnisse zu deren vollem Wert, wobei wir als Hersteller gelten. Bleibt bei einer Verarbeitung, Verbindung oder Vermischung mit Waren Dritter deren Eigentumsrecht bestehen, so erwerben wir Miteigentum im Verhältnis der Rechnungswerte dieser verarbeiteten Waren. Soweit bei Verbindung unser Eigentum gemäß § 947 Abs. 2 BGB untergehen würde, ist der Kunde verpflichtet, eine entsprechende abweichende vertragliche Vereinbarung mit dem Eigentümer der Hauptsache herbeizuführen, wonach zu unseren Gunsten eine hinreichende dingliche Sicherung verbleibt.", "c) Die aus dem Weiterverkauf entstehenden Forderungen gegen Dritte tritt der Kunde schon jetzt insgesamt bzw. in Höhe unseres etwaigen Miteigentumsanteils (vgl. Ziff. 5.)", "d) zur Sicherung an uns ab. Er ist ermächtigt, diese bis zum Widerruf oder zur Einstellung seiner Zahlungen an uns für unsere Rechnung einzuziehen. Zur Abtretung dieser Forderungen ist der Kunde auch nicht zum Zwecke der Forderungseinziehung im Wege des Factorings befugt, es sei denn, es wird gleichzeitig die Verpflichtung des Factors begründet, die Gegenleistung in Höhe unseres Forderungsanteils so lange unmittelbar an uns zu bewirken, als noch Forderungen unsererseits gegen den Kunden bestehen.", "e) Zugriffe Dritter auf die uns gehörenden Waren und Forderungen sind uns vom Käufer unverzüglich mit eingeschriebenem Brief mitzuteilen.", "f) Die Ausübung des Eigentumsvorbehaltes bedeutet nicht den Rücktritt vom Vertrag.", "g) Die Waren und die an ihre Stelle getretenen Forderungen dürfen vor vollständiger Bezahlung unserer Forderungen weder an Dritte verpfändet noch zur Sicherung übereignet oder abgetreten werden.", "h) Übersteigt der Wert der Sicherheiten unsere Forderungen um mehr als 20%, so werden wir auf Verlangen des Kunden insoweit Sicherheiten nach unserer Wahl freigeben.", "i) Im Rahmen des Weiterkaufs der durch Eigentumsvorbehalt gesicherten Ware durch den Kunden auf Kredit an Dritte ist der Kunde verpflichtet, unsere Rechte aus dem vorbenannten Eigentumsvorbehalt durch angemessene Maßnahmen zu sichern. Auf unser Verlangen hin ist der Kunde verpflichtet, den Dritten sofort von der Abtretung zu unterrichten und den von uns erklärten Widerruf der Einziehungsermächtigung an diesen zu übermitteln sowie uns die zur Einziehung der abgetretenen Forderung erforderlichen Auskünfte und Unterlagen zukommen zu lassen. Unser Recht, die Offenlegung der Abtretung selbst gegenüber den Dritten zu bewirken, bleibt unberührt. Soweit der Kunde die ihm gegen den Dritten zustehenden Forderungen aus der Weiterveräußerung der Vorbehaltsware in ein mit diesem Dritten bestehendes Kontokorrentverhältnis aufnimmt, so tritt er hiermit die Kontokorrentforderung gegen den Dritten in voller Höhe an uns ab. Nach erfolgter Saldierung tritt anstelle der Kontokorrentforderung der anerkannte Saldo, der bis zu der öhe des Betrages als uns abgetreten gilt, die die ursprüngliche Kontokorrentforderung ausmachte. Der Kunde ist verpflichtet, uns über sämtliche Umstände unverzüglich zu informieren, welche die durch den vorliegenden Eigentumsvorbehalt bezweckte Sicherung unserer Forderungen zu gefährden in der Lage sind."]
+            }]
+        }, {
+            "block": [{
+                "head": "6. Rücktritt",
+                "text": ["Wir sind berechtigt, vom Vertrag zurückzutreten, sofern ein wichtiger Grund vorliegt. Als wichtiger Grund gilt neben dem Zahlungsverzug des Kunden, dessen Vermögensverfall, Geschäftseinstellung, Beantragung des Insolvenz- oder Vergleichsverfahrens auch der Erhalt ungünstiger Auskünfte über den Kunden, wobei zu Letzterem auch die Ablehnung des Versicherungsschutzes durch unsereForderungsausfallversicherung (gleich aus welchem Grund) zählt. Die gesetzlichen Rücktrittsvorschriften bleiben unberührt."]
+            }, {
+                "head": "7. Gefahrübergang",
+                "text": ["a) Mit Übergabe der Ware durch uns an das Transportunternehmen geht die Gefahr auf den Kunden über (§ 447 BGB). Wir weisen jedoch noch einmal ausdrücklich darauf hin, dass durch uns für jeden Transport eine Transportversicherung (Kaskoversicherung) abgeschlossen wird.", "b) Unterbleibt die Übergabe der Ware an das Transportunternehmen aus Gründen aus der Sphäre des Kunden, beispielsweise weil dieser Ware erst zu einem späteren Zeitpunkt benötigt oder ausdrücklich erst eine spätere Anlieferung wünscht, so geht die Gefahr bereits mit Eingang der entsprechenden Mitteilung des Kunden bei uns auf den Kunden über, frühesten jedoch mit Versandbereitschaft der Ware. Ist eine persönliche Abholung durch den Kunden oder durch von ihm beauftragte Personen vereinbart, so teilen wir dem Kunden die Abholbereitschaft der Ware mit. In diesem Fall geht die Gefahr mit Ablauf des Tages auf den Kunden über, an welchem diesem die Abholbereitschaft der Ware mitgeteilt wurde."]
+            }, {
+                "head": "8. Gewährleistung",
+                "text": ["a) Der Kunde hat die gelieferte Ware unverzüglich nach der Ablieferung zu untersuchen und etwaige Mängel schriftlich bei uns anzuzeigen. Bei Lieferung mit Glasbestandteilen sind etwaige Glasbruchschäden durch den Kunden bei Entgegennahme unverzüglich auf dem Lieferschein zu vermerken, sämtliche Glasbestandteile sind bei Ablieferung durch den Kunden (ggf. durch Öffnen der Verpackung) auf ihre Unversehrtheit zu überprüfen. Im Falle berechtigter Mängelrüge sind wir nach unserer Wahl berechtigt, die mangelhafte Ware gegen Lieferung mangelfreier Ware zu ersetzen oder nachzubessern.", "b) Erfolgt durch uns binnen einer ordnungsgemäß gesetzten Frist keine Nachbesserung bzw. Nachlieferung oder schlägt nach jeweils ordnungsgemäßer Fristsetzung der erste und zweite Nachbesserungs- bzw. Nachlieferungsversuch fehl, so hat der Kunde das Recht, den vereinbarten Preis nach den gesetzlichen Bestimmungen zu mindern; erscheint diese Verweisung auf das Minderungsrecht als unbillig, so steht dem Kunden ein Rücktrittsrecht zu.", "c) Erbringen wir Leistungen bei der Mängelsuche, -prüfung oder -beseitigung, ohne dass der Vertragsgegenstand mangelhaft gewesen ist, so ist der Kunde zur Erstattung der durch die vorgenannten Maßnahmen entstandenen Kosten verpflichtet.", "d) Durch Verhandlungen über Mängelrügen verzichten wir nicht auf den späteren Einwand, dass die Rüge nicht rechtzeitig oder nicht ausreichend gewesen sei. Von uns mit der Mängelprüfung beauftragte Personen sind nicht zur Anerkennung von Mängeln oder zur Begründung von Verbindlichkeiten mit Wirkung gegen uns berechtigt.", "e) Schadensersatzansprüche wegen des Mangels sind ausgeschlossen, soweit sie nicht auf grobem Verschulden unsererseits oder eines unserer gesetzlichen Vertreter oder Erfüllungsgehilfen beruhen bzw. sich auf die Verletzung von Leben, Körper und Gesundheit durch uns oder einen unserer gesetzlichen Vertreter oder Erfüllungsgehilfen beziehen. Unberührt bleiben zudem gesetzliche Ansprüche des Kunden nach dem Produkthaftungsgesetz.", "f) Soweit Nacherfüllungsarbeiten am Liefergegenstand vorzunehmen sind, muss dieser für uns ohne Weiteres zugänglich sein. Hierfür erforderliche Hilfsmittel, wie beispielsweise Gerüste oder Hubsteiger, sind durch den Kunden auf eigene Kosten zu stellen. Soweit nach dem erfolgten Einbau weitere Verbauungsmaßnahmen durch den Kunden erfolgt sind, sind diese auf dessen Kosten für die Zeit der Nacherfüllungsarbeiten zu entfernen. Soweit durch den Kunden die vorgenannten Voraussetzungen für die Nacherfüllung nicht geschaffen werden, sind wir zur Verweigerung der Nacherfüllung berechtigt und die Rechte des Kunden beschränken sich auf eine Minderung. Die Regelungen der §§ 275, 439 Abs. 3 BGB bleiben unberührt."]
+            }, {
+                "head": "9. Haftung",
+                "text": ["a) Soweit Schadensersatzansprüche nicht nach Ziff. 8. e) ausgeschlossen sind, gilt folgendes:", "ab) Für Schadensersatzansprüche, gleich aus welchem Haftungsgrund, haften wir nicht für einfache Fahrlässigkeit, soweit sich die Ansprüche nicht auf die Verletzung von Leben, Körper und Gesundheit beziehen. Zudem bleiben Ansprüche nach dem Produkthaftungsgesetz unberührt.", "ac) Schadensersatzansprüche sind in jedem Fall auf den vertragstypischen, vernünftigerweise vorhersehbaren Schaden beschränkt.", "ad) Bei Vermögensschäden erfolgt ein Ersatz bei Vorliegen der Haftungsvoraussetzungen nur für den Teil des Vermögensschadens, welcher einen Betrag von 500,00 EUR übersteigt.", "b) Der Kunde haftet für die Lesbarkeit und Richtigkeit der an uns übergebenen Pläne und Maßangaben."]
+            }, {
+                "head": "10. Verjährung",
+                "text": ["Die Verjährungsfrist für Ansprüche des Kunden aus diesem Vertrag beträgt ein Jahr ab Ablieferung der Ware, soweit nicht § 438 Abs. 1 Nr. 2 b BGB Anwendung findet."]
+            }, {
+                "head": "11. Sonstiges",
+                "text": ["a) Erfüllungsort für beide Parteien ist der Sitz der Firma Fieger Lamellenfenster GmbH. Als Erfüllungsort für ein etwaiges Nachbesserungsverlangen des Kunden gilt der Sitz des Kunden oder der Ort, wo sich der Vertragsgegenstand derzeit befindet, je nachdem, welcher Ort näher zu unserem Sitz belegen ist.", "b) Für beide Parteien ist ausschließlicher Gerichtsstand für alle aus diesem Vertrag resultierenden Streitigkeiten Fürth im Odenwald; dies gilt nicht, soweit der Kunde kein Kaufmann ist.", "c) Die Vertragssprache ist deutsch. Bei Schriftstücken ist die deutsche Fassung allein maßgeblich.Es gilt das Recht der Bundesrepublik Deutschland. Die Geltung des einheitlichen Kaufgesetzes (UN-Kaufrecht) ist ausgeschlossen.", "Mai 2005<br> Fieger Lamellenfenster GmbH"]
+            }]
+        }]
+    },
+    "Sitemap":[
+        {
+            "title":"Start",
+            "dots":[
+                {
+                    "link": "/",
+                    "title":"Start",
+                    "classes":""
+                }
+            ]
+        },
+        {
+            "title":"Das Lamellenfenster",
+            "dots":[
+                {
+                    "link": "/lamellenfenster",
+                    "title":"Das Lamellenfenster",
+                    "classes":""
+                }
+            ]
+        },
+        {
+            "title":"Produkte",
+            "dots":[
+                {
+                    "links":"/produkte",
+                    "title":"Standard Systeme",
+                    "classes":""
+                },
+                {
+                    "links":"/spezialausfuehrungen",
+                    "title":"Spezialausführungen",
+                    "classes":""
+                },
+                {
+                    "links":"/zubehoer",
+                    "title":"Zubehör",
+                    "classes":""
+                },
+                {
+                    "links":"/service",
+                    "title":"Service",
+                    "classes":""
+                }
+            ]
+        },
+        {
+            "title":"Themen",
+            "dots":[
+                {
+                    "link":"/themen",
+                    "title":"Themen",
+                    "classes":""
+                },
+                {
+                    "link":"/themen/lueftung",
+                    "title":"Thema Lüftung",
+                    "classes":""
+                },
+                {
+                    "link":"/themen/entrauchung",
+                    "title":"Thema Entrauchung",
+                    "classes":""
+                },
+                {
+                    "link":"/thema/klassenzimmer",
+                    "title":"Thema Schulen",
+                    "classes":""
+                },
+                {
+                    "link":"/themen/neubau",
+                    "title":"Thema Neubau / Sanierung",
+                    "classes":""
+                },
+                {
+                    "link":"/themen/ganzglas",
+                    "title":"Thema Ganzglasoptik",
+                    "classes":""
+                },
+                {
+                    "link":"/themen/schachtentrauchung",
+                    "title":"Thema Schachtentrauchung",
+                    "classes":""
+                }           
+            ]
+        },
+        {
+            "title":"Downloads",
+            "dots":[
+                {
+                    "link":"/downloads",
+                    "title":"System FLW40",
+                    "classes":""
+                },
+                {
+                    "link":"/downloads",
+                    "title":"System FLW",
+                    "classes":""
+                },
+                {
+                    "link":"/downloads",
+                    "title":"System FGL",
+                    "classes":""
+                },
+                {
+                    "link":"/downloads",
+                    "title":"System SmoTec",
+                    "classes":""
+                }
+            ]
+        },
+        {
+            "title":"Kontakt",
+            "dots":[
+                {
+                    "link": "/kontakt",
+                    "title":"Kontakt",
+                    "classes":""
+                }
+            ]
+        },
+        {
+            "title":"Kalkulator",
+            "dots":[
+                {
+                    "link": "/fensterberechnung/FLW40",
+                    "title":"Berechnung FLW40",
+                    "classes":""
+                },
+                {
+                    "link": "/fensterberechnung/FLW24",
+                    "title":"Berechnung FLW24",
+                    "classes":""
+                },
+                {
+                    "link": "/fensterberechnung/FLW28",
+                    "title":"Berechnung FLW28",
+                    "classes":""
+                },
+                {
+                    "link": "/fensterberechnung/FGL",
+                    "title":"Berechnung FGL",
+                    "classes":""
+                }
+            ]
+        },
+        {
+            "title":"FAQs",
+            "dots":[
+                {
+                    "link": "/faq",
+                    "title":"FAQ",
+                    "classes":""
+                }
+            ]
+        }
+    ],
+    "FAQnotfound":"Uuuups... Wir haben leider nichts gefunden...<br>Bitte geben sie einen anderen Suchbegriff ein...",
+    "FAQ":[
+        {
+            "head":"Allgemeine Fragen zu Fieger Lamellenfenster",
+            "text":[
+                {
+                    "link":"Wie läuft die technische Beratung ab, wie komme ich an die gewünschten Informationen?",
+                    "p":[
+                        "Wir beraten Sie gerne, das ist unser Geschäft.",
+                        "Die Firma Fieger bedient mit seinen Produkten eine Nische im Fenstermarkt. Eigentlich wäre alles noch einfacher  wenn unsere Fenster genau so oft wie z.B. Dreh-Kipp-Fenster verbaut werden würden. Es bleibt aber dabei, wir liefern ein Zubehör für unsere Kunden, das passen muss. Deswegen beraten und begleiten Sie unsere Mitarbeiter von der ersten Kontaktaufnahme in der Planungsphase über die Erstellung des Angebotes bis zur technischen Ausführung und der Auftragsbearbeitung des Kunden. Das bedeutet, Sie haben einen Ansprechpartner von uns für Ihr Projekt von Anfang bis Ende.<br>Bitte setzten Sie sich telefonisch mit uns in Verbindung oder schreiben Sie uns eine E-Mail. Die Kontaktdaten und den richtigen Ansprechpartner finden Sie unter <a ui-sref='/kontakt'>Kontakt</a>."
+                    ]
+                },
+                {
+                    "link":"Was macht die Mechanik so besonders?",
+                    "p":[
+                        "Die Mechanik von Fieger Lamellenfenster",
+                        "Einmalig, Leichtgängig , Wartungsfrei <br> Das eigentliche Kernstück der Lamellenfenster ist die Mechanik, dabei werden die Lamellen durch ein Ritzel bewegt welches gleichzeitig die Lamellenachse bildet. Die Ritzel werden synchron durch eine Zahnstange angetrieben. Ein Nachträgliches einstellen ist nicht mehr nötig.",
+                        "Gerademal 54 mm Hub reichen bei unseren Typen FLW und FGL aus, um gleichzeitig 3 m² Fensterfläche auf 85° zu öffnen. Bei unserem Typ FLW40 sind das 70 mm Hub. Diese Ausführung ist, bei den auf dem Markt angebotenen Lamellenfenstern, einmalig und Patent- Geschütz."
+                    ]
+                },
+                {
+                    "link":"Wie bekomme ich technische Zeichnungen der Lamellenfenster?",
+                    "p":[
+                        "Die Firma Fieger arbeitet mit Autocad Mechanical und Inventor. Auf Wunsch erhalten Sie von uns Zeichnungen unserer Produkte oder Sie laden sich die Zeichnungen im Downloadbereich herunter. Gerne überprüfen wir auch Ihre Zeichnungen für den Einsatz unserer Lamellenfenster und ändern diese entsprechend ab. Sie können sich auch bereits in der Planungsphase mit uns in Verbindung setzen, da durch die zeichnerische Darstellung vorab viel geklärt werden kann."
+                    ]
+                },
+                {
+                    "link":"Welches Isolierglas kann in die Lamellenfenster eingesetzt werden?",
+                    "p":[
+                        "Alles über Isolierverglasung",
+                        "Die Verglasung der Lamellenfenster soll zu der Verglasung der restlichen Fassade passen und nicht umgekehrt. Dies gilt besonders bei farbigen Sonnenschutzgläsern. Deswegen passen wir uns bei der Bestellung der Lamellenfenster Ihrer Verglasung an und besorgen das Glas des gleichen Herstellers. Sollte uns das nicht möglich sein, können Sie uns das Glas für den Auftrag beistellen oder wir nehmen Kontakt zu Ihrem Lieferanten auf. Der Glasaufbau besonders die Glasdicke ist auf unsere Systeme abgestimmt. Das heißt, wir können nur bestimmte Glasdicken verarbeiten und verwenden u.U. geringere Glasdicke als die Verglasung in Ihrer Fassade.",
+                        "Der Fenster <span class='bold'>Typ FLW24</span> wird mit 24 mm dicken Isolierglas verglast, in der Regel mit Isolierglas aus 2 x Float 4 mm mit 16 mm SZR.",
+                        "Der Fenster <span class='bold'>Typ FLW28</span> wird mit 28 mm dicken Isolierglas verglast, In der Regel aus 2 x Float 6 mm mit 16 mm SZR. Außerdem sind alle Kombinationsmöglichkeiten im Aufbau der Verglasung bis 28 mm möglich.",
+                        "Der Fenster <span class='bold'>Typ FLW40</span> wird mit 40 mm dicken Dreifachisolierglas verglast. In der Regel  mit dem Aufbau 6 mm Float / 14 mm SZR / 4 mm Float / 14 mm SZR / 6 mm Float. Bitte setzten Sie sich bei Fragen zu den möglichen Verglasungen direkt mit uns in Verbindung."
+                    ]
+                },
+                {
+                    "link":"Können Lamellenfenster auch mit Paneelen ausgestattet werden?",
+                    "p":[
+                        "Fieger Lamellenfenster mit Paneel-Füllungen.",
+                        "Alternativ erhalten Sie unsere Lamellenfenster auch mit einer Paneel Füllung anstelle der Verglasung. Paneel Füllungen sind leicht und stabil und besonders für den Einsatz in den Lamellenfenstern geeignet.",
+                        "Die Paneele bestehen aus einem inneren und äußeren Alu Blech, welche in Fensterfarbe beschichtet sind. Dies ergibt eine Homogene gleichfarbige Ansicht der Fensterfläche. Die Zwischenlage der Paneele besteht aus einer hochdämmenden PU-Füllung. Durch die durchgängige Dämmschicht und der damit fehlenden Kältebrücke im Randbereich, können weit bessere Wärmedämmwerte erzielt werden. Besonders hohe Wärmedämmwerte lassen sich bei der Verwendung von Vakuumpaneelen erreichen. Paneele mit erhöhten Schallschutzanforderungen können mit einer zusätzlichen Schallschutzfolie ausgestattet werden. Ein weiterer Vorteil der Paneel Füllung ist, die Gewichtsersparnis gegenüber verglasten Elementen, was sich besonders bei der Montage der Elemente auswirkt.",
+                        "Ein Hinweis noch: Leider sind Paneel Füllungen in der Regel etwas teurer als die Ausführung mit Isolierglas.",
+                        "Gerne beraten wir Sie und übermitteln Ihnen eine Wärmedämmberechnung für Ihre gewünschten Lamellenfenster."
+                    ]
+                },
+                {
+                    "link":"In welchen Farben gibt es die Lamellenfenster?",
+                    "p":[
+                        "Beschichtungen von Fieger Lamellenfenster",
+                        "Sie erhalten unsere Lamellenfenster in jeder gewünschten Farbe. Unsere Profile sind bei unserem Beschichter eingelagert und werden gemäß Ihren Vorgaben beschichtet oder eloxiert. Fieger Standard Farben sind gängige Farben, die wir auf Lager haben und Ihnen besonders günstig anbieten können. Andere Farbe lassen wir Auftragsweise beschichten und rechnen den Verschnitt der Profile in die Kosten der Lamellenfenster mit ein. Das bedeutet nichts anderes, als dass Sie bei der Bestellung von einzelnen Elementen mit höheren Beschichtungskosten rechnen müssen.",
+                        "Auf Wunsch besorgen wir den von Ihnen gewünschten Pulvernummern der verschiedenen Pulverlieferanten. Wobei auf die Mindestbestellmenge zu achten ist. Ist auch möglich, dass Sie uns für Ihr Projekt die entsprechende Pulvermenge zur Beschichtung zur Verfügung stellen.",
+                        "Im Downloadbereich finden Sie die <a ui-sref='/downloads'>aktuelle Farbtabelle</a>. Gerne senden wir Ihnen diese auch zu."
+                    ]
+                },
+                {
+                    "link":"Welche Adapter stehen zur Verfügung? ",
+                    "p":[
+                        "Adapterprofile (Einbauprofile) für Fieger Lamellenfenster",
+                        "Um Ihnen die Montage der Lamellenfenster in die Konstruktion zu erleichtern, bieten wir Ihnen eine Vielzahl von Adapterprofilen passend zu der gewünschten Einspannsituation an. Die Lamellenfenster sollen dann wie eine Glasscheibe in die Konstruktion eingesetzt werden können. Standartmäßig stehen Ihnen Adapterprofile für Pfostenriegelkonstruktionen für die benötigten Glasdicken von 24 bis 32 mm zur Verfügung. ",
+                        "Für Fensterprofile erhalten Sie ein Adapterprofile mit einer Einspanndicke von 42 mm. Andere Adapterprofile, Fensterbankanschlussprofile und Anschlusswinkel erhalten Sie auf Nachfrage. Für das System FLW40 haben wir das Adapterprofil zum Einspannen in der Konstruktion im Rahmen gleich integriert. Die Standard Einspanndicke beträgt 40 mm. Mit Zusätzlichen Neoprenzwischenlagen kann das Profil für andere Einspanndicken auf gedoppelt werden.",
+                        "Bitte beachten Sie unser Transport- und Montagehinweise."
+                    ]
+                },
+                {
+                    "link":"Was ist die richtige Lamellenhöhe?",
+                    "p":[
+                        "Auswahl der Lamellenhöhe",
+                        "Die Lamellenfenster von Fieger werden mit verschiedenen Lamellenhöhen geliefert. Dabei sind keine Rastermaße zu berücksichtigen. Verschiedene Fenstergrößen können nach Wunsch mit einer unterschiedlichen Lamellenanzahl hergestellt werden. Als Beispiel: Ein Element Typ FLW mit einer Größe von 1000 x 2000 mm kann mit 6, 7, 8, 9 oder 10 Lamellen geliefert werden. Wichtig ist, das die Lamellenhöhen zwischen 175 und 340 mm Höhe liegen sollen um eine dauerhafte Funktion zu gewährleisten. Bei unserem System FLW40 liegen die Lamellenhöhen zwischen 250 und 500 mm.",
+                        "Je weniger Lamellen eingeplant werden, also je größer die Lamellen werden sollen, desto transparenter werden die Elemente. Aufgrund des besseren Wärmedämmwertes der Isoliergläser und des Randverbundes werden auch die U-Werte der Elemente mit weniger Lamellen besser.",
+                        "Nachteilig wirken sich die größeren Lamellen jedoch dadurch aus, dass die geöffneten Lamellen weiter aus der Elementebene herausragen als kleinere Lamellen. Außerdem sind größere Lamellen aufgrund des Hebelgesetzes anfälliger für Einwirkungen von außen. Die Drehlager der Lamellenfenster sind so ausgelegt, dass diese bei einer bestimmten Überlastung der Lamelle von außen an einer Sollbruchstelle brechen um die Mechanik und den Rahmen zu schützen. Das passiert bei großen Lamellen leichter. Diese Lager müssen dann im Schadensfall getaucht werden. Deswegen sollten man bei der Planung der Lamellengröße darauf achten, wo die Elemente eingebaut werden. Es besteht natürlich ein Unterschied ob die Lamellen im Oberlichtbereich oder im Verkehrsweg eingebaut werden. Sollten Elemente da eingeplant werden, wo Personen von innen und von außen Zugriff haben, ist eventuell von uns eine geänderte mechanische Ausführung notwendig. Wenn Sie sich bezüglich der Lamellengröße nicht sicher sind, melden Sie sich bei uns. Wir beraten Sie gerne und machen Ihnen entsprechende Einbauvorschläge. Außerdem können Sie bei uns die Wärmedämmwerte bei unterschiedlichen Lamellenhöhen und Fenstergrößen erfragen.",
+                        "Übrigens können wir in einem Lamellenfenster auch zwei oder mehreren unterschiedliche Lamellenhöhen realisieren, falls das notwendig sein sollte."
+                    ]
+                },
+                {
+                    "link":"Welche Antriebe stehen für die Lamellenfenster zur Verfügung?",
+                    "p":[
+                        "Antriebsvarianten",
+                        "Für Fieger Lamellenfenster steht eine Vielzahl von Antrieben zur Verfügung. Für manuelle Antriebe verwenden wir die gesamte Produktpalette von GEZE OL 90, also Handhebel, Kurbelgetriebe, Oberlichtbeschläge mit Übertragung usw. Die elektrischen Antriebe erhalten wir von namhaften deutschen Herstellern in 24 V und 230V Ausführungen, die auf unser System abgestimmt werden und geprüft sind. Auch pneumatischen Antrieb mit Endlagenverriegelung können wir Ihnen anbieten. Bis auf die Pneumatik Antriebe, wo der Kraftbedarf über die vorhanden Druckluft geregelt wird, können alle vorgenannten Antriebsvarianten einzeln eine Fensterfläche von 3 m² öffnen.",
+                        "Bitte Informieren Sie sich über die unterschiedlichen Antriebsausführungen in den Produktbeschreibungen oder fragen Sie uns für weitere Informationen direkt an."
+                    ]
+                },
+                {
+                    "link":"Können die Lamellenfenster zur Entrauchung von Gebäuden eingesetzt werden",
+                    "p":[
+                        "Geprüfte und zertifizierte Lamellenfenster nach EN 12101-2",
+                        "Die Firma Fieger bietet Ihnen mit den Typen FLW SmoTec und den Typen FGL SmoTec ein geprüftes und zertifiziertes natürliches Rauchwärmeabzugsgerät (NRWG) für den Einsatz in der Fassade bzw. in der Wand an. Die damit verbunden werkseigene Produktionskontrolle gewährleistet dem Betreiber eine funktionstüchtige RWA Anlage und trägt damit zur Sicherheit der Gebäude bei. Die Elemente erhalten eine auf die Ausführung abgestimmte CE- Kennzeichnung mit den Werten des Lamellenfensters sowie eine Konformitätserklärung über die zugesicherten Eigenschaften unserer Produkte.",
+                        "Die technischen Werte der Lamellenfenster entnehmen Sie bitte den Datenblättern der einzelnen Typen. Zur Ermittlung der Lüftungsquerschnitte stellen wir Ihnen eine Tabelle im Internet zur Verfügung.",
+                        "Gerne können Sie sich aber auch für weitere Informationen direkt mit uns in Verbindung setzten."
+                    ]
+                },
+                {
+                    "link":"Was ist geometrisch, was ist aerodynamisch und was ist ein freier Lüftungsquerschnitt?",
+                    "p":[
+                        "Erläuterungen zum Lüftungsquerschnitt von Fieger Lamellenfenster",
+                        "Mit dem geometrischen oder auch freien Lüftungsquerschnitt, ist der Wert der Fenstergröße abzüglich aller Rahmenanteile gemeint. Die Berechnung benötigen Sie für die Bemessung der RWA von Treppenhäusern nach LBO und nach DIN 18232. Bei Fieger Lamellenfenster ist dieser Wert ungefähr mit 75% der Lamellenfenstergröße anzusetzen. ",
+                        "Der aerodynamische Lüftungsquerschnitt ist der Wert des freien Lüftungsquerschnitts unter Berücksichtigung des Durchflussbeiwertes der Konstruktion. Bei Fieger Lamellenfenster ist dieser Wert verglichen mit anderen Fenstertypen mit am besten. Die Berechnung erfolgt nach EN 12101 und wird innerhalb der Prüfung im Windkanal nachgewiesen. Bei Fieger Lamellenfenster entspricht dieser Wert ungefähr 55% der Fensterfläche.",
+                        "Für die genaue Berechnung dieser Werte stellen wir Ihnen im Internet eine Berechnungstabelle zur Verfügung. Gerne setzen Sie sich auch für weitere Informationen direkt mit uns in Verbindung. "
+                    ]
+                },
+                {
+                    "link":"Welche Steuerungen können wir Ihnen anbieten? fragen",
+                    "p":[
+                        "Steuerungen komplettieren das System",
+                        "Ein automatisiertes Lamellenfenster bietet nur dann den gewünschten Komfort wenn dazu auch eine passende Steuerung eingesetzt wird. Dabei können eine Vielzahl von Lüftungs-und Sicherheitsfunktionen umgesetzt werden. Beispiele dafür sind neben der normalen Lüftungsfunktion automatisierte Lüftungsszenarien wie die Nachtauskühlung im Sommer und die Sicherheitsfunktion zur Ableitung von Rauch und Wärme im Brandfall. ",
+                        "Natürlich bieten wir Ihnen im Bedarfsfall die passenden kompletten Steuerungen unserer Antriebslieferanten an. Außerdem beraten wir Sie über technische Daten unserer Antriebe und vermitteln in Kooperation den Kontakt zu den Herstellern bei aufwändigen Steuerungsanlagen und BUS Systemen. ",
+                        "Bitte fragen Sie uns gerne diesbezüglich an, denn es liegt auch in unserem Interesse, dass unsere Elemente und die Steuerung zueinander passen, so dass die Gesamtanlage vor Ort einwandfrei und dauerhaft funktioniert."
+                    ]
+                },
+                {
+                    "link":"Was muss ich bezüglich des Klemmschutzes bei Lamellenfenstern beachten?",
+                    "p":[
+                        "Nutzungssicherheit von Fieger-Lamellenfenstern mit automatischen Antrieben. Umgang mit der Maschinenrichtlinie 2006/42/EG ",
+                        "Der Anteil der von uns gelieferten Lamellenfenstern mit elektrischem Antrieb gegenüber manuellen Lamellenfenstern steigt kontinuierlich an. Die Hauptanforderungen an das kraftbetätigte Fenster lautet: „Das Fenster muss sicher sein“. Dabei ist die Maschinenrichtlinie 2006/42/EG, umgesetzt durch das Geräte- und Produktionssicherheitsgesetz (GPSG), zu beachten. Im Sinne dieser Maschinenrichtlinie ist die Firma Fieger Lamellenfenster Hersteller einer Maschine, wenn sie die einzelnen Komponenten Lamellenfenster und Antrieb miteinander verbaut. Was wir in der Regel auch tun. ",
+                        "In diesem Zusammenhang besteht für uns eine Verpflichtung, die EG-Maschinenrichtlinie anzuwenden und die Konformität zu erklären. Die Problematik stellt sich in der praktischen  Bearbeitung, da die Lamellenfenster von uns lediglich hergestellt und geliefert werden und nicht vor Ort montiert werden. Um zu klären, welche Anforderung an ein automatisiertes Lamellenfenster gestellt wird, muss vorzeitig von dem Planer oder einem anderen Verantwortlichen eine auf das Bauvorhaben bezogene Risikobeurteilung vorgenommen werden. Es besteht natürlich ein Unterschied darin, ob die kraftbetätigten Fenster in einer Dachkonstruktion oder im Verkehrswegebereich z.B. einer Schule eingebaut werden. ",
+                        "Nur mit dieser Beurteilung kann die Schutzklasse der Elemente festgelegt und die entsprechenden Maßnahmen vorgenommen werden. Je nach der geforderten Schutzklasse kann dann ermittelt werden, ob der Lamellenfensterhersteller Schutzmaßnahmen vornehmen muss (keine Maßnahme ist notwendig, wenn der Zugriff zu dem Element über 2,5m liegt) oder mit eigenen Bauteilen und Ausführungen eine entsprechende Schutzklasse erreicht wird (z.B. Schließgeschwindigkeit unter 5mm/s entspricht Schutzklasse 3) oder ob bauseitig weitere Schutzmaßnahmen vorgenommen werden müssen (z.B. Totmannschaltung, Lichtgitter usw.) Auf Wunsch kann diese Risikobeurteilung auch von der Firma Fieger oder einem von der Firma Fieger Bevollmächtigten durchgeführt werden. Entsprechend dieser Risikobeurteilung werden die entsprechenden Schutzklassen ermittelt und die entsprechenden Schutzmaßnahmen eingeleitet und dokumentiert. Die Einhaltung der geforderten Schutzmaßnahmen kann bis Schutzklasse 3 direkt von der Firma Fieger werkseitig vorgenommen und dokumentiert werden. ",
+                        "Wichtiger Hinweis: Sollten uns bei der Angebotserstellung und der Auftragserteilung diese Risikobeurteilung nicht vorliegen, werden die Elemente mit der Schutzklasse 0 ausgeliefert und gekennzeichnet. Das bedeutet, diese Elemente dürfen nur entsprechend dieser Schutzklasse verwendet werden. Außer die Risikobeurteilung, die notwendigen Schutzmaßnahmen und die Dokumentation werden vor Ort durch einen Sachkundigen durchgeführt. ",
+                        "Bitte weisen Sie den Kunden, Planer bzw. den Betreiber auf diese Problematik hin. Weitere Informationen erhalten Sie direkt von uns bzw. vom ZVEI "
+                    ]
+                },
+                {
+                    "link":"Benötige ich ein funktionserhaltenes E30 Kabel? ",
+                    "p":[
+                        "Funktionserhalt (E30 Kabel):",
+                        "Unsere Lamellenfenster öffnen und schließen mit dem E-Antrieb. Durch die mittige Lagerung der Lamellen und der Mechanik ist sichergestellt, dass die Lamellen nach Betätigung in Ihrer Öffnungsstellung verbleiben.",
+                        "Dieser Funktionserhalt ist im Rahmen einer Brandprüfung nach der EN 12101-2 nachgewiesen worden. (Prüfung des Fensters bei 300 °C für die Dauer von 30 Minuten. Nach 5 Minuten muss der Antrieb das Fenster öffnen und in  dieser Stellung die restlichen 25 Minuten verharren)",
+                        "Ein weitergehender Funktionserhalt der Verkabelung vom E-Antrieb bis zur Dose in Ausführung E30 ist nicht notwendig. Die Steuerung muss gewährleisten, dass die E-Antriebe im Brandfall nach kurzer Zeit öffnen. Danach ist keine Ansteuerung über ein funktionserhaltenes E-Kabel mehr vorgesehen. "
+                    ]
+                },
+                {
+                    "link":"Gibt es das Lamellenfenster auch für Dachschrägen als Überkopfverglasung?",
+                    "p":[
+                        "Das Lamellenfenster für Dachschrägen.",
+                        "Bei Fenstern in Dachschrägen ist mit Schlagregen zu rechnen. Daher sind die Lamellenfenster für diese Art des Einbaus leider nicht geeignet, da sie aufgrund ihrer Öffnungs- und Schließfunktion keine ausreichende Dichtigkeit bieten können.",
+                        "Eine Ausnahme stellen Fassaden dar, die nach außen geneigt sind oder bei Einbauten über Kopf, die zusätzlich überdacht sind, hier können unsere Produkte je  nach Objekte sehr wohl zum Einsatz kommen. "
+                    ]
+                },
+                {
+                    "link":"Bietet die Firma Fieger besondere Lösungen für Lüftungskonzepte in Bildungsstätten (CO2 Belastung) an?",
+                    "p":[
+                        "Dicke Luft in Bildungsstätten",
+                        "Bei der Planung und Sanierung von Bildungsstätten wird das Hauptaugenmerk meist auf die energetische Ausführung der Gebäude gelegt, was auch nachvollziehbar und sinnvoll ist. Es werden hierbei jedoch die Besonderheiten dieser Bildungsstätten häufig außer Acht gelassen. Die schlechte Luftqualität wirkt sich direkt auf die Lern- und Lehrbedingungen und somit auf die Leistungsfähigkeit der Lehrenden und Lernenden aus. Dicke Luft in Klassenzimmern muss aber nicht sein.",
+                        "In Richtlinien und Gutachten wird genau vorgeschrieben, welche hygienischen Werte der Co2-Belastung eingehalten werden sollen und dass hierfür eine ausreichende und gleichmäßige Lüftung gewährleistet werden muss. Als Planer sollte man dies nicht außer Acht lassen und den Nutzer für dieses Thema sensibilisieren. Da unser Thema das Lüftungsfenster ist, möchten wir Ihnen gerne unser System FLW40 vorstellen, welches hier seinen optimalen Einsatzort findet. Kurz beschrieben handelt es sich dabei um ein hochgedämmtes Lamellenfenster, welches in punkto Wärmedämmung, Lüftung und Nutzersicherheit Maßstäbe setzt und dabei noch eine gute Figur macht. Wir stehen Ihnen auf jeden Fall für diese Konzeptionsfragen mit weiteren Informationen zur Verfügung und wollen mit diesem Thema besonders die Planer aber auch die Kommunen und Städte sowie die Universitäten als verantwortliche Bildungsträger ansprechen."
+                    ]
+                },
+                {
+                    "link":"Kann ich Lamellenfenster auch Im Innenbereich einsetzen? ",
+                    "p":[
+                        "Lamellenfenster im Innenbereich und für Trennwände",
+                        "Auch für diesen Einsatzort werden häufig unsere Produkte eingesetzt. Die Lüftung beschränkt sich  ja nicht immer auf die Außenwand. Besonders um Frischluft weiter in den Innenraum zu tragen, können unsere Lamellenfenster eingesetzt werden. Verbunden mit einer intelligenten Gebäudeleittechnik können die Lamellenfenster z.B. zur Nachtauskühlung eingesetzt werden. Auch Zuluftelemente für RWA-Anlagen lassen sich realisieren. Außerdem stellen Lamellenfenster in Trenn- und Zwischenwänden ein besonderes optisches Erscheinungsbild dar. Zum Einsatz kommen hier unsere transparenten Glaslamellen des Typ FGL oder bei zusätzlichen Schallschutzanforderungen unser System FLW mit Schallschutzglas."
+                    ]
+                }
+            ]
+        },
+        {
+            "head":"Kundeninformation",
+            "text":[
+                {
+                    "link":"Was benötigen wir, um für Sie ein Angebot zu erstellen?",
+                    "p":[
+                        "Checkliste",
+                        "Am besten senden Sie Ihre Anfrage per E-Mail an  info@fieger-lamellenfenster.de oder an den Ihnen bekannten Mitarbeiter. Natürlich können Sie Ihre Anfrage auch faxen (06201 8443419). Zur einfacheren Bearbeitung benötigen wir die Angaben zum Bauvorhaben, falls die Anfrage bereits vorliegen sollte und die Angaben zur gewünschten Ausführung: ",
+                        "- Welches System - Anzahl und Größe - Gewünschte Lamellenanzahl (ohne Angabe legen wir eine sinnvolle Lamellenanzahl fest) - Gewünschte Farbe und Verglasung - Welche Antriebsvariante ist gewünscht, welche Einbausituation liegt vor",
+                        "Gerne können Sie uns auch die entsprechenden LV-Unterlagen zusenden. Vermerken Sie dann aber bitte auch, zu welchem Termin Sie das Angebot wünschen."
+                    ]
+                },
+                {
+                    "link":"Was benötigen wir, um Ihren Auftrag zu bearbeiten?",
+                    "p":[
+                        "Detaillierte Checkliste",
+                        "Bitte beziehen Sie sich bei der Auftragserteilung auf unsere Projekt- bzw. Angebotsnummer und ergänzen Sie die zur Fertigung benötigten Angaben. Unsere Angaben zur Fenstergröße beziehen sich auf die Rahmenmaße der Lamellenfenster ohne Adapterprofil. Sie können uns auch die lichten Rahmenmaße und die Glasmasse der Konstruktion durchgeben. Am besten ist eine Zeichnung der Konstruktion, in der wir Ihre Angaben noch einmal überprüfen können. ",
+                        "Für die Adapterrahmen benötigen wir die Einbaudicke. Falls sich die Farbe und die Verglasung gegenüber dem Angebot geändert haben, benötigen wir die gewünschte Ausführung. Bitte bedenken Sie,  dass sich Änderungen zum Angebot auch preislich auswirken können. Außerdem benötigen wir die gewünschte Seite und Höhe der Antriebe für das Lamellenfenster. ",
+                        "Gerne können Sie uns in  der Bestellung auch den gewünschten Liefertermin und Lieferort angeben. Bitte beachten Sie aber die Konditionen aus dem Angebot."
+                    ]
+                },
+                {
+                    "link":"Was ist bei der Lieferung und der Verpackung der Fenster zu beachten?",
+                    "p":[
+                        "Lieferung von Fieger Lamellenfenstern",
+                        "Fieger Lamellenfenster werden entsprechend Ihren Anforderungen und Ihrer Bestellvorgaben hergestellt. Jedes Fenster wird werkseitig auf Funktion geprüft und montagefertig geliefert. Zum Schutz der fertigen Elemente werden diese in stabile Holzkisten verpackt und per Spedition zu Ihnen ins Werk oder nach Vereinbarung auf die Baustelle geliefert. Das Abladen von kleinen Kisten erfolgt in der Regel über die Hebebühne des Transporters. Bei größeren Kisten ist ein Abladen über Stapler oder Kran notwendig. Dies ist durch den Auftraggeber zu organisieren. ",
+                        "Wichtiger Hinweis: Der Transport der Lamellenfenster über die Spedition wird von uns versichert. Bitte überprüfen Sie sofort bei Erhalt der Ware die Transportkisten auf Beschädigungen. Sollten Sie befürchten, dass die Elemente beim Transport beschädigt worden sind, melden Sie sich bitte umgehend bei uns. Wir veranlassen dann sofort die weiteren Maßnahmen. ",
+                        "Schützen Sie die Kisten vor Feuchtigkeit und Nässe, falls die Elemente nicht gleich ausgepackt werden. Zum Auspacken unterlegen Sie die Kiste einseitig auf der Entnahmeseite und stellen Sie die Kiste schräg, damit ein unbeabsichtigtes Herausfallen der Elemente vermieden wird. Die Entnahmeseite ist von uns auf der Kiste markiert.Bitte beachten Sie unsere weiteren Transport- und Montagehinweise. ",
+                        "Lieferungen zur Baustelle",
+                        "Nach Vereinbarung können wir Ihnen die Lamellenfenster auf die Baustelle anliefern. Bitte geben Sie uns dafür aber einen Ansprechpartner vor Ort an und sorgen Sie für einen unkomplizierten Zugang. Falls Sie die Lieferung zu einem genauen Termin oder einer genauen Uhrzeit benötigen, müssen Sie eventuell mit zusätzlichen Lieferkosten rechnen. "
+                    ]
+                },
+                {
+                    "link":"Was ist beim Transport und der Montage der Fenster zu beachten? Gibt es eine Montagehilfe/Hebewerkzeug?",
+                    "p":[
+                        "Transport  von Fieger Lamellenfenstern",
+                        "Bitte transportieren Sie die Lamellenfenster immer senkrecht und vermeiden sie starke Verwindungen der Elemente während des Transportes. Die Elemente werden geschlossen ausgeliefert. Starke Verwindungen übertragen hohe Kräfte auf die Mechanik, die zu Beschädigungen führen können. Dies hat zur Folge, dass sich die Elemente nach der Montage nicht mehr ordnungsgemäß öffnen oder schließen lassen. ",
+                        "Hohe Elemente werden über die lange Kante stehend ausgeliefert und müssen vor dem Einsetzen vorsichtig über die kurze Kante aufgestellt werden. Bitte niemals das Lamellenfenster über Eck stürzen.",
+                        "Das Einsetzen der Lamellenfenster erfolgt per Hand. Nutzen Sie niemals Glassauger zum Transport und zum Einsetzen der Lamellenfenster. Dies kann ebenfalls zu Beschädigungen an den Lamellen führen. ",
+                        "Montage von Fieger Lamellenfenstern",
+                        "Beim Montieren der Elemente in die Konstruktion ist darauf zu achten, dass die Lastabtragung ausnahmslos direkt unter den Seitenrahmen bzw. unter den Mittelpfosten erfolgen muss. Ein falsches Verklotzen führt zu Verformungen der Rahmen und somit zur Beeinträchtigung der Funktion. Achten Sie bei der Montage besonders auf den lotgerechten und spannungsfreien Einbau. In der Regel werden die Lamellenfenster mit den gewünschten Adapterprofilen für die Pfosten - Riegelkonstruktionen oder Fensterprofile geliefert und in die Konstruktion eingespannt. ",
+                        "Falls die Lamellenfenster in der Konstruktion oder im Mauerwerk verschraubt werden sollen, ist darauf zu achten, dass sich in den Seitenrahmen unsere Mechanik zum Öffnen der Lamellen befindet, die nicht beeinträchtigt werden darf. Bitte sprechen Sie diese Montagesituation im Detail vorab mit uns ab oder verwenden Sie zur Montage Mauerlaschen, die außenseitig im Rahmen verschraubt werden können. ",
+                        "Führen Sie nach der Montage eine Funktionskontrolle durch. Dies geschieht manuell durch den Beschlag oder bei E-Antrieben durch ein entsprechendes Steuergerät. Die richtige Montage überprüfen Sie zusätzlich durch die Kontrolle der gleichmäßigen Fugenbreiten und durch das ebene Schließen der Lamellen. ",
+                        "Wir empfehlen Ihnen dringend nach der Montage unverzüglich eine Abnahme der Lamellenfenster vorzunehmen und sich die einwandfreie Funktion der Lamellen bestätigen zu lassen. Schützen Sie die Lamellenfenster, besonders auch die E-Antriebe, vor Bauschäden und weisen Sie darauf hin, dass die Elemente nicht unsachgemäß geöffnet werden dürfen, z.B. durch das Aufhebeln der Lamellen (aufgrund des noch fehlenden Elektroanschlusses). ",
+                        "Eine unsachgemäße Montage und Bedienung der Lamellenfenster kann zu Schäden führen, für die wir keine Gewährleistung übernehmen können.",
+                        "Montagehilfe für Fieger Lamellenfenster",
+                        "Bei schweren Elementen bis 120 Kg bieten wir Ihnen die Verwendung unserer Montagelaschen an. Diese Montagelaschen werden oben am Element montiert und ermöglichen das Einsetzen der Lamellenfenster mit einem Hebekran, vorzugsweise mit einem Kettenzug. ",
+                        "Bitte beachten Sie dabei aber unbedingt die Vorsichtsmaßnahmen und Sicherheitsanforderungen beim Heben von schweren Bauteilen. Verwenden Sie eine Traverse mit 2 Aufhängepunkten über die Lamellenbreite. Heben Sie die Lamellenfenster langsam und vorsichtig an und vermeiden Sie unbedingt ruckartige Hebebewegungen. ",
+                        "Die Montagelaschen ermöglichen Ihnen das Absetzen der Lamellenfenster in der Konstruktion. Demontieren Sie danach die Laschen und klappen Sie das Element in die Konstruktion ein, anschließen sichern Sie das Element.",
+                        "Diese Vorgehensweise erleichtert Ihnen die Montage signifikant und spart Montagekosten ein. Wir weisen jedoch darauf hin, dass wir keine Haftung bei einer unsachgemäßen Nutzung dieser Montagehilfe übernehmen. "
+                    ]
+                },
+                {
+                    "link":"Was sollte bei der Abnahme der Fieger Lamellenfenster beachtet werden?",
+                    "p":[
+                        "Hinweis zur Abnahme für unsere Kunden",
+                        "Die Abnahme erfolgt in der Regel nach erfolgter Fertigstellung der Gesamtleistung. Bis dahin besteht oftmals eine vertragliche Verpflichtung des Auftragnehmers zum Schutz der Bauteile bis zur Inbetriebnahme der Elemente. ",
+                        "Wir machen des Öfteren die Erfahrung, dass diese Schutzmaßnahmen nicht durchgeführt werden und bis zur Übergabe bzw. der Inbetriebnahme der Elemente Mängel auftreten, die durch eine unsachgemäße Benutzung verursacht worden sind. Dabei werden vor Ort meist von Fremdgewerken aus Unkenntnis die Lamellen gewaltsam geöffnet und die Mechanik zerstört, weil beispielsweise der Elektroantrieb noch nicht angeschlossen wurde. Dies hat dann eine aufwendige und kostenpflichtige Reparatur von unseren Monteuren auf der Baustelle zur Folge. Auch eine starke Verschmutzung der Elemente kann ein Problem darstellen. ",
+                        "Aus diesem Grund raten wir unseren Kunden möglichst bald nach der Montage der Lamellenfenster eine Abnahme mit den Verantwortlichen oder dem Bauherrn durchzuführen, um sicherzustellen, dass die Elemente unbeschädigt und funktionstauglich sind. Sie sollten dabei auch eine Einweisung zur Betätigung der Lamellenfenster durchführen und auf die Sicherung der Elemente bis zur Übergabe achten. Sie als Kunde vermeiden damit langwierige Diskussionen, wer im Schadensfall für Reparaturkosten aufkommen muss. "
+                    ]
+                }
+           ]
+        },
+        {
+            "head":"Serviceleistungen",
+            "text":[
+                {
+                    "link":"Inbetriebnahme",
+                    "p":[
+                        "Hinweis zur Inbetriebnahme für den Bauherrn bzw. den Betreiber",
+                        "Die Inbetriebnahme der Lamellenfenster erfolgt in der Regel durch den Errichter der elektrischen Anlagen, der dann eine Funktionskontrolle der E-Anlage durchführt. Besonders bei dem Betrieb von Fieger Lamellenfenstern als natürliche Rauch-Wärme-Abzugsgeräte (NRWG) ist eine gesonderte Inbetriebnahme der Fieger Lamellenfenster durch eine von uns autorisierte Firma oder durch die Firma Fieger selbst für den Bauherrn bzw. den Betreiber des  Gebäudes dringend zu empfehlen. ",
+                        "Durch die Inbetriebnahme wird sichergestellt, dass die Lamellenfenster fachgerecht montiert wurden und zusammen mit der elektrischen Anlage nach unseren Vorgaben betriebsbereit und funktionstüchtig sind. Die Ergebnisse werden dokumentiert und entsprechend weitergeleitet. Gleichzeitig erfolgt eine Bestandsaufnahme zur Ermittlung des zukünftigen Wartungsaufwandes. Auf Wunsch erfolgt innerhalb der Inbetriebnahme durch die Firma Fieger auch eine CE Kennzeichnung der kraftbetätigten Fenster nach Maschinenrichtlinie. ",
+                        "Bitte setzen Sie sich bei Fragen und zur Erstellung eines Angebotes mit unserer Serviceabteilung in Verbindung."
+                    ]
+                },
+                {
+                    "link":"Wartung",
+                    "p":[
+                        "Hinweis zur Wartung für den Bauherrn bzw. den Betreiber",
+                        "Der Betreiber einer RWA-Anlage ist verpflichtet, alle notwendigen Schutzvorkehrungen zu treffen, um Gefahren von Personen und Sachen, die sich im Gebäude befinden, abzuwenden. Indem er durch regelmäßige Wartung der RWA-Anlage für deren Funktionsfähigkeit Sorge trägt, verringert er entscheidend die tatsächliche Schadensgefahr und zugleich sein Haftungsrisiko im Schadensfall. Er kann jederzeit dokumentieren, dass er seiner Verpflichtung, die RWA-Anlage einsatz- und betriebsbereit zu halten, nachgekommen ist. Auch im Bereich natürliche, kontrollierte Lüftung sorgt eine regelmäßige Wartung und Instandhaltung für hohe Betriebssicherheit und somit das Wohlbefinden der Nutzer. ",
+                        "Die Wartung der Fieger Lamellenfenster kann durch eine von uns autorisierte Firma oder durch die Firma Fieger selbst durchgeführt werden. Anhand einer Wartungsmappe wird die Dokumentation der turnusmäßig auszuführenden Wartung dargestellt. Auf Wunsch erfolgt innerhalb der Wartung durch die Firma Fieger auch eine CE Kennzeichnung der kraftbetätigten Fenster nach Maschinenrichtlinie, falls das noch nicht erfolgt sein sollte. ",
+                        "Bitte setzen Sie sich bei Fragen und zur Erstellung eines Angebotes mit unserer Serviceabteilung in Verbindung."
+                    ]
+                },
+                {
+                    "link":"Reparatur",
+                    "p":[
+                        "Bearbeitung von Reparaturen",
+                        "Für unsere gelieferten Lamellenfenster stehen dem Kunden noch sämtliche Ersatzteile zur Verfügung. Alle Aufträge sind dokumentiert und archiviert, so dass wir mit der entsprechenden Vorgangs- und Auftragsnummer und der Angabe der Position die notwendigen Ersatzteile ermitteln können. Unsere Serviceabteilung ist für solche Reparaturen der richtige Ansprechpartner, sie organisiert die Ersatzteillieferung, gibt Ihnen die Reparaturanweisungen durch und leitet die Maßnahmen ein, wenn eine Reparatur durch uns oder einen Servicepartner durchgeführt werden soll. Wichtig ist, dass für alle vor Ort durchzuführenden Reparaturmaßnahmen die Fenster zugänglich gemacht werden und ggf. Gerüste oder Hubsteiger zur Verfügung gestellt werden. ",
+                        "Bitte setzen Sie sich bei Fragen zur Reparatur mit unserer Serviceabteilung in Verbindung."
+                    ]
+                },
+                {
+                    "link":"Reklamation",
+                    "p":[
+                        "Bearbeitung von Reklamationen",
+                        "Auch uns kann (leider) mal ein Fehler unterlaufen. Wenn es sich bei Ihrer Reklamation um einen berechtigten Mangel handelt, erfolgt nach Absprache eine Nachlieferung von Austauschteilen oder ggf. eine Reparatur der defekten Teile vor Ort. Falls der Mangel durch eine Falschmontage oder unsachgemäße Nutzung hervorgerufen wurde, berechnen wir die Ersatzteile und unsere Aufwendungen nach Erstellung eines Reparaturauftrages. ",
+                        "Um die Kosten für alle Beteiligten gering zu halten, bitten wir Sie, uns beim Auftreten eines Mangels eine genaue Beschreibung des Fehlers, am besten mit Fotos,  zuzusenden. Es ist von Vorteil, wenn Sie uns direkt vom Objekt aus anrufen, so dass wir mit Ihnen unsere Checkliste direkt durchgehen können um den Fehler zu finden. Nicht selten handelt es sich um elektrische Probleme beim Anschluss, die während der telefonischen Abklärung schnell erkannt werden können. Da die Fahrtkosten zur Baustelle oft den größten Kostenanteil darstellen, versuchen wir, die Reparatur durch einen örtlichen Monteur oder durch den Kunden durchführen zu lassen. Hierfür stellt unsere Serviceabteilung entsprechende Reparaturanleitungen zur Verfügung und bespricht das mit dem Monteur. Bitte setzen Sie sich bei Fragen zur Reparatur und zur Reklamationsbearbeitung mit unserer Serviceabteilung in Verbindung. ",
+                        "Wenn der Mangel nicht durch die Firma Fieger verursacht wurde, können wir auf Wunsch gerne die Reparatur übernehmen. Die Übernahme der Kosten erfolgt über den Kunden. Auch hier steht Ihnen unsere Serviceabteilung gerne zur Verfügung.",
+                        "Wichtig ist, dass für alle vor Ort durchzuführenden Reparaturmaßnahmen die Fenster zugänglich gemacht werden und ggf. Gerüste oder Hubsteiger zur Verfügung gestellt werden."
+                    ]
+                } 
+            ]
+        },
+        {
+            "head":"Sonderausführungen und Sonderbauteile",
+            "text":[
+                {
+                    "link":"Welche Sonderwünsche und Sonderelemente können wir realisieren?",
+                    "p":[
+                        "Standardprodukte und die Abteilung Sonderbau",
+                        "Die Firma Fieger bietet Ihnen mit den Systemen FLW, FLW SmoTec und FGL eine Vielzahl von standardisierten Varianten mit unterschiedlichen Größen, Farben, Verglasungen und entsprechenden Adapterprofilen an, die wir Ihnen in der Regel in einem Zeitraum von 5-6 Wochen herstellen und liefern können. Dabei optimieren wir laufend unsere Arbeitsabläufe und unseren Einkauf um Ihnen die Elemente günstig und schnell und in hoher Qualität anbieten zu können. Außerdem gibt es für diese Elemente eine Vielzahl von Eigen- und Fremdprüfungen um die notwendige Qualität nachzuweisen. ",
+                        "Darüber hinaus erarbeitet Ihnen unser Bereich Sonderbau auch gerne Lamellenfenster, die sich außerhalb der normalen Standardsysteme befinden. Dabei kann es sich um Sonderformen mit schrägen oder gebogenen Rahmen handeln, spezielle Systeme für Zweite-Haut-Fassaden oder spezielle Konstruktionen die für die Innenanwendung gedacht sind. Solche Sonderlamellen können mit unserer Mechanik beweglich oder auch mit arretierten Lamellen geplant werden. Bitte wenden Sie sich mit Ihren Vorstellungen direkt an uns, wir beraten Sie gerne und unterbreiten Ihnen entsprechende Vorschläge. "
+                    ]
+                },
+                {
+                    "link":"Können die Lamellenfenster mit zusätzlichen Rückmeldekontakten ausgestattet werden?",
+                    "p":[
+                        "Zusätzliche Kontakte",
+                        "Die Firma Fieger bietet im Zubehör potenzialfreie Meldekontakte an, die eine Zustandsmeldung über die geöffneten bzw. geschlossenen Lamellen weitergeben. In der Regel verwenden wir dafür einen Magnetkontakt, der im Fenster integriert ist. Dieser Kontakt übergibt die Meldung '100% geschlossen' oder 'auf'. ",
+                        "Eine zweite Möglichkeit ist die Rückmeldung über integrierte Kontakte in den Antriebsmotoren. Diese Ausführungen werden aber objektbezogen eingeplant. Weitere Informationen erhalten Sie bei unseren Mitarbeitern. "
+                    ]
+                },
+                {
+                    "link":"Kann die Lamelle aus der Mitte gelagert werden?",
+                    "p":[
+                        "Versetzter Drehpunkt",
+                        "In der Regel werden die Lamellen mittig gelagert. In dieser Weise benötigen wir den geringsten Kraftaufwand. Nach Rücksprache mit uns kann der Drehpunkt wahlweise nach innen oder nach außen versetzt werden, falls beispielsweise eine Jalousie vorgebaut wird. Als Regel gilt, das Versetzen des Drehpunktes ist max. ein Drittel zu zwei Drittel (1/3 zu 2/3) möglich. Der minimale Überstand von außen beläuft sich auf 65 mm von Vorderkante Fenster bis Vorderkante geöffnete Lamelle und auf 45 mm von Innenkante Fenster bis Innenkante geöffnete Lamelle. Da bei großen Elementen durch den versetzten Drehpunkt ein höherer Kraftaufwand notwendig ist, kann es sein, dass ein zusätzlicher Antrieb benötigt wird. ",
+                        "Zusammenfassend ist zu sagen, dass das Versetzen des Drehpunktes prinzipiell möglich ist, die genauen Möglichkeiten müssen wir aber situationsabhängig klären. Bitte sprechen Sie uns an."
+                    ]
+                },
+                {
+                    "link":"Können einzelne Lamellen arretiert werden?",
+                    "p":[
+                        "Arretierte Lamellen",
+                        "Das Arretieren von Lamellen ist in der Fertigungsphase kein Problem. Dabei werden die Lamellen entweder seitlich durch einen Arretierungsklotz versperrt oder durch das Arretieren der Zahnstange. Auch einzelne zwischenliegende Lamellen können in dieser Weise arretiert werden. "
+                    ]
+                },
+                {
+                    "link":"Sind Fieger Lamellenfenster absturzsicher (nach TRAV)?",
+                    "p":[
+                        "Absturzsichere Lamellenfenster",
+                        "Die Firma Fieger hat für das System FLW28 und das System FLW SmoTec 28 ein allgemein bauaufsichtliches Prüfzeugnis nach TRAV anfertigen lassen. Der durchgeführte Pendelschlagversuch wurde auch bei einer geöffneten Lamelle durchgeführt und kann nachgewiesen werden. Voraussetzung dafür ist eine Sicherheitsverglasung mit 6mm ESG innen und 8 mm VSG mit doppelter Folie außen. Die maximale Fensterbreite dafür sind 1800 mm.",
+                        "Bitte beachten Sie aber bei dieser Ausführung, also bei bodengebundenen Lamellenfenstern mit Öffnungsfunktion die zusätzliche Sicherheitsanforderung der sogenannten Kinderkopfgröße. Das bedeutet, dass bei Gebäuden, in welchen die UVV Vorschriften eingehalten werden müssen, die Öffnungsweite der Lamellen nicht größer als12 cm sein darf. Diese Anforderung können wir durch eine Einschränkung des Öffnungswinkels oder durch Querstreben im Element erfüllen. Noch besser erscheint uns aber, wenn bauseitige Maßnahmen durchgeführt werden, z.B. durch den Einsatz eines innenseitigen Geländers, das den Zugang zum Lamellenfenster verhindert.",
+                        "Diesbezüglich sollten Sie sich bitte bereits in der Planungsphase mit uns in Verbindung setzen, damit wir zusammen die Sicherheitsanforderungen klären und umsetzen können."
+                    ]
+                },
+                {
+                    "link":"Können Lamellenfenster in zwei unterschiedlichen Farben gefertigt werden?",
+                    "p":[
+                        "Lamellenfenster in  zweifarbiger Ausführung",
+                        "Die Lamellenfenster der Typen FLW und FLW SmoTec können auch innen und außenseitig  in unterschiedlichen Farben ausgeführt werden. Dabei werden die Profile in einer Farbe beschichtet, abgeklebt und einseitig ein zweites Mal beschichtet. Den Aufpreis dafür erfahren Sie auf Nachfrage. Das hat natürlich seinen Preis aber das Ergebnis kann sich sehen lassen. Ohne größeren Aufpreis liefern wir Ihnen auch Lamellenfenster, bei welchen der Rahmen und die Flügel zweifarbig ausgeführt sind. Auch das kann ein weiteres optisches Merkmal darstellen. "
+                    ]
+                }, 
+                {
+                    "link":"Was sind RDA Rauchschutz-Druckanlagen?",
+                    "p":[
+                        "Adapterprofile für Fieger Lamellenfenster",
+                        "Eine RDA Rauchschutz-Druckanlage stellt eine weitere Sicherungsmaßnahme für Treppenhäuser dar. Kurz dargestellt, wird im Brandfall im Treppenhaus ein Überdruck erzeugt, der verhindern soll, dass Rauch aus dem brennenden Geschoss in das Treppenhaus gelangt und damit die Rettungs- und Fluchtwege rauchfrei gehalten werden. Diese Ausführung kommt zunehmend in mehrgeschossigen Anlagen zum Einsatz und bedingt eine ausgeklügelte Steuerung. Da durch den Überdruck der Rauch über das Geschoß abgeleitet werden muss, kommen dafür besonders Lamellenfenster in Frage. Diese können in vielen Fällen auch im Bestand nachgerüstet werden. Intelligente Bussteuerungen sorgen dafür, dass sich die Fenster auf der Brandebene öffnen und die Fenster oberhalb der Brandebene automatisch schließen um den Raucheinfall zu verhindern.",
+                        "Errichter für RDA Anlagen sind unsere Partner Fa. Eichelberger, D+H Mechatronik und STG Beikirch. Gerne erhalten Sie auch über uns weitergehende Informationen. "
+                    ]
+                }
+            ]
+        }
+    ]
 }

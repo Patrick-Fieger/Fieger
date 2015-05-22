@@ -110,6 +110,16 @@ h5 {
   border: 1px solid #ccc;
 }
 
+.playagain{
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.playagain:hover{
+  cursor: pointer;
+}
+
 .innercolumn2{
   
    -webkit-column-count: 2;

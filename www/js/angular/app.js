@@ -8,7 +8,7 @@ var app = angular.module('fieger', ['ui.router','ngSanitize','ngAnimate','app.ct
 app.config([
     '$locationProvider','$stateProvider','$urlRouterProvider','$animateProvider',
     function($locationProvider,$stateProvider,$urlRouterProvider,$animateProvider) {
-        $locationProvider.html5Mode(true);
+        // $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise("/");
 
         $stateProvider
@@ -123,7 +123,7 @@ app.config([
         // });
     }
 ]);
-var ctrl = angular.module('app.ctrl', ['ngAnimate'])
+var ctrl = angular.module('app.ctrl', ['ngAnimate','youtube-embed'])
 .controller('Start', Start)
 .controller('FLW40', FLW40)
 .controller('FLW28', FLW28)
