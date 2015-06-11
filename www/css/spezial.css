@@ -590,7 +590,15 @@ footer a:hover, footer a.active {
 .doc-file {
     background: url(../img/downloads/files/doc.svg);
 }
-.pdf-file, .dwg-file, .dxf-file, .doc-file {
+.txt-file{
+    background: url(../img/downloads/files/txt.svg);
+}
+.gaeb-file{
+    background: url(../img/downloads/files/gaeb.svg);
+}
+
+
+.pdf-file, .dwg-file, .dxf-file, .doc-file, .txt-file , .gaeb-file{
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: -3px 2px;
