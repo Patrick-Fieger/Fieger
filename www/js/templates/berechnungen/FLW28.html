@@ -49,7 +49,7 @@
 
             <div class="jvFloat">
                 <label class="placeHolder active">{{d.Brechnung.Headings.ug}}</label>
-                <select ng-model="ug" ng-change="ug_calc(ug);init()">
+                <select ng-model="ug" ng-change="ug_calc(ug);init()" id="setug">
                     <option ng-repeat="item in ug_array" value="{{item}}">{{item}} W/m²K</option>
                 </select>
             </div>

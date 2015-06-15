@@ -36,8 +36,27 @@ var Lamellenfenster =  ['$scope',function ($scope) {
     	},100)
   	});
 
+    var automessage;
+
   	$scope.$on('youtube.player.playing', function ($event, player) {
-  		$scope.replay = false
+  		$scope.replay = false;
+      
+      function turnON() {
+          automessage = setInterval(function(){
+          if(player.getCurrentTime() <= 3.5 && player.getCurrentTime() >= 3.4){
+            player.pauseVideo();
+            $scope.replay = true;
+            turnOff();
+          }
+        }, 10);
+      }
+  
+      function turnOff() {
+          clearInterval(automessage);
+      }
+  
+      turnON();
+
   	});
 
   	$scope.$on('youtube.player.ready', function ($event, player) {
@@ -45,6 +64,7 @@ var Lamellenfenster =  ['$scope',function ($scope) {
   	});
 
   	$scope.playagain = function(){
-  		$scope.custom.player.playVideo()
+      $scope.custom.player.seekTo(0);
+  		$scope.custom.player.playVideo();
   	}
 }];

@@ -38,6 +38,7 @@ var FLW28 = ['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.mitalu = ["0,67"];
     $scope.ug_array = $scope.ohnealu;
     $scope.ug = $scope.ohnealu[3];
+    setTimeout(function(){$('#setug').val($scope.ohnealu[3])},500);
     $scope.ug_c = parseFloat($scope.ug.replace(',', '.'));
     $scope.randverbund = $('.randverbund').find('option').eq(0).val();
     $scope.initFirst = function() {
