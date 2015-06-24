@@ -17,16 +17,18 @@
         <![endif]-->
     </head>
     <body style="overflow-x: hidden; overflow-y: visible;" ng-class="{hidden: readerShow == 1}">
-<!--             <nav class="pushy pushy-left" ng-controller="MenuCtrl">
+            <nav class="pushy pushy-left" ng-controller="MenuCtrl">
                 <ul>
                     <li ng-repeat="item in Menu" ng-include="'menu-renderer'"></li>
+                    <li ng-repeat="f in Footer"><a ui-sref="{{f.href}}">{{f.title}}</a></li>
+                    <li><a href="http://www.louvrewindow.com">Englische Version</a></li>
                 </ul>
-            </nav> -->
+            </nav>
             <header class="slide">
                 <div class="row">
-<!--                     <div class="off_menu menu-btn">
+                    <div class="off_menu menu-btn">
                         <div class="burger"></div>
-                    </div> -->
+                    </div>
                     <div class="logo_wrapper">
                         <a class="logo" href="/"></a>
                     </div>

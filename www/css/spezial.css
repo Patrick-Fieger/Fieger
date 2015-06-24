@@ -81,6 +81,11 @@ header .off_menu .burger {
     transition: opacity 0.3s;
 }
 
+.container{
+    overflow: scroll;
+    /*-webkit-overflow-scrolling: touch;*/
+}
+
 .nav_wrapper ul li > a {
     display: block;
     width: 100%;
@@ -569,8 +574,8 @@ footer a:hover, footer a.active {
 .element-item {
     float: left;
     border-radius: 4px;
-    width: 31.3333%;
-    margin: 1%;
+    width: 313.328125px;
+    margin: 10px;
     background: #fff;
     padding: 14px 10px 12px 52px;
     -webkit-transition: opacity 0.3s;
@@ -1015,25 +1020,176 @@ footer a:hover, footer a.active {
     .element-item {
         width: 48%;
    }
+}*/
+
+@media screen and (max-width: 1190px) {
+    .compare_menu{
+        display: none;
+    }
+
+    .resp_ab{
+        position: absolute;
+        border-right: none !important;
+        left: 0;
+        width: 173.296875px !important;
+    }
+
+    .resp_ab .glas, .resp_ab .technik_{
+        background-color: #fff;
+        border-right: 1px solid #e8e8e8;
+    }
+
+    .compare_wrapper{
+        padding-left: 173.296875px !important;
+    }
+
+    .compare_item.new:before{
+        display: none;
+    }
+
+    .gallery-1{
+        width: 500px;
+        margin: 0 auto;
+    }  
+
+    .sonderbau{
+        padding: 0 20px;
+    }
+
 }
-@media screen and (max-width: 950px) {
+
+@media screen and (max-width: 1120px) {
+    .home_big{
+        height: 90vh !important;
+    }
+
+    .home_big .columns{
+        width: 100% !important;
+        height: 50%
+    }
+
+    .img_window{
+        height: 90% !important;
+        background-position: bottom center !important;
+        margin-left: 0 !important;
+    }
+
+    .margewrapper{
+        margin: 0 auto !important;
+        width: 100%
+    }
+
+    .home_big h1, .home_big h2{
+        width: 100%;
+        text-align: center !important;
+    }
+}
+
+
+/*
+@media screen and (max-width: 1000px) {
+    .referenzen{
+        width: 750px;
+        margin: 0 auto
+    }  
+}
+*/
+
+
+
+
+
+@media screen and (max-width: 800px) {
     .nav_wrapper, .breadcrumb {
         display: none;
-   }
-   header {
+    }
+    header {
        height: 80px;
-  }
-  header .off_menu {
+    }
+    header .off_menu {
       display: block;
- }
- [stickyunder].sticky {
-     top: 0;
+    }
+
+    footer ul{
+        display: none;
+    }
+
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+
+    [stickyunder].sticky{
+        top: 0 !important;
+    }
+
 }
-.main {
-    margin-top: 330px;
+
+
+
+@media screen and (max-width: 750px) {
+    .innercolumn2 {
+        -webkit-column-count: inherit !important;
+        -moz-column-count: inherit !important;
+        column-count: inherit !important;
+        -webkit-column-gap: inherit !important;
+        -moz-column-gap: inherit !important;
+        column-gap: inherit !important;
+        -webkit-column-rule: 0px outset #ccc !important;
+        -moz-column-rule: 0px outset #ccc !important;
+        column-rule: 0px outset #ccc !important;
+        padding: 0 20px;
+    }
+
+    iframe {
+        width: 100% !important;
+    }
+
+    h1:not(.fensterberechnung h1){
+        padding-left: 20px;
+    }
+
+    .fensterberechnung{
+        width: 100% !important;
+    }
+    .fensterberechnung form{
+        width: 100% !important;
+        padding: 0 40px !important;
+        margin-top: 20px !important;
+    }
+
+    .systeme_sub {
+        width: 360px !important;
+        margin: 20px auto !important;
+    }
+
+    .systeme_sub li {
+        width: 90px !important;
+        padding: 20px 0px !important;
+    }
+
 }
+
+
+@media screen and (max-width: 642px) {
+    .main {
+        margin-top: 230px !important;
+    }    
 }
-@media (max-width: 640px) {
+
+@media screen and (max-width: 530px) {
+    .gallery-1{
+        width: 230px;
+    }    
+}
+
+
+/*@media (max-width: 640px) {
     .kontakt_wrapper {
         width: 424px;
    }
@@ -1058,8 +1214,8 @@ footer a:hover, footer a.active {
     .element-item {
         width: 98%;
    }
-}
-*/
+}*/
+
 
 
 

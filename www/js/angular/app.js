@@ -12,12 +12,19 @@ app.config([
         $urlRouterProvider.otherwise("/");
 
         $stateProvider
+        // .state("/", {
+        //     url: "/",
+        //     controller: (_isNotMobile)?"Index":"IndexMobile",
+        //     resolve: loadcontent,
+        //     templateUrl: (_isNotMobile )? 'js/templates/index.html':'js/templates/index_mobile.html',
+        // })
         .state("/", {
             url: "/",
-            controller: (_isNotMobile)?"Index":"IndexMobile",
+            controller: "Index",
             resolve: loadcontent,
-            templateUrl: (_isNotMobile )? 'js/templates/index.html':'js/templates/index_mobile.html',
-        }).state("/lamellenfenster", {
+            templateUrl: 'js/templates/index.html',
+        })
+        .state("/lamellenfenster", {
             url: "/lamellenfenster",
             controller: "Lamellenfenster",
             resolve: loadcontent,
@@ -186,6 +193,9 @@ app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$locat
                 $(this).addClass('active');
             }
         });
+
+        $('.pushy-active .site-overlay').trigger('click');
+
     });
 
     $rootScope.$on('$stateChangeStart', function(ev, to, toParams, from, fromParams) {
