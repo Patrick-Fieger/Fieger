@@ -1,8 +1,8 @@
 var FLW28 = ['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.system = "FLW 28";
-    $scope.fens_anz = 4;
-    $scope.bfr = 3000;
-    $scope.hfr = 1500;
+    $scope.fens_anz = 1;
+    $scope.bfr = 1000;
+    $scope.hfr = 2000;
     $scope.anz = [4, 5, 6, 7];
     $scope.anz_choose;
     $scope.h_lam = 235;
@@ -37,10 +37,10 @@ var FLW28 = ['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.ohnealu = ["0,7", "0,8", "0,9", "1,0", "1,1", "1,2"];
     $scope.mitalu = ["0,67"];
     $scope.ug_array = $scope.ohnealu;
-    $scope.ug = $scope.ohnealu[3];
-    setTimeout(function(){$('#setug').val($scope.ohnealu[3])},500);
+    $scope.ug = $scope.ohnealu[4];
+    setTimeout(function(){$('#setug').val($scope.ohnealu[4])},500);
     $scope.ug_c = parseFloat($scope.ug.replace(',', '.'));
-    $scope.randverbund = $('.randverbund').find('option').eq(0).val();
+    $scope.randverbund = $('.randverbund').find('option').eq(2).val();
     $scope.initFirst = function() {
         $scope.calc_mpf();
         $scope.setLichte();

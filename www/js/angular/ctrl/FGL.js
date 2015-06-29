@@ -1,8 +1,8 @@
 var FGL = ['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.system = "FGL";
-    $scope.fens_anz = 4;
-    $scope.bfr = 2300;
-    $scope.hfr = 1500;
+    $scope.fens_anz = 1;
+    $scope.bfr = 1000;
+    $scope.hfr = 2000;
     $scope.anz = [4, 5, 6, 7];
     $scope.anz_choose;
     $scope.h_lam = 235;

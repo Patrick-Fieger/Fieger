@@ -1,5 +1,15 @@
 var Downloads = ['$scope','$stateParams',function ($scope,$stateParams) {
 	$scope.initMasonry = function(){
+
+        $('.main a').each(function(index, el) {
+            console.log()
+            if($(this).attr('href').split('.').pop() !== 'pdf'){
+                $(this).attr('download','');
+            }else{
+                $(this).attr('target','_blank')
+            }       
+        });
+
         var $container = $('.main').isotope({
             itemSelector: '.element-item',
             layoutMode: 'fitRows',

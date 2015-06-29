@@ -833,7 +833,9 @@ figure.effect-ruby:hover img {
 }
 
 figure.effect-ruby h4 {
-  margin-top: 119px;
+  /*margin-top: 119px;*/
+  margin-top: 124px;
+  padding: 10px;
 /*  -webkit-transition: -webkit-transform .35s;
   transition: transform .35s;
   -webkit-transform: translate3d(0,20px,0);

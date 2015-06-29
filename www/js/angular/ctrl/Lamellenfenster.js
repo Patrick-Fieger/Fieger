@@ -32,20 +32,23 @@ var Lamellenfenster =  ['$scope',function ($scope) {
     	player.playVideo();
     	setTimeout(function(){
     		player.pauseVideo();
-    		$scope.replay = true
     	},100)
+
+      setTimeout(function(){
+        $scope.custom.player.seekTo(0);
+        $scope.custom.player.playVideo();
+      },3000)
+
   	});
 
     var automessage;
 
   	$scope.$on('youtube.player.playing', function ($event, player) {
-  		$scope.replay = false;
       
       function turnON() {
           automessage = setInterval(function(){
           if(player.getCurrentTime() <= 3.5 && player.getCurrentTime() >= 3.4){
             player.pauseVideo();
-            $scope.replay = true;
             turnOff();
           }
         }, 10);

@@ -833,16 +833,20 @@ footer a:hover, footer a.active {
 }
 
 .reader {
-    width: 100%;
+/*    width: 100%;
     position: fixed;
     height: 100%;
     overflow: scroll;
     top: 0px;
     background: #f2f2f2;
     overflow: auto;
-    z-index: 1000;
+    z-index: 1000;*/
     opacity: 0;
     visibility: hidden;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
 }
 
 .loader{
@@ -854,6 +858,8 @@ footer a:hover, footer a.active {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .loader_video{
@@ -871,9 +877,10 @@ footer a:hover, footer a.active {
     opacity: 1;
 }
 
-.loader.active{
-    opacity: 0;
-    visibility: hidden;
+.loader.active,
+.reader.active{
+    opacity: 1;
+    visibility: visible;
 }
 
 .readerwrapper{
@@ -1022,7 +1029,7 @@ footer a:hover, footer a.active {
    }
 }*/
 
-@media screen and (max-width: 1190px) {
+/*@media screen and (max-width: 1190px) {
     .compare_menu{
         display: none;
     }
@@ -1086,14 +1093,6 @@ footer a:hover, footer a.active {
 }
 
 
-/*
-@media screen and (max-width: 1000px) {
-    .referenzen{
-        width: 750px;
-        margin: 0 auto
-    }  
-}
-*/
 
 
 
@@ -1186,7 +1185,7 @@ footer a:hover, footer a.active {
     .gallery-1{
         width: 230px;
     }    
-}
+}*/
 
 
 /*@media (max-width: 640px) {
