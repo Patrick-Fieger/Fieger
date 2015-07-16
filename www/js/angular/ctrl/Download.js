@@ -1,8 +1,12 @@
-var Downloads = ['$scope','$stateParams',function ($scope,$stateParams) {
-	$scope.initMasonry = function(){
+var Downloads = ['$scope','$stateParams','$location',function ($scope,$stateParams,$location) {
+	
+    $scope.t = $location.search().type;
+    $scope.c = $location.search().category;
 
-        $('.main a').each(function(index, el) {
-            console.log()
+    $scope.filters = $scope.t + $scope.c
+
+    $scope.initMasonry = function(){
+        $('.iso a').each(function(index, el) {
             if($(this).attr('href').split('.').pop() !== 'pdf'){
                 $(this).attr('download','');
             }else{
@@ -10,70 +14,42 @@ var Downloads = ['$scope','$stateParams',function ($scope,$stateParams) {
             }       
         });
 
-        var $container = $('.main').isotope({
+        var $container = $('.iso').isotope({
             itemSelector: '.element-item',
             layoutMode: 'fitRows',
-            filter : '.flw_40.zeichnungen'
+            filter : $scope.filters
         });
 
-        var viewEmpty = false;
-        $container.isotope('on','layoutComplete',function(){
-            setTimeout(function(){
-                $('.element-item').each(function(index, el) {
-                    var hidden = $(this).is(':visible');
-                    viewEmpty = false;
-                    if(hidden){
-                        viewEmpty = true;
-                        return false;
-                    }
-                }).promise().done(function(){
-                    if(!viewEmpty){
-                        $('.noitemdownload').addClass('active');
-                    }else{
-                        $('.noitemdownload').removeClass('active');
-                    }
-
-                });
-            },500);
-        });
-
-        var filters = {};
-        $(document).on('change', '.select_filter select', function() {
-            var filterGroup = $(this).attr('data-filter-group');
-            filters[filterGroup] = $(this).find(':selected').data('filter');
-            var filterValue = '';
-            for (var prop in filters) {
-                filterValue += filters[prop];
+        $scope.changeFilter = function($event){
+            if($event.target.dataset.filterGroup == 'type'){
+                $scope.t = $event.target.dataset.filter
+            }else{
+                $scope.c = $event.target.dataset.filter
             }
-            console.log(filterValue)
+            $scope.filters = $scope.t + $scope.c;
+            $location.search('type',$scope.t)
+            $location.search('category',$scope.c)
             $container.isotope({
-                filter: filterValue
+                filter: $scope.filters
             });
-        });
+
+            $scope.addActiveClass();
+        }
+
+        $scope.addActiveClass = function(){
+            $('.download_menu a').removeClass('active')
+            $('.download_menu a').each(function(){
+                var d = $(this).data('filter')
+                if(d == $scope.t || d == $scope.c){
+                    $(this).addClass('active')
+                }
+            });
+        }
 
         $('.element-item').each(function(index, el) {
             $(this).attr('title', $(this).find('p').eq(0).text());
         });
-        setTimeout(function(){
-            $('.select_filter').find('select').eq(0).val($('.select_filter').find('select').eq(0).val());
-            var param = $stateParams.system;
-            var rep = function(){
-                if(param !== undefined){
-                    return param.replace('-','/')       
-                }
-            }
-            var states = ['FLW40','FLW24/28','FGL']
-            if(param !== undefined){
-                for (var i = 0; i < states.length; i++) {
-                    if(states[i] == rep){
-                        console.log('param')
-                        $('.select_filter').find('select').eq(0).val(rep);
-                        $('.select_filter select').trigger('change');
-                    }
-                };
-            }
 
-            $('.select_filter select').trigger('change');
-        },400);
-	}  
+        $scope.addActiveClass();
+	}
 }]

@@ -391,6 +391,30 @@ h5 {
   width: 100%;
 }
 
+
+.download_menu a,.download_menu h5{
+  float: left;
+  clear: both
+}
+
+.download_menu a{
+  margin-bottom: 8px;
+  font-size: 16px;
+  -webkit-transition: color .3s;
+  -moz-transition: color .3s;
+  -o-transition: color .3s;
+  -ms-transition: color .3s;
+}
+
+.download_menu a:visited{
+  color: inherit;
+}
+
+.download_menu a:hover,
+.download_menu a.active{
+  color: #f70014 !important;
+}
+
 .select_filter {
   width: 100%;
   float: left;
