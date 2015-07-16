@@ -12,18 +12,18 @@ app.config([
         $urlRouterProvider.otherwise("/");
 
         $stateProvider
-        // .state("/", {
-        //     url: "/",
-        //     controller: (_isNotMobile)?"Index":"IndexMobile",
-        //     resolve: loadcontent,
-        //     templateUrl: (_isNotMobile )? 'js/templates/index.html':'js/templates/index_mobile.html',
-        // })
         .state("/", {
             url: "/",
-            controller: "Index",
+            controller: (_isNotMobile)?"Index":"IndexMobile",
             resolve: loadcontent,
-            templateUrl: 'js/templates/index.html',
+            templateUrl: (_isNotMobile )? 'js/templates/index.html':'js/templates/index_mobile.html',
         })
+        // .state("/", {
+        //     url: "/",
+        //     controller: "Index",
+        //     resolve: loadcontent,
+        //     templateUrl: 'js/templates/index.html',
+        // })
         .state("/lamellenfenster", {
             url: "/lamellenfenster",
             controller: "Lamellenfenster",

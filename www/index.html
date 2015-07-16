@@ -52,10 +52,10 @@
             <footer class="slide" ng-controller="MenuCtrl">
                 <div class="row">
                     <ul>
-                        <li ng-repeat="f in Footer"><a ui-sref="{{f.href}}">{{f.title}}</a></li>
+                        <li ng-repeat="f in Footer" ng-cloak><a ui-sref="{{f.href}}">{{f.title}}</a></li>
                         <!-- <li><a href="http://www.louvrewindow.com">Englische Version</a></li> -->
                     </ul>
-                    <p class="copyright">{{Copyright}}</p>
+                    <p class="copyright" ng-cloak>{{Copyright}}</p>
                 </div>
             </footer>
             <div class="md-modal md-effect-3" id="modal-3">
