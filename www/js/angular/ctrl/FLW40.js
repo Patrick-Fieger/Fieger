@@ -1,5 +1,5 @@
 var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
-    $scope.system = "FLW 40";
+    $scope.system = "FLW40";
     $scope.fens_anz = 1;
     $scope.bfr = 1000;
     $scope.hfr = 2000;
@@ -266,27 +266,40 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.init();
     });
 
+    serialize = function(obj, prefix) {
+      var str = [];
+      for(var p in obj) {
+        if (obj.hasOwnProperty(p)) {
+          var k = prefix ? prefix + "[" + p + "]" : p, v = obj[p];
+          str.push(typeof v == "object" ?
+            serialize(v, k) :
+            encodeURIComponent(k) + "=" + encodeURIComponent(v));
+        }
+      }
+      return str.join("&");
+    }
+
     $scope.printCalc = function(){
         var calcItem = {
+            "isNRGW" : $scope.showNRGW,
+            "system": $scope.system,
             "fens_anz": $scope.fens_anz,
             "bfr": $scope.bfr,
             "hfr": $scope.hfr,
-            "anz_choose": $scope.anz_choose
-            // "ug": $scope.ug,
-            // "randverbund": $scope.randverbund,
-            // "bfr": $scope.bfr,
-            // "h_lam": $scope.h_lam,
-            // "AeroElem": $scope.AeroElem,
-            // "AeroElem_Gesamt": $scope.AeroElem_Gesamt,
-            // "AgeomElem": $scope.AgeomElem,
-            // "AgeomElem_Gesamt": $scope.AgeomElem_Gesamt,
-            // "uw_op_s": $scope.uw_op_s,
-            // "uw_mp_s": $scope.uw_mp_s,
-            // "windlast": $scope.windlast
+            "anz_choose": $scope.anz_choose,
+            "ug": $scope.ug,
+            "randverbund": $scope.randverbund,
+            "bfr": $scope.bfr,
+            "h_lam": $scope.h_lam,
+            "AeroElem": $scope.AeroElem,
+            "AeroElem_Gesamt": $scope.AeroElem_Gesamt,
+            "AgeomElem": $scope.AgeomElem,
+            "AgeomElem_Gesamt": $scope.AgeomElem_Gesamt,
+            "uw_op_s": $scope.uw_op_s,
+            "uw_mp_s": $scope.uw_mp_s,
+            "windlast": $scope.windlast
         }
-
-        localStorage.setItem('calc',JSON.stringify(calcItem));
-        $location.path('print');
+        window.location.href = "/print/?"+ serialize(calcItem);
     }
 
 }];

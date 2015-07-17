@@ -3,7 +3,20 @@ var Downloads = ['$scope','$stateParams','$location',function ($scope,$statePara
     $scope.t = $location.search().type;
     $scope.c = $location.search().category;
 
-    $scope.filters = $scope.t + $scope.c
+    if($scope.t == undefined || $scope.c == undefined){
+        $scope.t = '.flw_40'
+        $scope.c = '.zeichnungen'
+
+        $location.search('type',$scope.t)
+        $location.search('category',$scope.c)
+
+    }
+
+
+    $scope.filters = $scope.t + $scope.c;
+
+
+
 
     $scope.initMasonry = function(){
         $('.iso a').each(function(index, el) {

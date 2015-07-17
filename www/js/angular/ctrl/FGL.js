@@ -225,4 +225,38 @@ var FGL = ['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.check_nrgw();
         $scope.init();
     });
+
+    serialize = function(obj, prefix) {
+      var str = [];
+      for(var p in obj) {
+        if (obj.hasOwnProperty(p)) {
+          var k = prefix ? prefix + "[" + p + "]" : p, v = obj[p];
+          str.push(typeof v == "object" ?
+            serialize(v, k) :
+            encodeURIComponent(k) + "=" + encodeURIComponent(v));
+        }
+      }
+      return str.join("&");
+    }
+
+    $scope.printCalc = function(){
+        var calcItem = {
+            "isNRGW" : $scope.showNRGW,
+            "system": $scope.system,
+            "fens_anz": $scope.fens_anz,
+            "bfr": $scope.bfr,
+            "hfr": $scope.hfr,
+            "anz_choose": $scope.anz_choose,
+            "bfr": $scope.bfr,
+            "h_lam": $scope.h_lam,
+            "AeroElem": $scope.AeroElem,
+            "AeroElem_Gesamt": $scope.AeroElem_Gesamt,
+            "AgeomElem": $scope.AgeomElem,
+            "AgeomElem_Gesamt": $scope.AgeomElem_Gesamt,
+            "windlast": $scope.windlast,
+            "verglasung": $scope.verglasung
+        }
+        window.location.href = "/print/?"+ serialize(calcItem);
+    }
+
 }];

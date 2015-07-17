@@ -82,7 +82,7 @@ header .off_menu .burger {
 }
 
 .container{
-    overflow: scroll;
+    /*overflow: scroll;*/
     /*-webkit-overflow-scrolling: touch;*/
 }
 

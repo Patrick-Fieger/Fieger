@@ -160,7 +160,12 @@ app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$locat
             NProgress.done();
         },500);
     });
+
+    var handle = setInterval(changeBG, 4000);
+    var url;
+
     $rootScope.$on('$stateChangeSuccess', function(ev, to, toParams, from, fromParams) {
+        url = to.url;
         $rootScope.resetReader();
         setTimeout(function(){
             if(_isNotMobile){
@@ -178,6 +183,18 @@ app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$locat
         $('.pushy-active .site-overlay').trigger('click');
 
     });
+
+
+    function changeBG(){
+        if(url == '/'){
+            if($('.backgrounds .active').next().is('div')){
+                $('.backgrounds .active').removeClass('active').next('div').addClass('active')
+            }else{
+                $('.backgrounds .active').removeClass('active');
+                $('.backgrounds').find('div').eq(0).addClass('active');
+            }
+        }
+    }
 
     $rootScope.$on('$stateChangeStart', function(ev, to, toParams, from, fromParams) {
         $('footer').hide();
@@ -202,8 +219,16 @@ app.service('loadContent', ['$http','localStorageService','$rootScope',function(
         }
     }
     var promise = $http.get('js/lang/' + localStorageService.get('lang') + '.json').success(function(data) {
-        $rootScope.d = data;
+        var zwisch = data
+        shuffle(zwisch.Referenzen)
+        $rootScope.d = zwisch;
     });
+
+    function shuffle(o){
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+        return o;
+    }
+
     return {
         promise: promise,
         getData: function() {
