@@ -282,6 +282,7 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.printCalc = function(){
         var calcItem = {
             "isNRGW" : $scope.showNRGW,
+            "mittelpfosten" : $scope.mpf,
             "system": $scope.system,
             "fens_anz": $scope.fens_anz,
             "bfr": $scope.bfr,

@@ -81,7 +81,7 @@ var FLW24 = ['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.anz_choose = Math.round(lichte / 250);
     }
     $scope.calc_mpf = function() {
-        if ($scope.bfr >= 2400) {
+        if ($scope.bfr >= 1800) {
             $scope.mpf = true;
             $scope.mpf_anz = 1;
         } else {
@@ -270,6 +270,7 @@ var FLW24 = ['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.printCalc = function(){
         var calcItem = {
             "isNRGW" : $scope.showNRGW,
+            "mittelpfosten" : $scope.mpf,
             "system": $scope.system,
             "fens_anz": $scope.fens_anz,
             "bfr": $scope.bfr,
