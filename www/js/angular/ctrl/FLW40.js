@@ -6,7 +6,8 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.anz = [4, 5, 6, 7];
     $scope.anz_choose;
     $scope.h_lam = 235;
-    $scope.mpf = 0;
+    $scope.mpf;
+    $scope.mpf_anz = 0;
     $scope.windlast = 0;
     $scope.ffl = 0;
     $scope.AgeomElem = 0;
@@ -40,6 +41,7 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
     $scope.ug_c = parseFloat($scope.ug.replace(',', '.'));
     $scope.randverbund = $('.randverbund').find('option').eq(2).val();
     $scope.initFirst = function() {
+        $scope.calc_mpf();
         $scope.setLichte();
         $scope.optimaleLamellenanzahl();
         $scope.setValues();
@@ -54,6 +56,7 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.uw_calc();
     }
     $scope.init = function(string) {
+        $scope.calc_mpf();
         $scope.setLichte();
         $scope.setValues();
         $scope.min_standard();
@@ -66,6 +69,17 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.calc_AeroElem();
         $scope.uw_calc();
     }
+
+    $scope.calc_mpf = function() {
+        if ($scope.bfr >= 2500) {
+            $scope.mpf = true;
+            $scope.mpf_anz = 1;
+        } else {
+            $scope.mpf = false;
+            $scope.mpf_anz = 0;
+        }
+    };
+
     $scope.pathSwitch = function(system) {
         var system = system.replace(' ', '');
         $location.path('/fensterberechnung/' + system)

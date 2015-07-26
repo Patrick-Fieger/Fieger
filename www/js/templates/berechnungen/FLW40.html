@@ -20,6 +20,7 @@
             <div class="jvFloat">
                 <label class="placeHolder active">{{d.Brechnung.FLW40.breite}}</label>
                 <input ng-model="bfr" validate="250,2500,4" value="{{bfr}}" ng-change="init()" type="number">
+                <span class="mittelpf" ng-show="mpf">{{d.Brechnung.Headings.mittelpfosten}}</span>
             </div>
             <div class="jvFloat">
                 <label class="placeHolder active">{{d.Brechnung.FLW40.hoehe}}</label>
