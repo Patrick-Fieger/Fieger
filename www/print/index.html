@@ -3,49 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <title>Druckerversion</title>
+        <base href="/print/"></base>
         <style type="text/css"></style>
         <link rel="stylesheet" type="text/css" href="found.css"/>
         <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
-    <body ng-controller="Print">
-        <!-- FLW40 PRINT -->
-        <div class="row" type="FLW40">
-            <div class="columns large-12 small-12">
-                <div ng-show="d.system" class="columns large-6 small-6"><h2>Fensterberechnung {{d.system}}</h2></div>
-                <div class="columns large-6 small-6"><img class="logo" src="../img/logo.png" width="200"></div>
-            </div>
-            <div class="large-12 small-12 columns">
-                <div class="columns large-6 small-6">
-                    <p ng-show="d.isNRGW" ng-cloak>NRGW-Geprüft: <span ng-show="d.isNRGW == 'true'">Ja</span><span ng-show="d.isNRGW == 'false'">Nein</span></p>
-                    <p ng-cloak>Mit Mittelpfosten: <span ng-show="d.mittelpfosten == 'true'">Ja</span><span ng-show="d.mittelpfosten == 'false'">Nein</span></p>
-                    <p ng-show="d.fens_anz" ng-cloak>Anzahl: {{d.fens_anz}}</p>
-                    <p ng-show="d.bfr" ng-cloak>Breite: {{d.bfr}}mm</p>
-                    <p ng-show="d.hfr" ng-cloak>Höhe: {{d.hfr}}mm</p>
-                    <p ng-show="d.h_lam" ng-cloak>{{d.anz_choose}} {{lamelle}} H={{d.h_lam}}mm</p>
-                    <p ng-show="d.windlast" ng-cloak>Windlast: <strong>{{d.windlast}}</strong></p>
-                    
-                </div>
-                <div class="columns large-6 small-6">
-                    <h3>Aero-Berechnung</h3>
-                    <p ng-show="d.AeroElem" ng-cloak>Aaero (Element) : <strong style="padding-right:20px">{{d.AeroElem}}</strong> Gesamt : {{d.AeroElem_Gesamt}}</p>
-                    <p ng-show="d.AgeomElem" ng-cloak>Ageom (Element) : <strong style="padding-right:20px">{{d.AgeomElem}}</strong> Gesamt : {{d.AgeomElem_Gesamt}}</p>
-                    <!-- <p ng-show="d.AeroElem_Gesamt" ng-cloak>Aaero (gesamt) : {{d.AeroElem_Gesamt}}</p>
-                    <p ng-show="d.AgeomElem_Gesamt" ng-cloak>Ageom (gesamt) : {{d.AgeomElem_Gesamt}}</p> -->
-                </div>
-            </div>
-            <div class="columns large-12 small-12">
-                <div class="columns large-12 small-12">
-                    <h3>Uw-Berechnung</h3>
-                    <p ng-show="d.ug" ng-cloak>Ug-Wert: {{d.ug}} W/m²K</p>
-                    <p ng-show="d.randverbund" ng-cloak>Randverbund: {{d.randverbund}} W/mK</p>
-                    <p ng-show="d.uw_op_s" ng-cloak>Uw: <strong>{{d.uw_op_s}}</strong></p>
-                    <p ng-show="d.uw_mp_s" ng-cloak>Uw + zusätzliche Einschieblinge: <strong>{{d.uw_mp_s}}</strong></p>
-                    
-                </div>
-            </div>
-        </div>
+    <body>
+        <div ui-view></div>
         <script src="../js/core/angular.min.js"></script>
-        <script src="../js/core/angular-route.min.js"></script>
+        <script src="../js/core/route.js"></script>
+        <script src="controller/share.js"></script>
+        <script src="controller/simple.js"></script>
+        <script src="controller/table.js"></script>
         <script src="print.js"></script>
     </body>
 </html>

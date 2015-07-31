@@ -298,21 +298,31 @@ app.directive('validate', ['$state',function($state) {
         });
         elem.on('blur', function(e) {
             var that = $(this);
-            setTimeout(function(){
-                var url = $state.current.url;
+            console.log('wefpomwefpom')
+            // if (that.hasClass(errorclass) || val_ === '') {
+            //     if (val_ === '') {
+            //         that.addClass(errorclass);
+            //         error_insert(error_messages[2]);
+            //     }
+            //     that.trigger('focusout');
+            //     $('.md-overlay,.md-modal').addClass('active');
+            // }
 
-                if(url.indexOf('fensterberechnung') > -1){
-                    var val_ = that.val();
-                    if (that.hasClass(errorclass) || val_ === '') {
-                        if (val_ === '') {
-                            that.addClass(errorclass);
-                            error_insert(error_messages[2]);
-                        }
-                        that.trigger('focusout');
-                        $('.md-overlay,.md-modal').addClass('active');
-                    }
-                }
-            },500);
+            // setTimeout(function(){
+            //     var url = $state.current.url;
+
+            //     if(url.indexOf('fensterberechnung') > -1){
+            //         var val_ = that.val();
+            //         if (that.hasClass(errorclass) || val_ === '') {
+            //             if (val_ === '') {
+            //                 that.addClass(errorclass);
+            //                 error_insert(error_messages[2]);
+            //             }
+            //             that.trigger('focusout');
+            //             $('.md-overlay,.md-modal').addClass('active');
+            //         }
+            //     }
+            // },500);
         });
     };
 }]);

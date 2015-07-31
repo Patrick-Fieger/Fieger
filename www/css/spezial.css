@@ -363,6 +363,17 @@ ul.dropdown li:hover > ul {
     -o-animation: fade 200ms;
     animation: fade 200ms;
 }
+
+.error_{
+    animation: border-pulsate 2s infinite;
+}
+
+@keyframes border-pulsate {
+    0%   { border-color: #ccc; }
+    50% { border-color: #f70014; }
+    100%   { border-color: #ccc; }
+}
+
 @keyframes fade {
     0% {
         opacity: 0;

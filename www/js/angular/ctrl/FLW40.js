@@ -280,21 +280,21 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.init();
     });
 
-    serialize = function(obj, prefix) {
-      var str = [];
-      for(var p in obj) {
-        if (obj.hasOwnProperty(p)) {
-          var k = prefix ? prefix + "[" + p + "]" : p, v = obj[p];
-          str.push(typeof v == "object" ?
-            serialize(v, k) :
-            encodeURIComponent(k) + "=" + encodeURIComponent(v));
-        }
-      }
-      return str.join("&");
-    }
+    // serialize = function(obj, prefix) {
+    //   var str = [];
+    //   for(var p in obj) {
+    //     if (obj.hasOwnProperty(p)) {
+    //       var k = prefix ? prefix + "[" + p + "]" : p, v = obj[p];
+    //       str.push(typeof v == "object" ?
+    //         serialize(v, k) :
+    //         encodeURIComponent(k) + "=" + encodeURIComponent(v));
+    //     }
+    //   }
+    //   return str.join("&");
+    // }
 
     $scope.printCalc = function(){
-        var calcItem = {
+        var calcItem = [{
             "isNRGW" : $scope.showNRGW,
             "mittelpfosten" : $scope.mpf,
             "system": $scope.system,
@@ -313,8 +313,10 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
             "uw_op_s": $scope.uw_op_s,
             "uw_mp_s": $scope.uw_mp_s,
             "windlast": $scope.windlast
-        }
-        window.location.href = "/print/?"+ serialize(calcItem);
+        }]
+        
+        localStorage.setItem('einzeln',JSON.stringify(calcItem))
+        window.location.href = "/print/#/simple";
     }
 
 }];

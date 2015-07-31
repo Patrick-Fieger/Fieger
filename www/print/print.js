@@ -1,35 +1,45 @@
-var app = angular.module('printApp', ['ngRoute']);
+var app = angular.module('printApp', ['ui.router','app.ctrl']);
 app.config([
-    '$locationProvider','$routeProvider',
-    function($locationProvider,$routeProvider) {
-        $routeProvider.otherwise("/");
-    }
-]).controller('Print', function($location,$scope){
-    $scope.d = function () {
-      var query_string = {};
-      var query = window.location.search.substring(1);
-      var vars = query.split("&");
-      for (var i=0;i<vars.length;i++) {
-        var pair = vars[i].split("=");
-        if (typeof query_string[pair[0]] === "undefined") {
-          query_string[pair[0]] = decodeURIComponent(pair[1]);
-        } else if (typeof query_string[pair[0]] === "string") {
-          var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
-          query_string[pair[0]] = arr;
-        } else {
-          query_string[pair[0]].push(decodeURIComponent(pair[1]));
-        }
-      } 
-        return query_string;
-    }();
+    '$locationProvider','$stateProvider','$urlRouterProvider',
+    function($locationProvider,$stateProvider,$urlRouterProvider) {
+        $stateProvider
+        .state("/simple", {
+            url: "/simple",
+            templateUrl: 'simple.html',
+            controller: "Simple"
+        })
+        .state("/table", {
+            url: "/table",
+            templateUrl: 'insert.html',
+            controller: "Table"
+        })
+        .state("/share/:id", {
+            url: "/share/:id",
+            templateUrl: 'simple.html',
+            controller: "Share"
+        })
 
-    $scope.lamelle = 'Lamelle'
-    
-    if($scope.d.anz_choose !== '1'){
-        $scope.lamelle = $scope.lamelle + 'n'
+        $urlRouterProvider.otherwise("/");
     }
+]).service('ShareService', function($http){
+  var url = ["http://46.101.205.150:3000","http://localhost:3000"];
+  var dev_ = 1;
 
-    setTimeout(function(){
-        window.print();
-    },1000)    
-});
+  var generateLink = function(data){
+    return $http.post(url[dev_] + '/generate',data)
+  }
+
+  var getCalculation = function(id){
+    return $http.get(url[dev_] + '/calculation',{params: { id : id}})
+  }
+
+  return{
+    generateLink : generateLink,
+    getCalculation : getCalculation
+  }
+})
+
+var ctrl = angular.module('app.ctrl', [])
+.controller('Simple', Simple)
+.controller('Table', Table)
+.controller('Share', Share)
