@@ -145,10 +145,17 @@ var ctrl = angular.module('app.ctrl', ['ngAnimate','youtube-embed'])
 .controller('Downloads', Downloads);
 
 
-app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$location) {
+app.run(['$rootScope','$timeout','$location','$window',function($rootScope,$timeout,$location,$window) {
 
     $rootScope.resetReader = function(){
         $rootScope.readerLoading = 0;
+    }
+
+    $rootScope.initRow = function(){
+        var json = JSON.parse(localStorage.getItem('row'))
+        $rootScope.row = json
+
+        console.log(json)
     }
 
     $rootScope.$on('$viewContentLoaded', function() {
@@ -183,7 +190,7 @@ app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$locat
         $('.pushy-active .site-overlay').trigger('click');
 
         $window.ga('send', 'pageview', { page: $location.url() });
-        
+
     });
 
 
@@ -265,6 +272,61 @@ app.controller('MenuCtrl', ['loadContent','$rootScope','$scope','localStorageSer
     };
 }]);
 
+
+
+
+app.directive('row', function($rootScope) {
+  return {
+    restrict: 'AE',
+    replace: true,
+    template: '<div class="row" ng-show="row">'+
+'    <div class="large-12 columns tabelle_calc">'+
+'        <h1>Berechnungen</h1>'+
+
+'        <div class="info_calc">'+
+'            <p>Zur Info:<br> Höhen und Breiten sind in <span>mm</span> angegeben, Ug- und UW-Werte in <span>W/m²K</span>, Randverbund in <span>W/mK</span>, Windlast in <span>N/m²</span>, A aero'+
+'            und A geom in <span>m²</span></p>'+
+'        </div>'+
+'        <ul class="headings_row">'+
+'            <li>System</li>'+
+'            <li>NRGW</li>'+
+'            <li>Fenster</li>'+
+'            <li>Breite/Höhe</li>'+
+'            <li>Lamellen/-höhe</li>'+
+'            <li>Ug</li>'+
+'            <li>Randverbund</li>'+
+'            <li>A aero(Ges)</li>'+
+'            <li>A geom(Ges)</li>'+
+'            <li>UW gedämmt/gedämmt+</li>'+
+'            <li>Windlast</li>'+
+'        </ul>'+
+
+'        <ul class="items_row">'+
+'            <li ng-repeat="item in row">'+
+'                <p>'+
+'                    <span>{{item.system}}</span>'+
+'                    <span><i ng-show="item.isNRGW">Ja</i><i ng-show="!item.isNRGW">Nein</i></span>'+
+'                    <span>{{item.fens_anz}}</span>'+
+'                    <span>{{item.bfr}}/{{item.hfr}}</span>'+
+'                    <span>{{anz_choose}}/{{h_lam}}</span>'+
+'                    <span>{{item.ug}}</span>'+
+'                    <span>{{item.randverbund}}</span>'+
+'                    <span>{{item.AeroElem_Gesamt | cleanUnit}}</span>'+
+'                    <span>{{item.AgeomElem_Gesamt | cleanUnit}}</span>'+
+'                    <span>{{item.uw_op_s | cleanUnit}}/{{item.uw_mp_s | cleanUnit}}</span>'+
+'                    <span>{{item.windlast | cleanUnit}}</span>'+
+'                </p>'+
+'                <div class="remove_item" ng-click="removeRow($index)"></div>'+
+'            </li>'+
+'        </ul>'+
+
+'        <button class="printButton" ng-click="printMultipleCalc()">Tabelle drucken</button>'+
+'    </div>'+
+'</div>'
+
+  };
+});
+
 // VALIDIERUNG
 
 var error_messages = ["Der angegebene Wert ist zu klein!", "Fenster werden aus technischen Gründen geteilt", "Das Feld ist leer!"];
@@ -300,7 +362,6 @@ app.directive('validate', ['$state',function($state) {
         });
         elem.on('blur', function(e) {
             var that = $(this);
-            console.log('wefpomwefpom')
             // if (that.hasClass(errorclass) || val_ === '') {
             //     if (val_ === '') {
             //         that.addClass(errorclass);
@@ -380,6 +441,20 @@ app.directive('validatecalc', function() {
             }
         });
     };
+});
+
+app.filter('cleanUnit', function() {
+  return function (user) {
+    var r;
+
+    if(user == undefined){
+        r = '-'
+    }else{
+        r = user.replace(' m²','').replace(' W/m²K', '').replace(' N/m²','')    
+    }
+
+    return r
+  };
 });
 
 

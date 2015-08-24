@@ -1,4 +1,4 @@
-var FGL = ['$scope', '$log', '$location',function ($scope, $log, $location) {
+var FGL = ['$scope', '$log', '$location','$rootScope',function ($scope, $log, $location,$rootScope) {
     $scope.system = "FGL";
     $scope.fens_anz = 1;
     $scope.bfr = 1000;
@@ -226,21 +226,8 @@ var FGL = ['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.init();
     });
 
-    serialize = function(obj, prefix) {
-      var str = [];
-      for(var p in obj) {
-        if (obj.hasOwnProperty(p)) {
-          var k = prefix ? prefix + "[" + p + "]" : p, v = obj[p];
-          str.push(typeof v == "object" ?
-            serialize(v, k) :
-            encodeURIComponent(k) + "=" + encodeURIComponent(v));
-        }
-      }
-      return str.join("&");
-    }
-
-    $scope.printCalc = function(){
-        var calcItem = {
+    function getItems(){
+        var calcItem = [{
             "isNRGW" : $scope.showNRGW,
             "mittelpfosten" : $scope.mpf,
             "system": $scope.system,
@@ -248,16 +235,59 @@ var FGL = ['$scope', '$log', '$location',function ($scope, $log, $location) {
             "bfr": $scope.bfr,
             "hfr": $scope.hfr,
             "anz_choose": $scope.anz_choose,
+            "ug": $scope.ug,
+            "randverbund": $scope.randverbund,
             "bfr": $scope.bfr,
             "h_lam": $scope.h_lam,
             "AeroElem": $scope.AeroElem,
             "AeroElem_Gesamt": $scope.AeroElem_Gesamt,
             "AgeomElem": $scope.AgeomElem,
             "AgeomElem_Gesamt": $scope.AgeomElem_Gesamt,
-            "windlast": $scope.windlast,
-            "verglasung": $scope.verglasung
+            "uw_op_s": $scope.uw_op_s,
+            "uw_mp_s": $scope.uw_mp_s,
+            "windlast": $scope.windlast
+        }]
+
+        return calcItem
+    }
+
+    $scope.addRow = function(){
+        var json = JSON.parse(localStorage.getItem('row'))
+        
+        if(json){
+            json.push(getItems()[0])
+        }else{
+            json = getItems()
         }
-        window.location.href = "/print/?"+ serialize(calcItem);
+
+        localStorage.setItem('row',JSON.stringify(json))
+        $rootScope.row = json
+    }
+
+
+    $scope.removeRow = function(index){
+        var json = JSON.parse(localStorage.getItem('row'))
+
+        for (var i = 0; i < json.length; i++) {
+            if(i == index){
+             json.splice(index, 1);
+            }
+        };
+
+        localStorage.setItem('row',JSON.stringify(json))
+        $rootScope.row = json
+    }
+
+    $rootScope.initRow();
+
+    $scope.printMultipleCalc = function(){
+        window.location.href = "/print/#/multiple";
+    }
+
+    $scope.printCalc = function(){
+        var calcItem = getItems();
+        localStorage.setItem('einzeln',JSON.stringify(calcItem))
+        window.location.href = "/print/#/simple";
     }
 
 }];

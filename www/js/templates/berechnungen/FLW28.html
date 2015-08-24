@@ -91,7 +91,9 @@
                 <label class="placeHolder active">{{d.Brechnung.Headings.wind}}</label>
                 <input validatecalc="{{windlast}}" w="windlast" disabled value="{{windlast}}">
             </div>
-            <button class="printButton" ng-click="printCalc()">Drucken</button>
+            <button class="printButton" ng-click="printCalc()">Einzelne Kalkulation drucken</button>
+            <button class="printButton" ng-click="addRow()">Zur Tabelle hinzufügen</button>
         </form>
     </div>
 </div>
+<row></row>

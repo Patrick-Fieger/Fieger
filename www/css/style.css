@@ -401,6 +401,11 @@ h5 {
   clear: both
 }
 
+.download_menu h5{
+  font-size: 15px;
+  font-weight: bolder
+}
+
 .download_menu a{
   margin-bottom: 8px;
   font-size: 16px;
@@ -1578,6 +1583,166 @@ button.simple:hover {
 .mobile p{
   font-size: 18px;
 }
+
+
+/*TABELLE KALKULATION*/
+
+
+.tabelle_calc{
+  margin-top: 30px;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.tabelle_calc h1{
+  margin-bottom: 20px;
+}
+
+.headings_row{
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 0;
+}
+
+.info_calc{
+  padding: 10px;
+  background: #ccc;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.info_calc p{
+  font-size: 13px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.info_calc p span{
+  font-style: italic;
+  font-weight: bolder
+}
+
+.headings_row li,
+.items_row li span{
+  float: left;
+  font-size: 14px;
+  padding: 0 5.9px;
+  border-right: 1px solid #ccc;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.items_row li{
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.items_row li span,
+.items_row li i{
+  font-weight: normal;
+}
+
+.items_row li i{
+  font-style: normal;
+}
+
+
+.items_row li span:nth-child(1){
+  padding: 10px 10px;
+  width: 64px;
+}
+.items_row li span:nth-child(2){
+  padding: 10px 22px;
+  width: 56.5px;
+}
+.items_row li span:nth-child(3){
+  padding: 10px 28px;
+  width: 65px;
+}
+.items_row li span:nth-child(4){
+  padding: 10px 14px;
+  width: 98px;
+}
+.items_row li span:nth-child(5){
+  padding: 10px 36.5px;
+  width: 123px;
+}
+.items_row li span:nth-child(6){
+  padding: 10px 5.5px;
+  width: 31px;
+}
+.items_row li span:nth-child(7){
+  padding: 10px 35.5px;
+  width: 108px;
+}
+.items_row li span:nth-child(8){
+  padding: 10px 32px;
+  width: 92px;
+}
+.items_row li span:nth-child(9){
+  padding: 10px 35.5px;
+  width: 100px;
+}
+
+.items_row li span:nth-child(10){
+  padding: 10px 71.5px;
+  width: 188px;
+}
+
+.items_row li span:nth-child(11){
+  padding: 10px 20.5px;
+  width: 73px;
+}
+
+
+
+.headings_row li:last-child,
+.items_row li span:last-child{
+  border-right: 0px
+}
+
+.headings_row li:nth-child(even),
+.items_row li span:nth-child(even){
+  background: #f9f9f9; 
+}
+
+
+.remove_item{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.9);
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.remove_item:after{
+  position: absolute;
+  content: "Berechnung löschen";
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+}
+
+.items_row li:hover .remove_item{
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*.items_row li span:nth*/
 
 
 

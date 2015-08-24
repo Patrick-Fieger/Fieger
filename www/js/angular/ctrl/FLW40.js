@@ -1,4 +1,4 @@
-var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
+var FLW40 =['$scope', '$log', '$location','$rootScope',function ($scope, $log, $location,$rootScope) {
     $scope.system = "FLW40";
     $scope.fens_anz = 1;
     $scope.bfr = 1000;
@@ -279,21 +279,8 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
         $scope.check_nrgw();
         $scope.init();
     });
-
-    // serialize = function(obj, prefix) {
-    //   var str = [];
-    //   for(var p in obj) {
-    //     if (obj.hasOwnProperty(p)) {
-    //       var k = prefix ? prefix + "[" + p + "]" : p, v = obj[p];
-    //       str.push(typeof v == "object" ?
-    //         serialize(v, k) :
-    //         encodeURIComponent(k) + "=" + encodeURIComponent(v));
-    //     }
-    //   }
-    //   return str.join("&");
-    // }
-
-    $scope.printCalc = function(){
+    
+    function getItems(){
         var calcItem = [{
             "isNRGW" : $scope.showNRGW,
             "mittelpfosten" : $scope.mpf,
@@ -314,9 +301,46 @@ var FLW40 =['$scope', '$log', '$location',function ($scope, $log, $location) {
             "uw_mp_s": $scope.uw_mp_s,
             "windlast": $scope.windlast
         }]
+
+        return calcItem
+    }
+
+    $scope.addRow = function(){
+        var json = JSON.parse(localStorage.getItem('row'))
         
+        if(json){
+            json.push(getItems()[0])
+        }else{
+            json = getItems()
+        }
+
+        localStorage.setItem('row',JSON.stringify(json))
+        $rootScope.row = json
+    }
+
+
+    $scope.removeRow = function(index){
+        var json = JSON.parse(localStorage.getItem('row'))
+
+        for (var i = 0; i < json.length; i++) {
+            if(i == index){
+             json.splice(index, 1);
+            }
+        };
+
+        localStorage.setItem('row',JSON.stringify(json))
+        $rootScope.row = json
+    }
+
+    $rootScope.initRow();
+
+    $scope.printMultipleCalc = function(){
+        window.location.href = "/print/#/multiple";
+    }
+
+    $scope.printCalc = function(){
+        var calcItem = getItems();
         localStorage.setItem('einzeln',JSON.stringify(calcItem))
         window.location.href = "/print/#/simple";
     }
-
 }];
