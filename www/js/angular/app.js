@@ -182,6 +182,8 @@ app.run(['$rootScope','$timeout','$location',function($rootScope,$timeout,$locat
 
         $('.pushy-active .site-overlay').trigger('click');
 
+        $window.ga('send', 'pageview', { page: $location.url() });
+        
     });
 
 
