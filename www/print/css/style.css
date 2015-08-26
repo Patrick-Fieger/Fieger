@@ -7,6 +7,10 @@
     margin-top: 20px
 }
 
+.wd100{
+    width: 100%
+}
+
 button{
     float: left;
     width: 100%;
@@ -18,9 +22,47 @@ button{
     background-color: #fff;
 }
 
+button:focus,button:active{
+    outline: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.sharelink{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    background-color: #f70014;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+@media all {
+    .pagebreak { display: none; }
+}
+
+.marge{
+    margin-bottom: 50px;
+    float: left;
+}
+
 @media print {
+    .marge{
+        margin-bottom: 0px;
+    }
+
+    .printsettings{
+        position: relative !important;
+        float: none !important;
+    }
+
+    .pagebreak { display: block; page-break-before: always; }
+
     .logo {
-        position: absolute;
+        position: relative;
         top: 0;
         right: 0
     }
@@ -29,10 +71,15 @@ button{
     	height: 100%
     }
 
-    .columns,.row,body,html {
+    .hideprint{
+        display: none;
+    }
+
+    /*.columns,.row,body,html {
         float: left !important;
         padding: 0 !important;
-    }
+    }*/
+
     .large-1 {
         width: 8.33333%;
     }

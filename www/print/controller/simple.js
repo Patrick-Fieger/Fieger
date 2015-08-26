@@ -18,7 +18,7 @@ var Simple = ['$scope','$state','ShareService',function ($scope,$state,ShareServ
     	$scope.link = data
     }
 
-    // setTimeout(function(){
-    //     window.print();
-    // },1000)    
+    setTimeout(function(){
+        window.print();
+    },1000)    
 }];

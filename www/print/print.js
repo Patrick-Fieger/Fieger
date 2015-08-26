@@ -5,18 +5,18 @@ app.config([
         $stateProvider
         .state("/simple", {
             url: "/simple",
-            templateUrl: 'simple.html',
+            templateUrl: 'print.html',
             controller: "Simple"
-        })
-        .state("/table", {
-            url: "/table",
-            templateUrl: 'insert.html',
-            controller: "Table"
         })
         .state("/share/:id", {
             url: "/share/:id",
-            templateUrl: 'simple.html',
+            templateUrl: 'print.html',
             controller: "Share"
+        })
+        .state("/multiple", {
+            url: "/multiple",
+            templateUrl: 'print.html',
+            controller: "Table"
         })
 
         $urlRouterProvider.otherwise("/");
